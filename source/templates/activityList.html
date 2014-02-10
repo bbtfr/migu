@@ -1,0 +1,3 @@
+<% for(i=0; i<activities.length; i++) { %>
+  <li><a href="#activity/<%= activities[i]["id"] %>"><img src="<%= activities[i]["image"] %>"><p><%= activities[i]["title"] %></p><p>时间：<%= activities[i]["time"] %></p><p>地点：<%= activities[i]["location"] %></p></a></li>
+<% } %>

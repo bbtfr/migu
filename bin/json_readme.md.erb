@@ -1,0 +1,181 @@
+*本文使用Markdown编写，源文件source/api/README.md，输出文件document/API_README.html*
+
+模型
+==========
+音乐
+----------
+音乐数据包含以下字段：
+
+    id: 音乐ID
+    title: 音乐曲名
+    artist: 歌手
+    mp3: 音乐文件URL（MP3格式）
+    cover: 音乐封皮图片URL
+    lyrics: 音乐歌词lrc文件URL
+
+例如：
+
+```json
+<%= JSON.pretty_generate [:music, 1].format_by_type %>
+```
+
+其中mp3字段可换为`其他音乐格式: 音乐文件URL`，例如：`"m4a": "samples/media.m4a"`
+
+根据使用JS播放器库JPlayer的文档，播放器对 mp3, m4a, m4v格式支持最好，此外还支持 webma, webmv, oga, ogv, wav, fla, flv, rtmpa, rtmpv，但并不保证全平台可用。
+
+经测试mp3格式全平台可用。
+
+音乐资费
+----------
+音乐资费数据包含以下字段：
+
+    id: 音乐ID
+    title: 音乐曲名
+    artist: 歌手
+    cover: 音乐封皮图片URL
+    ring: 彩铃音乐文件URL
+    downloads: 下载类型数组，字段包含title（标题）、cost（费用）
+    ring: 设为铃声资费，字段包含cost（费用）、due_to（期限）
+    gift: 赠送资费，字段包含cost（费用）
+
+例如：
+
+```json
+<%= JSON.pretty_generate [:music_charge].format_by_type %>
+```
+
+新闻
+----------
+新闻数据包含以下字段：
+
+    id: 新闻ID
+    title: 新闻标题
+    subtitle: 新闻副标题
+    image: 新闻图片URL // 只有头条新闻需要这个字段
+
+例如：
+
+```json
+<%= JSON.pretty_generate [:news, 1].format_by_type %>
+```
+
+新闻详情
+----------
+新闻详情数据包含以下字段：
+
+    id: 新闻ID
+    title: 新闻标题
+    subtitle: 新闻副标题
+    content: 新闻内容（HTML格式）
+
+例如：
+
+```json
+<%= JSON.pretty_generate [:news_detail].format_by_type %>
+```
+
+活动
+----------
+活动数据包含以下字段：
+
+    id: 活动ID
+    title: 活动名称
+    time: 活动时间
+    location: 活动地点
+    image: 活动图片URL
+
+例如：
+
+```json
+<%= JSON.pretty_generate [:activity, 1].format_by_type %>
+```
+
+数据接口
+==========
+所有请求返回数据都应带有success字段（Boolean），标记数据是否正常返回
+如果返回有误，success为false，同时返回数据应带有error字段（String），说明错误原因
+
+
+幻灯片（Slide）接口
+----------
+
+GET api/slides.json
+
+返回数据应包含以下字段：
+
+``` 
+slides: 幻灯片信息，包含 3 条幻灯片图片URL
+```
+
+例如：
+
+```json
+{
+  "slides": [
+    "samples/slide.jpg",
+    "samples/slide1.jpg",
+    "samples/slide2.jpg",
+    "samples/slide3.jpg"
+  ]
+}
+```
+
+<% ReadmeData.each do |key, data| %>
+<%= t key %>接口
+----------
+
+GET api/<%= data[:file] %>
+
+<%= Meta[:after_api][key.to_sym] %>
+
+返回数据应包含以下字段：
+
+``` <% data[:structure].each do |subkey, subdata| %>
+<%= subkey %>: <%= t subkey %>信息，包含 <%= subdata[1] || 1 %> 条 <%= t subdata[0] %>信息 <% end %>
+```
+
+<%= Meta[:after_fields][key.to_sym] %>
+
+例如：
+
+```json
+<%= JSON.pretty_generate data[:json] %>
+```
+
+<%= Meta[:after_example][key.to_sym] %>
+
+<% end %>
+
+搜索自动补全接口
+----------
+
+GET api/autocomplete.json
+
+请求包括参数query，即：api/autocomplete.json?query=搜索关键字
+
+返回数据应包含以下字段：
+
+``` 
+musics: 音乐补全信息，包含 多 条音乐标题字符串
+artists: 歌手补全信息，包含 多 条歌手名字符串
+albums: 专辑补全信息，包含 多 条专辑名字符串
+```
+
+例如：
+
+```json
+{
+  "musics": [
+    "他不懂",
+    "天下"
+  ],
+  "artists": [
+    "张杰",
+    "张学友"
+  ],
+  "albums": [
+    "解放（死人定制片尾曲）",
+    "依然范特西"
+  ]
+}
+```

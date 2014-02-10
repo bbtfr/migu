@@ -1,0 +1,42 @@
+{
+    "baseUrl": ".",
+    "name": "app",
+    "out": "app.build.js",
+    // "optimize": "none",
+
+    "paths": {
+        "backbone": "lib/backbone",
+        "underscore": "lib/underscore",
+        "jquery": "lib/jquery",
+        "jquerymobile": "lib/jquery.mobile",
+        "jqueryflexslider": "lib/jquery.flexslider",
+        "jqueryjplayer": "lib/jquery.jplayer",
+        "jquerycookie": "lib/jquery.cookie",
+        "jqueryuieffect": "lib/jquery.ui.effect",
+        "jqueryuieffectslide": "lib/jquery.ui.effect-slide",
+        "text": "lib/text",
+        "tpl": "../templates"
+    },
+
+    "shim": {
+      "backbone": {
+        "deps": ["underscore", "jquery"],
+        "exports": "Backbone"
+      },
+      "underscore": {
+        "exports": "_"
+      },
+      "jquery": {
+        "exports": "$"
+      },
+      "jquerymobile": {
+        "deps": ["jquery", "jqueryuieffect", "jqueryuieffectslide"]
+      },
+      "jqueryflexslider": {
+        "deps": ["jquery"]
+      },
+      "jqueryjplayer": {
+        "deps": ["jquery"]
+      }
+    }
+}

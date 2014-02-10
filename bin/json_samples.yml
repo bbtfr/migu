@@ -1,0 +1,134 @@
+---
+:musics:
+- :id: 0
+  :title: "爸爸去哪儿（湖南卫视少儿励志节目）"
+  :artist: "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄"
+- :id: 1
+  :title: "他不懂"
+  :artist: "张杰"
+- :id: 2
+  :title: "爱就要爆灯"
+  :artist: "龙梅子"
+- :id: 3
+  :title: "想着你亲爱的"
+  :artist: "祁隆"
+- :id: 4
+  :title: "咪咕+U"
+  :artist: "金志文,周子琰"
+- :id: 5
+  :title: "解放(私人定制片尾曲)"
+  :artist: "羽泉"
+- :id: 6
+  :title: Better Life
+  :artist: "飞儿乐团"
+- :id: 7
+  :title: "拯救(警察故事2013主题曲)"
+  :artist: "成龙"
+- :id: 8
+  :title: "咪咕+U"
+  :artist: "金志文,周子琰"
+- :id: 9
+  :title: "解放(私人定制片尾曲)"
+  :artist: "羽泉"
+:news:
+- :id: 0
+  :title: "[咪咕杂志]2014星凯国际城星光璀璨"
+  :subtitle: "激情点燃梦想！以动感炫酷的激光秀开启全场"
+- :id: 1
+  :title: "谢霆锋甘为情牺牲生命 张柏芝近照似少女"
+  :subtitle: "新浪娱乐讯 北京时间1月6日消息，据香港媒体报导，谢霆锋为电影《救火英雄》巡回宣传，"
+- :id: 2
+  :title: "古惑仔五子赴台尝美食 无拍电影续集打算"
+  :subtitle: "1月5日台北，港星郑伊健[微博]、陈小春[微博]、谢天华[微博]、钱嘉乐[微博]及林晓峰"
+- :id: 3
+  :title: "冯小刚邀王菲再唱春晚 20日开始带妆彩排"
+  :subtitle: "“不走寻常路”已然成为每年央视春晚[微博]导演组为了创新而遵循的法则"
+- :id: 4
+  :title: "苏醒自组工作室称一哥 曾打李炜遭雪藏"
+  :subtitle: "新浪娱乐讯 前段时间苏醒[微博]因为殴打事件而被天娱公司雪藏200天，直到2013年12月30日苏醒才通过微博透露已被解冻出"
+- :id: 5
+  :title: "陈奕迅否认与经纪人闹翻 称会继续领奖"
+  :subtitle: "北京时间1月6日消息，据香港媒体报导，陈奕迅[微博]日前出席《叱咤颁奖礼》被指黑面及状态欠佳"
+:activities:
+- :id: 0
+  :title: 全能星战
+  :time: 2013年10月18日
+  :location: 上海体育馆
+  :image: samples/activity1.jpg
+- :id: 1
+  :title: 周杰伦11月24日深圳演唱会
+  :time: 2013-11-24
+  :location: 华润深圳湾体育中心“春茧”体育场
+  :image: samples/activity2.jpg
+- :id: 2
+  :title: 陈楚生11月15日江苏南京歌友会
+  :time: 2013-11-15
+  :location: 南京青春剧场
+  :image: samples/activity3.jpg
+- :id: 3
+  :title: 汪峰11月9日上海演唱会抢票！
+  :time: 11月09日
+  :location: 上海体育馆
+  :image: samples/activity4.jpg
+- :id: 4
+  :title: 10月20日S.H.E天津演唱会抢票
+  :time: 2013-10-20
+  :location: 天津体育中心
+  :image: samples/activity5.jpg
+- :id: 5
+  :title: 2014陈绮贞“时间的歌” 深圳全新演唱会
+  :time: 2014-01-04
+  :location: 华润深圳湾体育中心
+  :image: samples/activity6.jpg
+:translation:
+  :music: 音乐
+  :news: 新闻
+  :news_detail: 新闻详情
+  :activity: 活动
+  :home: 主页
+  :sf: 首发
+  :bd: 榜单
+  :zx: 资讯
+  :rmtj: 热门推荐
+  :cnxh: 猜你喜欢
+  :tt: 头条
+  :zx_id: 新闻详情
+  :xgxw: 相关新闻
+  :bd_id: 榜单详情
+  :yyb: 音乐榜
+  :jqb: 金曲榜
+  :clb: 彩铃榜
+  :fl: 分类
+  :fl_id: 分类详情
+  :hd: 活动
+  :jbrd: 劲爆热点
+  :yyxc: 音乐现场
+  :djtj: 独家推荐
+  :search: 搜索
+  :musics: 音乐
+  :artists: 歌手
+  :albums: 专辑
+  :pd_id: 随便听听频道
+  :pd: 频道
+  :wdgd: 我的歌单
+  :ring: 彩铃
+  :wdcl: 我的彩铃
+  :dqcl: 当前彩铃
+  :zf: 资费
+  :music_charge: 音乐资费
+  :music_id: 音乐资费
+:meta:
+  :news_detail:
+    :content: '<img src="samples/news_detail.jpg"><p>今日，姚贝娜在圣诞夜前夕曝光了一组圣诞红唇美妆时尚大片。在这组以白色雪景与圣诞礼物为背景的时尚大片中，姚贝娜以一袭红裙装温暖出镜，在漫天飞雪中尽展亲切笑容。</p><p>近日刚刚发行了全新EP《1/2的我》的姚贝娜，不仅在音乐上勇于突破，以更全面的自己真实回归，在时尚造型上也令人愈发有期待感。此前，姚贝娜不仅多次受邀出席各品牌的时尚活动，参加各类时尚大片的拍摄，成为了新一代的时尚宠儿。在圣诞来临之际，姚贝娜特别为大家拍摄了一组以圣诞为主题的美妆大片，希望以她温暖的笑容陪大家度过这个寒冬里的圣诞节日。</p><p>此次拍摄的每张大片中，姚贝娜均以红唇与红色美衣作为主色调进行整体搭配，复古时尚，温暖笑容弥漫在温馨浪漫圣诞气氛的漫天飘雪中，甜美可人。此次的时尚大片中，姚贝娜用最简约的红色优雅与精致唯美，演绎出今冬最in的圣诞时尚感，温暖笑容与圣诞飘雪浑然天成，韵味十足。</p>'
+  :after_api:
+    :example: 
+    :zx_id: 其中，zx_id指新闻数据中的id字段
+    :bd_id: 其中，bd_id指榜单中文拼音首字母，例如：yyb（音乐榜）、jqb（金曲榜）、clb（彩铃榜），__待定__
+    :fl_id: 其中，fl_id指分类中文拼音首字母，标点符号忽略，数字保留，例如：wl（网络）、wqdz（舞曲/电子）、90h（90后），__待定__
+    :pd_id: 其中，pd_id指分类中文拼音首字母，标点符号忽略，数字保留，例如：wl（网络）、wqdz（舞曲/电子）、90h（90后），__待定__
+    :search: 请求包括参数query，即：api/search.json?query=搜索关键字
+    :autocomplete: 请求包括参数query，即：api/autocomplete.json?query=搜索关键字
+  :after_fields:
+    :example: 
+  :after_example:
+    :example: 
