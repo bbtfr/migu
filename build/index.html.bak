@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="ui-loading">
   <head>
     <meta charset="utf-8">
     <title>咪咕音乐</title>
@@ -137,6 +137,8 @@
   <div class="loginOut"><a href="#logout">注销</a></div>
 </aside>
 <!--侧边栏end -->
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-verbose"><span class="ui-icon-loading"></span><h1>数据加载中...</h1></div>
 
   </body>
 </html>
