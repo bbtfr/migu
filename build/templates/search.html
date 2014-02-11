@@ -1,0 +1,18 @@
+<article data-role="tabs">
+	<nav class="seaTit" data-role="navbar">
+		<p>对<b>“<%= query %>”</b>的搜索结果</p>
+		<ul>
+			<li><a href="#musics">歌曲(<span><%= data["musics"].length %></span>)</a></li>
+			<li><a href="#artists">歌手(<span><%= data["artists"].length %></span>)</a></li>
+			<li><a href="#albums">专辑(<span><%= data["albums"].length %></span>)</a></li>
+		</ul>
+	</nav>
+  <section id="musics"></section>
+  <section id="artists"></section>
+	<section id="albums"></section>
+</article>
+<footer data-role="footer">
+  <div class="footerLink"><a href="#">精简版</a><a href="#">炫彩版</a></div>
+  <div class="goTop"><a href="#">返回顶部</a></div>
+  <div class="footerInfo">中国移动</div>
+</footer>

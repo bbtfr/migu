@@ -1,0 +1,6 @@
+<% for(i=0; i<songs.length; i++) { %>
+  <li>
+    <div><a href="#play/<%= songs[i]["id"] %>"><p><%= songs[i]["title"] %></p><p><%= songs[i]["artist"] %></p><p>有效期：<%= songs[i]["due_to"] %></p></a></div>
+    <em><a href="#play/<%= songs[i]["id"] %>">试听</a><a href="#ring/<%= songs[i]["id"] %>/set">设置</a><a href="#ring/<%= songs[i]["id"] %>/delete">删除</a></em>
+  </li>
+<% } %>

@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>咪咕音乐</title>
+    <meta content="咪咕音乐" name="keywords"/>
+    <meta content="咪咕音乐" name="description"/>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-startup-image" href="images/migu_startup.png" />
+
+    <link href="stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="javascripts/require.js" data-main="javascripts/app" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div data-role="page">
+
+  <!-- 公用头部begin -->
+<header id="header" data-role="header" data-position="fixed">
+  <!-- <div class="loginBar">您好，欢迎来到咪咕音乐，<a href="#">请登录</a></div> -->
+  <div class="logoBar">
+    <span class="logoControls"><a href="#sidebar"></a></span>
+    <div class="logo"><a href="home.html">咪咕音乐</a><a href="#">换肤</a></div>
+    <div class="topLink"><a href="#" class="favBtn">收藏</a><a href="#" class="androidBtn">安卓</a></div>
+  </div>
+  <nav class="navbar" id="navbar">
+    <div><a href="#home" class="navbar-home-button">推荐</a><a href="#rank" class="navbar-rank-button">榜单</a><a href="#type" class="navbar-type-button">分类</a><a href="#activity" class="navbar-activity-button">活动</a><a href="#vip" class="navbar-vip-button">会员</a><a href="#" class="navbar-more-button">更多</a></div>
+    <div style="display:none" class="navbarMore"><a href="#">推荐</a><a href="#">榜单</a><a href="#">分类</a><a href="#">活动</a><a href="#">会员</a><a href="#">更多</a></div>
+  </nav>
+  <div class="search" id="search">
+    <div class="text"><input name="" type="search" placeholder="咪咕搜索" class="query" lang="zh-CN" data-role="none" /></div>
+    <div id="autocomplete"></div>
+    <div class="btn"><input name="" type="button" class="send_query" data-role="none" /></div>
+  </div>
+</header>
+<!--公用头部end -->
+
+  <div class="ui-panel-wrapper" data-role="pagecontainer">
+    <section class="container" ></section>
+  </div>
+  
+  <!--播放器begin -->
+<div class="player" id="player" data-role="footer" data-position="fixed">
+  <!--播放历史记录begin -->
+  <div class="playList" style="display:none;">
+    <aside>播放历史记录</aside>
+    <article class="jp-playlist">
+      <ul></ul>
+    </article>
+    <article class="background">
+      <ul><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+    </article>
+  </div>
+  <!--播放历史记录end -->
+  <!--展开播放器begin -->
+  <div class="playSkin" style="display:none;">
+    <div class="btnClose">关闭</div>
+    <div class="left fl_l">
+      <img src="samples/cover.jpg" class="jp-cover">
+      <div class="scale jp-progress"><span class="jp-play-bar"></span></div>
+    </div>
+    <div class="right fl_r">
+      <div class="song fl_l">
+        <p><span class="jp-title"></span></p>
+        <p><span class="jp-artist"></span> - <em class="jp-current-time"></em></p>
+      </div>
+      <div class="controls fl_r controlsBtn"><a href="#"></a></div>
+      <div class="playBtn">
+        <span class="upIcon jp-previous"></span>
+        <span class="playIcon jp-play"></span>
+        <span class="pauseIcon jp-pause" style="display:none;"></span>
+        <span class="nextIcon jp-next"></span>
+        <span class="addIcon"></span>
+        <span class="downIcon"></span>
+      </div>
+      <div class="lyric jp-lyrics">
+        <ul></ul>
+      </div>
+    </div>
+  </div>
+  <!--展开播放器end -->
+  <!--迷你播放器begin -->
+  <div class="miniPlay">
+    <div class="btnOpen">打开</div>
+    <div class="left fl_l"><span class="jp-title"></span> - <em class="jp-current-time"></em></div>
+    <div class="right fl_r">
+      <div class="playBtn">
+        <span class="upIcon jp-previous"></span>
+        <span class="playIcon jp-play"></span>
+        <span class="pauseIcon jp-pause" style="display:none;"></span>
+        <span class="nextIcon jp-next"></span>
+      </div>
+    </div>
+  </div>
+  <!--迷你播放器end -->
+<div id="jplayer" class="jp-jplayer"></div>
+<!--播放器end -->
+</div>
+
+<!--侧边栏begin -->
+<aside class="sidebar" id="sidebar" data-role="panel" data-display="push">
+  <section class="login">
+    <p class="fl_l"><a href="#login">登录</a></p>
+    <em class="fl_r" data-rel="close">关闭</em>
+  </section>
+  <section class="navList">
+    <h2>在线内容</h2>
+    <ul class="sideList">
+      <li class="home"><a href="#home">回到首页</a></li>
+      <li class="random"><a href="#random/新歌推荐">随便听听</a></li>
+      <li class="find"><a href="#findSong">找歌</a></li>
+    </ul>
+  </section>
+  <section class="navList">
+    <h2>个人管理</h2>
+    <ul class="sideList">
+      <li class="mySong"><a href="#mySong">我的歌单</a></li>
+      <li class="myRing"><a href="#myRing">我的彩铃</a></li>
+      <li class="vip"><a href="#vip">特级会员</a></li>
+      <li class="book"><a href="#book">添加书签</a></li>
+      <li class="guest"><a href="#guest">客户反馈</a></li>
+    </ul>
+  </section>
+  <section class="navList">
+    <h2>推荐应用</h2>
+    <div class="sideApp">
+      <a href="#" class="miguRing">咪咕铃声</a>
+      <a href="#" class="miguSong">咪咕杂志</a>
+      <a href="#" class="migumAgazine">咪咕爱唱</a>
+      <a href="#moreApp" class="moreApp">更多应用</a>
+    </div>
+  </section>
+  <div class="loginOut"><a href="#logout">注销</a></div>
+</aside>
+<!--侧边栏end -->
+
+  </body>
+</html>

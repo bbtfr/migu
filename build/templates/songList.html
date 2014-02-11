@@ -1,0 +1,3 @@
+<% for(i=0; i<songs.length; i++) { %>
+  <li><div><a href="#play/<%= songs[i]["id"] %>"><h6><%= songs[i]["title"] %></h6><p><%= songs[i]["artist"] %></p></a></div><em><a href="#playlist/<%= songs[i]["id"] %>">加入</a><a href="#tariff/<%= songs[i]["id"] %>">下载</a></em></li>
+<% } %>
