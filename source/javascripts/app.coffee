@@ -11,7 +11,6 @@ require.config
     jquerycookie: "lib/jquery.cookie"
 
     jqueryuieffect: "lib/jquery.ui.effect"
-    jqueryuieffectslide: "lib/jquery.ui.effect-slide"
 
     text: "lib/text"
     tpl: "../templates"
@@ -34,9 +33,8 @@ require.config
       deps: [
         "jquery"
         "jqueryuieffect"
-        "jqueryuieffectslide"
       ]
-      
+
     jqueryflexslider:
       deps: [
         "jquery"

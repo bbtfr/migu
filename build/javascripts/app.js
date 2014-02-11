@@ -10,7 +10,6 @@
       jqueryjplayer: "lib/jquery.jplayer",
       jquerycookie: "lib/jquery.cookie",
       jqueryuieffect: "lib/jquery.ui.effect",
-      jqueryuieffectslide: "lib/jquery.ui.effect-slide",
       text: "lib/text",
       tpl: "../templates"
     },
@@ -26,7 +25,7 @@
         exports: "$"
       },
       jquerymobile: {
-        deps: ["jquery", "jqueryuieffect", "jqueryuieffectslide"]
+        deps: ["jquery", "jqueryuieffect"]
       },
       jqueryflexslider: {
         deps: ["jquery"]
