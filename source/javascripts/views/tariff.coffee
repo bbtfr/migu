@@ -18,7 +18,7 @@ define (require) ->
       @url = options["url"]
 
     render: ->
-      @loader = new Loader @url, null, (data) =>
+      @loader = new Loader @url, (data) =>
         @data = data["zf"]
 
         @$el.html(template(data))

@@ -1,9 +1,9 @@
 define (require) ->
   "use strict"
 
-  Loader = (url, postData, success, fail) ->
+  Loader = (url, success, fail) ->
     window.indexView.showLoading()
-    $.post(url, postData, "json")
+    $.getJSON(url)
     .done (data) =>
       if data["success"]
         window.indexView.hideLoading()

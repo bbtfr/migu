@@ -22,7 +22,7 @@ define (require) ->
       @url = options["url"]
 
     render: ->
-      @loader = new Loader @url, null, (data) =>
+      @loader = new Loader @url, (data) =>
         @$el.html(template(data))
 
         @type = new SongMoreView(el: @$el.find("#type")).render(data["fl"])

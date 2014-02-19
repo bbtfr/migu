@@ -18,7 +18,7 @@ define (require) ->
       @query = options["query"]
 
     render: () ->
-      @loader = new Loader "api/search.json?query=#{@query}", null, (data) =>
+      @loader = new Loader "api/search.json?query=#{@query}", (data) =>
         @$el.html(template(query: @query, data: data))
 
         @musics = new SongMoreView(el: @$el.find("#musics")).render(data["musics"])
