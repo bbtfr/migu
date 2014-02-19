@@ -49,7 +49,10 @@
           window.indexView.showInfo("您输入的短信验证码有误");
           return;
         }
-        return this.loader = new Loader("api/login.json", function(data) {
+        return this.loader = new Loader("api/login.json", {
+          mobile: this.mobile,
+          token: this.token
+        }, function(data) {
           $.cookie('login', $.param(data));
           window.login = data;
           return _this.back();

@@ -49,7 +49,7 @@ define (require) ->
         window.indexView.showInfo "您输入的短信验证码有误"
         return
 
-      @loader = new Loader "api/reg_vip.json", (data) =>
+      @loader = new Loader "api/reg_vip.json", {}, (data) =>
         window.router.navigate("/regSucc", true)
       , (data) =>
         window.router.navigate("/regFail", true)

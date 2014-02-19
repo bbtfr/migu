@@ -49,7 +49,7 @@ define (require) ->
         window.indexView.showInfo "您输入的短信验证码有误"
         return
 
-      @loader = new Loader "api/login.json", (data) =>
+      @loader = new Loader "api/login.json", { mobile: @mobile, token: @token }, (data) =>
         $.cookie 'login', $.param(data)
         window.login = data
         @back()

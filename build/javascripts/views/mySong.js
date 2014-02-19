@@ -13,7 +13,7 @@
     return Backbone.View.extend({
       render: function() {
         var _this = this;
-        this.loader = new Loader("api/wdgd.json?token=" + window.login.token, function(data) {
+        this.loader = new Loader("api/wdgd.json?token=" + window.login.token, {}, function(data) {
           _this.$el.html(template());
           _this.mySong = new SongMoreView({
             el: _this.$el.find("#mySong")

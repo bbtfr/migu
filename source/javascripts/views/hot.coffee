@@ -25,7 +25,7 @@ define (require) ->
       @refresh("api/cnxh.json", @cnxh, "cnxh")
 
     refresh: (url, page, key) ->
-      @loader = new Loader url, (data) =>
+      @loader = new Loader url, {}, (data) =>
         page.render(data[key])
       false
 

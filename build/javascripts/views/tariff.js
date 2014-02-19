@@ -15,7 +15,7 @@
       },
       render: function() {
         var _this = this;
-        this.loader = new Loader(this.url, function(data) {
+        this.loader = new Loader(this.url, {}, function(data) {
           _this.data = data["zf"];
           _this.$el.html(template(data));
           _this.hot = new HotView({

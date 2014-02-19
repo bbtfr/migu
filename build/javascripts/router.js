@@ -182,7 +182,7 @@
       },
       ajax: function(url, text) {
         var _this = this;
-        new Loader(url, function() {
+        new Loader(url, {}, function() {
           return _this.success(text);
         }, function() {
           return _this.fail(text);

@@ -24,12 +24,12 @@ define (require) ->
       "click #pd .refresh a": "refresh"
 
     refresh: () ->
-      @loader = new Loader @url, (data) =>
+      @loader = new Loader @url, {}, (data) =>
         @pd.render(data["pd"])
       false
 
     render: ->
-      @loader = new Loader @url, (data) =>
+      @loader = new Loader @url, {}, (data) =>
         @$el.html(template(title: @title))
         
         @pd = new SongListView(el: @$el.find("#pd-list")).render(data["pd"])

@@ -16,7 +16,7 @@ define (require) ->
   Backbone.View.extend
 
     render: ->
-      @loader = new Loader "api/zx.json", (data) =>
+      @loader = new Loader "api/zx.json", {}, (data) =>
         @$el.html(template(data))
 
         @topNews = new TopNewsView(el: @$el.find("#topNews")).render(data["tt"][0]) if data["tt"]

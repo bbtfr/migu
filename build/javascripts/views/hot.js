@@ -22,7 +22,7 @@
       },
       refresh: function(url, page, key) {
         var _this = this;
-        this.loader = new Loader(url, function(data) {
+        this.loader = new Loader(url, {}, function(data) {
           return page.render(data[key]);
         });
         return false;

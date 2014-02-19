@@ -178,7 +178,7 @@ define (require) ->
       window.indexView.showInfo "#{text}失败"
 
     ajax: (url, text) ->
-      new Loader url, =>
+      new Loader url, {}, =>
         @success(text)
       , =>
         @fail(text)

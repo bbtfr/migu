@@ -16,7 +16,7 @@ define (require) ->
   Backbone.View.extend
 
     render: ->
-      @loader = new Loader "api/wdgd.json?token=#{window.login.token}", (data) =>
+      @loader = new Loader "api/wdgd.json?token=#{window.login.token}", {}, (data) =>
         @$el.html(template())
 
         @mySong = new SongMoreView(el: @$el.find("#mySong")).render(data["wdgd"])

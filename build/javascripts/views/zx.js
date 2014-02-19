@@ -13,7 +13,7 @@
     return Backbone.View.extend({
       render: function() {
         var _this = this;
-        this.loader = new Loader("api/zx.json", function(data) {
+        this.loader = new Loader("api/zx.json", {}, function(data) {
           _this.$el.html(template(data));
           if (data["tt"]) {
             _this.topNews = new TopNewsView({

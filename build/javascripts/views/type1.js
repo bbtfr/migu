@@ -19,7 +19,7 @@
       },
       render: function() {
         var _this = this;
-        this.loader = new Loader(this.url, function(data) {
+        this.loader = new Loader(this.url, {}, function(data) {
           _this.$el.html(template(data));
           _this.type = new SongMoreView({
             el: _this.$el.find("#type")

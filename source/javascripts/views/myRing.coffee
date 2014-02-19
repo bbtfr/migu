@@ -17,7 +17,7 @@ define (require) ->
   Backbone.View.extend
 
     render: ->
-      @loader = new Loader "api/wdcl.json?token=#{window.login.token}", (data) =>
+      @loader = new Loader "api/wdcl.json?token=#{window.login.token}", {}, (data) =>
         @$el.html(template())
 
         @currRing = new CurrRingView(el: @$el.find("#currRing")).render(data["dqcl"][0]) if data["dqcl"]
