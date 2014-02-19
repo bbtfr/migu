@@ -17,7 +17,7 @@ define (require) ->
   Backbone.View.extend
   
     render: ->
-      @loader = new Loader "api/home.json", {}, (data) =>
+      @loader = new Loader "api/home.json", null, (data) =>
         @$el.html(template(data))
 
         @sf = new SongListView(el: @$el.find("#sf-list")).render(data["sf"])

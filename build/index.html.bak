@@ -13,7 +13,7 @@
     <link rel="apple-touch-startup-image" href="images/migu_startup.png" />
 
     <link href="stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
-    <script src="javascripts/require.js" data-main="javascripts/app.build" type="text/javascript"></script>
+    <script src="javascripts/require.js" data-main="javascripts/app" type="text/javascript"></script>
   </head>
 
   <body>

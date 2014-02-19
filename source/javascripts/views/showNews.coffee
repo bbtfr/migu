@@ -18,7 +18,7 @@ define (require) ->
       @url = options["url"]
 
     render: ->
-      @loader = new Loader @url, {}, (data) =>
+      @loader = new Loader @url, null, (data) =>
         @$el.html(template(data))
 
         @xgxw = new NewsMoreView(el: @$el.find("#xgxw"), eachPage: 4, type: "rNews").render(data["xgxw"])

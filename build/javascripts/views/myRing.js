@@ -14,7 +14,7 @@
     return Backbone.View.extend({
       render: function() {
         var _this = this;
-        this.loader = new Loader("api/wdcl.json?token=" + window.login.token, {}, function(data) {
+        this.loader = new Loader("api/wdcl.json?token=" + window.login.token, null, function(data) {
           _this.$el.html(template());
           if (data["dqcl"]) {
             _this.currRing = new CurrRingView({

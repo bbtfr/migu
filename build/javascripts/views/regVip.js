@@ -49,7 +49,7 @@
           window.indexView.showInfo("您输入的短信验证码有误");
           return;
         }
-        return this.loader = new Loader("api/reg_vip.json", {}, function(data) {
+        return this.loader = new Loader("api/reg_vip.json", null, function(data) {
           return window.router.navigate("/regSucc", true);
         }, function(data) {
           return window.router.navigate("/regFail", true);

@@ -15,7 +15,7 @@ define (require) ->
   Backbone.View.extend
 
     render: ->
-      @loader = new Loader "api/bd.json", {}, (data) =>
+      @loader = new Loader "api/bd.json", null, (data) =>
         @$el.html(template(data))
         @yyb = new SongListView(el: @$el.find("#yyb-list")).render(data["yyb"])
         @jqb = new SongListView(el: @$el.find("#jqb-list")).render(data["jqb"])

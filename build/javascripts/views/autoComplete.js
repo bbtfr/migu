@@ -12,10 +12,12 @@
       render: function(query) {
         var _this = this;
         if (query && query !== this.query) {
-          $.getJSON("api/autocomplete.json?query=" + query, function(data) {
+          $.post("api/autocomplete.json", {
+            query: query
+          }, function(data) {
             _this.$el.html(template(data));
             return _this.query = query;
-          });
+          }, 'json');
         }
         return this;
       },

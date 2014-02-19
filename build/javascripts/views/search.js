@@ -15,7 +15,7 @@
       },
       render: function() {
         var _this = this;
-        this.loader = new Loader("api/search.json?query=" + this.query, {}, function(data) {
+        this.loader = new Loader("api/search.json?query=" + this.query, null, function(data) {
           _this.$el.html(template({
             query: _this.query,
             data: data

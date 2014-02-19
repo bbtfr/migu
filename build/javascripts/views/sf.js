@@ -13,7 +13,7 @@
     return Backbone.View.extend({
       render: function() {
         var _this = this;
-        this.loader = new Loader("api/sf.json", {}, function(data) {
+        this.loader = new Loader("api/sf.json", null, function(data) {
           _this.$el.html(template(data));
           _this.sf = new SongMoreView({
             el: _this.$el.find("#sf")

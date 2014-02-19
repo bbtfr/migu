@@ -16,7 +16,7 @@ define (require) ->
   Backbone.View.extend
 
     render: ->
-      @loader = new Loader "api/hd.json", {}, (data) =>
+      @loader = new Loader "api/hd.json", null, (data) =>
         @$el.html(template())
 
         @jbrd = [

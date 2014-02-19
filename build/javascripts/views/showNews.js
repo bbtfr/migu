@@ -15,7 +15,7 @@
       },
       render: function() {
         var _this = this;
-        this.loader = new Loader(this.url, {}, function(data) {
+        this.loader = new Loader(this.url, null, function(data) {
           _this.$el.html(template(data));
           _this.xgxw = new NewsMoreView({
             el: _this.$el.find("#xgxw"),
