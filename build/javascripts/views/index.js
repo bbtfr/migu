@@ -25,7 +25,8 @@
         "click #navbar .navbar-more-button": "toggleNavbarMore",
         "click #search .send_query": "send_query",
         "focus #search .query": "send_autocomplete",
-        "blur #search": "remove_autocomplete"
+        "blur #search": "remove_autocomplete",
+        "click a[href^='#play']": "play"
       },
       initialize: function() {
         this.$el = $("body");
@@ -58,6 +59,15 @@
       },
       hideLoading: function() {
         return $.mobile.loading("hide");
+      },
+      play: function(e) {
+        var id, song;
+        id = $(e.target).closest('a').attr('href').match(/\d+/g)[0];
+        song = window.songs.get(id);
+        if (song) {
+          window.player.add(song.attributes, true);
+        }
+        return false;
       },
       toggleNavbarButton: function(key) {
         if (NavbarMap[key]) {

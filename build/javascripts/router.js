@@ -69,7 +69,6 @@
         "activity/:id": "activity",
         "news/:id": "news",
         "tariff/:id": "tariff",
-        "play/:id": "play",
         "playlist/:id": "playlist",
         "search/:query": "search",
         "logout": "logout",
@@ -129,18 +128,6 @@
           url: "api/zx/zx_id.json"
         });
         return window.indexView.changePage("news", view);
-      },
-      play: function(id, playNow) {
-        var song;
-        if (playNow == null) {
-          playNow = true;
-        }
-        song = window.songs.get(id);
-        if (song) {
-          return window.player.add(song.attributes, playNow);
-        } else {
-          return this.home();
-        }
       },
       playlist: function(id) {
         return this.play(id, false);

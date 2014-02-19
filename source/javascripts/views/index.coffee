@@ -34,6 +34,7 @@ define (require) ->
       "click #search .send_query": "send_query"
       "focus #search .query": "send_autocomplete"
       "blur #search": "remove_autocomplete"
+      "click a[href^='#play']": "play"
 
     initialize: ->
       @$el = $("body")
@@ -58,6 +59,13 @@ define (require) ->
 
     hideLoading: ->
       $.mobile.loading "hide"
+
+    # player
+    play: (e) ->
+      id = $(e.target).closest('a').attr('href').match(/\d+/g)[0]
+      song = window.songs.get(id)
+      window.player.add song.attributes, true if song
+      false
 
     # navbar
     toggleNavbarButton: (key) ->

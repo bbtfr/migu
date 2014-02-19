@@ -78,7 +78,7 @@ configure :build do
 
   # 启用r.js打包，将所有JS打包为一个文件
   # 这个插件是我自己编写的，可能使用过程中会有问题，之后再做调整
-  activate :requirejs
+  # activate :requirejs
 end
 
 module RequireJS

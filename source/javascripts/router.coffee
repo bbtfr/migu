@@ -93,7 +93,7 @@ define (require) ->
       "news/:id": "news"
       "tariff/:id": "tariff"
       
-      "play/:id": "play"
+      # "play/:id": "play"
       "playlist/:id": "playlist"
       "search/:query": "search"
       "logout": "logout"
@@ -137,12 +137,12 @@ define (require) ->
       view = new Views["showNews"](url: "api/zx/zx_id.json")
       window.indexView.changePage "news", view
         
-    play: (id, playNow=true) ->
-      song = window.songs.get(id)
-      if song
-        window.player.add song.attributes, playNow
-      else
-        @home()
+    # play: (id, playNow=true) ->
+    #   song = window.songs.get(id)
+    #   if song
+    #     window.player.add song.attributes, playNow
+    #   else
+    #     @home()
 
     playlist: (id) ->
       @play(id, false)
