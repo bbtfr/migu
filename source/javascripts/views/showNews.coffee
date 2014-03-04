@@ -12,6 +12,9 @@ define (require) ->
 
   Loader       = require('utils/loader')
 
+  urls =
+    "xgxw": "/api/xgxw.json"
+
   Backbone.View.extend
 
     initialize: (options) ->
@@ -21,7 +24,14 @@ define (require) ->
       @loader = new Loader @url, (data) =>
         @$el.html(template(data))
 
-        @xgxw = new NewsMoreView(el: @$el.find("#xgxw"), eachPage: 4, type: "rNews").render(data["xgxw"])
+        @xgxw = new NewsMoreView
+          el: @$el.find("#xgxw")
+          url: urls["xgxw"]
+          key: "xgxw"
+          eachPage: 4
+          type: "rNews"
+        .render(false)
+        
         window.indexView.triggerChangePage()
 
       return @

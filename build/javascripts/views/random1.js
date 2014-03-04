@@ -20,14 +20,14 @@
       },
       refresh: function() {
         var _this = this;
-        this.loader = new Loader(this.url, null, function(data) {
+        this.loader = new Loader(this.url, function(data) {
           return _this.pd.render(data["pd"]);
         });
         return false;
       },
       render: function() {
         var _this = this;
-        this.loader = new Loader(this.url, null, function(data) {
+        this.loader = new Loader(this.url, function(data) {
           _this.$el.html(template({
             title: _this.title
           }));

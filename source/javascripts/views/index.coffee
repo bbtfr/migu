@@ -7,6 +7,7 @@ define (require) ->
 
   PlayerView       = require('views/player')
   AutoCompleteView = require('views/autoComplete')
+  LoginDialogView  = require('views/loginDialog')
 
   PageSlider       = require('utils/page_slider')
 
@@ -35,12 +36,15 @@ define (require) ->
       "focus #search .query": "send_autocomplete"
       "blur #search": "remove_autocomplete"
       "click a[href^='#play']": "play"
+      "click a[href^='#loginDialog']": "showLoginDialog"
 
     initialize: ->
       @$el = $("body")
       @pageSlider = new PageSlider(@$container)
       @autocomplete = new AutoCompleteView(el: @$el.find("#autocomplete"))
+      window.loginDialog = @loginDialog = new LoginDialogView
       window.player = @player = new PlayerView()
+      @updateUsername(window.login)
 
     triggerChangePage: ->
       @$container.trigger "page_slider.change"
@@ -66,6 +70,17 @@ define (require) ->
       song = window.songs.get(id)
       window.player.add song.attributes, true if song
       false
+    
+    showLoginDialog: (e) ->
+      @login()
+      false
+
+    # login dialog
+    login: (callback=null) ->
+      unless window.login
+        @loginDialog.render(callback)
+      else
+        callback() if callback
 
     # navbar
     toggleNavbarButton: (key) ->
@@ -114,5 +129,18 @@ define (require) ->
       setTimeout =>
         @autocomplete.empty()
       , 200
+
+    updateUsername: (data) ->
+      window.login = data
+      $loginSidebarLink = @$el.find(".loginSidebarLink")
+      if data
+        $.cookie 'login', $.param(data)
+        if data.email
+          $loginSidebarLink.text(data.email)
+        else
+          $loginSidebarLink.text(data.mobile)
+      else
+        $.removeCookie 'login'
+        $loginSidebarLink.text("登录")
 
 

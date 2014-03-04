@@ -8,9 +8,15 @@ define (require) ->
   
   template    = _.template(tpl)
 
+  Loader      = require('utils/loader')
+
   Backbone.View.extend
 
     render: ->
+
+      @loader = new Loader "api/types.json", (data) ->
+        console.log data
+        
       @$el.html(template())
 
       window.indexView.triggerChangePage()

@@ -13,14 +13,16 @@ define (require) ->
 
   Loader       = require('utils/loader')
 
+  url = "api/zx.json"
+
   Backbone.View.extend
 
     render: ->
-      @loader = new Loader "api/zx.json", (data) =>
-        @$el.html(template(data))
+      @$el.html(template())
 
-        @topNews = new TopNewsView(el: @$el.find("#topNews")).render(data["tt"][0]) if data["tt"]
-        @zx = new NewsMoreView(el: @$el.find("#zx")).render(data["zx"])
-        window.indexView.triggerChangePage()
+      @zx = new NewsMoreView(el: @$el.find("#zx"), url: url, key: "zx").render()
+
+      @loader = new Loader "api/tt.json", (data) =>
+        @topNews = new TopNewsView(el: @$el.find("#topNews")).render(data["tt"][0])
 
       return @

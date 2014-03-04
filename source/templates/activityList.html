@@ -1,3 +1,18 @@
+<nav data-role="navbar">
+  <h2><%= title %></h2>
+  <ul>
+    <% for(i=0; i<activities.length; i++) { %>
+      <li><a href="#tab<%= i+1 %>"><%= i+1 %></a></li>
+    <% } %>
+  </ul>
+  <em><a href="#">更多</a></em>
+</nav>
 <% for(i=0; i<activities.length; i++) { %>
-  <li><a href="#activity/<%= activities[i]["id"] %>"><img src="<%= activities[i]["image"] %>"><p><%= activities[i]["title"] %></p><p>时间：<%= activities[i]["time"] %></p><p>地点：<%= activities[i]["location"] %></p></a></li>
+  <section class="list" id="tab<%= i+1 %>">
+    <ul id="tab<%= i+1 %>-list">
+      <% for(j=0; j<activities[i].length; j++) { %>
+        <li><a href="#activity/<%= activities[i][j]["id"] %>"><img src="<%= activities[i][j]["image"] %>"><p><%= activities[i][j]["title"] %></p><p>时间：<%= activities[i][j]["time"] %></p><p>地点：<%= activities[i][j]["location"] %></p></a></li>
+      <% } %>
+    </ul>
+  </section>
 <% } %>

@@ -21,12 +21,22 @@
     Views["sf"] = require("views/sf");
     Views["zx"] = require("views/zx");
     Views["showNews"] = require("views/showNews");
+    Views["activityShow"] = require("views/activityShow");
     Views["rank1"] = require("views/rank1");
     Views["type1"] = require("views/type1");
     Views["regVip"] = require("views/regVip");
     Views["regSucc"] = require("views/regSucc");
     Views["search"] = require('views/search');
     Views["tariff"] = require('views/tariff');
+    Views["reg"] = require('views/reg');
+    Views["reg1"] = require('views/reg1');
+    Views["reg2"] = require('views/reg2');
+    Views["reg3"] = require('views/reg3');
+    Views["add"] = require('views/add');
+    Views["add1"] = require('views/add1');
+    Views["add2"] = require('views/add2');
+    Views["singerShow"] = require('views/singerShow');
+    Views["albumShow"] = require('views/albumShow');
     views = {};
     require('jquerycookie');
     QueryStringToHash = QueryStringToHash = function(query) {
@@ -72,6 +82,9 @@
         "playlist/:id": "playlist",
         "search/:query": "search",
         "logout": "logout",
+        "album/:id": "album",
+        "artist/:id": "artist",
+        "ring/vip": "setRingVip",
         "ring/:id/set": "setRing",
         "ring/:id/delete": "deleteRing",
         "gift/:id": "sendGift",
@@ -107,20 +120,43 @@
         });
         return window.indexView.changePage("random", view);
       },
+      album: function(title) {
+        var view;
+        view = new Views["albumShow"]({
+          url: "api/album.json",
+          title: title
+        });
+        return window.indexView.changePage("album", view);
+      },
+      artist: function(title) {
+        var view;
+        view = new Views["singerShow"]({
+          url: "api/artist.json",
+          title: title
+        });
+        return window.indexView.changePage("artist", view);
+      },
       tariff: function(id) {
-        var song, view;
-        song = window.songs.get(id);
-        if (song) {
-          view = new Views["tariff"]({
-            url: "api/zf/music_id.json"
-          });
-          return window.indexView.changePage("random", view);
-        } else {
-          return this.home();
-        }
+        var _this = this;
+        return window.indexView.login(function() {
+          var song, view;
+          song = window.songs.get(id);
+          if (song) {
+            view = new Views["tariff"]({
+              url: "api/zf/music_id.json"
+            });
+            return window.indexView.changePage("random", view);
+          } else {
+            return _this.home();
+          }
+        });
       },
       activity: function(id) {
-        return window.indexView.showInfo("活动页面暂未开放");
+        var view;
+        view = new Views["activityShow"]({
+          url: "api/hd/hd_id.json"
+        });
+        return window.indexView.changePage("activity", view);
       },
       news: function(id) {
         var view;
@@ -150,15 +186,13 @@
         }
       },
       myPage: function(key) {
-        if (window.login) {
-          return this.page("my" + key);
-        } else {
-          return this.navigate('/login', true);
-        }
+        var _this = this;
+        return window.indexView.login(function() {
+          return _this.page("my" + key);
+        });
       },
       logout: function() {
-        window.login = null;
-        $.cookie('login', null);
+        window.indexView.updateUsername();
         return this.home();
       },
       success: function(text) {
@@ -169,7 +203,7 @@
       },
       ajax: function(url, text) {
         var _this = this;
-        new Loader(url, {}, function() {
+        new Loader(url, function() {
           return _this.success(text);
         }, function() {
           return _this.fail(text);
@@ -184,6 +218,9 @@
       },
       setRing: function(id) {
         return this.ajax("path/to/set/ring", "设置手机彩铃");
+      },
+      setRingVip: function(id) {
+        return this.ajax("path/to/set/ring/vip", "开通手机彩铃包月");
       },
       deleteRing: function(id) {
         return this.ajax("path/to/delete/ring", "删除手机彩铃");

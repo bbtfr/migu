@@ -30,6 +30,7 @@ define (require) ->
   Views["zx"]       = require("views/zx")
 
   Views["showNews"] = require("views/showNews")
+  Views["activityShow"] = require("views/activityShow")
 
   Views["rank1"]    = require("views/rank1")
   Views["type1"]    = require("views/type1")
@@ -40,6 +41,17 @@ define (require) ->
   Views["search"]   = require('views/search')
   
   Views["tariff"]   = require('views/tariff')
+
+  Views["reg"]   = require('views/reg')
+  Views["reg1"]   = require('views/reg1')
+  Views["reg2"]   = require('views/reg2')
+  Views["reg3"]   = require('views/reg3')
+  Views["add"]   = require('views/add')
+  Views["add1"]   = require('views/add1')
+  Views["add2"]   = require('views/add2')
+
+  Views["singerShow"]   = require('views/singerShow')
+  Views["albumShow"]   = require('views/albumShow')
 
   views             = {}
 
@@ -97,7 +109,11 @@ define (require) ->
       "playlist/:id": "playlist"
       "search/:query": "search"
       "logout": "logout"
+
+      "album/:id": "album"
+      "artist/:id": "artist"
       
+      "ring/vip": "setRingVip"
       "ring/:id/set": "setRing"
       "ring/:id/delete": "deleteRing"
       "gift/:id": "sendGift"
@@ -122,16 +138,26 @@ define (require) ->
       view = new Views["random1"](url: "api/pd/pd_id.json", title: title)
       window.indexView.changePage "random", view
 
+    album: (title) ->
+      view = new Views["albumShow"](url: "api/album.json", title: title)
+      window.indexView.changePage "album", view
+
+    artist: (title) ->
+      view = new Views["singerShow"](url: "api/artist.json", title: title)
+      window.indexView.changePage "artist", view
+
     tariff: (id) ->
-      song = window.songs.get(id)
-      if song
-        view = new Views["tariff"](url: "api/zf/music_id.json")
-        window.indexView.changePage "random", view
-      else
-        @home()
+      window.indexView.login =>
+        song = window.songs.get(id)
+        if song
+          view = new Views["tariff"](url: "api/zf/music_id.json")
+          window.indexView.changePage "random", view
+        else
+          @home()
 
     activity: (id) ->
-      window.indexView.showInfo "活动页面暂未开放"
+      view = new Views["activityShow"](url: "api/hd/hd_id.json")
+      window.indexView.changePage "activity", view
 
     news: (id) ->
       view = new Views["showNews"](url: "api/zx/zx_id.json")
@@ -161,14 +187,11 @@ define (require) ->
         @home()
 
     myPage: (key) ->
-      if window.login
+      window.indexView.login =>
         @page("my#{key}")
-      else
-        @navigate('/login', true)
-
+      
     logout: ->
-      window.login = null
-      $.cookie 'login', null
+      window.indexView.updateUsername()
       @home()
 
     success: (text) ->
@@ -178,7 +201,7 @@ define (require) ->
       window.indexView.showInfo "#{text}失败"
 
     ajax: (url, text) ->
-      new Loader url, {}, =>
+      new Loader url, =>
         @success(text)
       , =>
         @fail(text)
@@ -192,6 +215,9 @@ define (require) ->
 
     setRing: (id) ->
       @ajax "path/to/set/ring", "设置手机彩铃"
+
+    setRingVip: (id) ->
+      @ajax "path/to/set/ring/vip", "开通手机彩铃包月"
 
     deleteRing: (id) ->
       @ajax "path/to/delete/ring", "删除手机彩铃"

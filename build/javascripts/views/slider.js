@@ -18,7 +18,8 @@
     };
     return Backbone.View.extend({
       initialize: function(options) {
-        return this.type = options["type"] || "default";
+        this.type = options["type"] || "default";
+        return this.url = options["url"] || urls[this.type];
       },
       initSlider: function() {
         this.$el.html(template(slides[this.type]));
@@ -33,7 +34,7 @@
         if (slides[this.type]) {
           this.initSlider();
         } else {
-          $.getJSON(urls[this.type], function(data) {
+          $.getJSON(this.url, function(data) {
             slides[_this.type] = data;
             return _this.initSlider();
           });

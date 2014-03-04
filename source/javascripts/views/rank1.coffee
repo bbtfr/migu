@@ -22,12 +22,9 @@ define (require) ->
       @url = options["url"]
 
     render: ->
-      @loader = new Loader @url, (data) =>
-        @$el.html(template(data))
+      @$el.html(template())
 
-        @rank = new SongMoreView(el: @$el.find("#rank")).render(data["bd"])
-        
-        window.indexView.triggerChangePage()
+      @rank = new SongMoreView(el: @$el.find("#rank"), url: @url, key: "bd").render()
 
       return @
 

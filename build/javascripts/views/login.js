@@ -1,13 +1,17 @@
 (function() {
   define(function(require) {
     "use strict";
-    var $, Backbone, Loader, template, tpl, _;
+    var $, Backbone, Loader, template, tpl, urls, _;
     $ = require('jquery');
     _ = require('underscore');
     Backbone = require('backbone');
     tpl = require('text!tpl/login.html');
     template = _.template(tpl);
     Loader = require('utils/loader');
+    urls = {
+      token: "api/token.json",
+      login: "api/login.json"
+    };
     return Backbone.View.extend({
       events: {
         "click .get_token": "get_token",
@@ -29,6 +33,7 @@
           return;
         }
         $get_token = this.$el.find(".get_token").hide();
+        this.loader = new Loader(urls["token"], function(data) {});
         $wait = this.$el.find(".wait").show();
         $wait.val("还剩" + countdown + "秒");
         return index = setInterval(function() {
@@ -49,10 +54,7 @@
           window.indexView.showInfo("您输入的短信验证码有误");
           return;
         }
-        return this.loader = new Loader("api/login.json", {
-          mobile: this.mobile,
-          token: this.token
-        }, function(data) {
+        return this.loader = new Loader(urls["login"], function(data) {
           $.cookie('login', $.param(data));
           window.login = data;
           return _this.back();

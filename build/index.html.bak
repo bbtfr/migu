@@ -17,11 +17,13 @@
   </head>
 
   <body>
-    <div data-role="page">
+    <div id="loginDialog" class="uLogin"></div>
+
+<div data-role="page">
 
   <!-- 公用头部begin -->
 <header id="header" data-role="header" data-position="fixed" data-tap-toggle="false">
-  <!-- <div class="loginBar">您好，欢迎来到咪咕音乐，<a href="#">请登录</a></div> -->
+  <!-- <div class="loginBar">您好，欢迎来到咪咕音乐，<a href="#loginDialog" data-rel="dialog">请登录</a></div> -->
   <div class="logoBar">
     <span class="logoControls"><a href="#sidebar"></a></span>
     <div class="logo"><a href="home.html">咪咕音乐</a><a href="#">换肤</a></div>
@@ -40,7 +42,7 @@
 <!--公用头部end -->
 
   <div class="ui-panel-wrapper" data-role="pagecontainer">
-    <section class="container" ></section>
+    <section class="container"></section>
   </div>
   
   <!--播放器begin -->
@@ -104,7 +106,7 @@
 <!--侧边栏begin -->
 <aside class="sidebar" id="sidebar" data-role="panel" data-display="push">
   <section class="login">
-    <p class="fl_l"><a href="#login">登录</a></p>
+    <p class="fl_l"><a href="#loginDialog" class="loginSidebarLink">登录</a></p>
     <em class="fl_r" data-rel="close">关闭</em>
   </section>
   <section class="navList">
@@ -137,8 +139,6 @@
   <div class="loginOut"><a href="#logout">注销</a></div>
 </aside>
 <!--侧边栏end -->
-
-<div class="ui-loader ui-corner-all ui-body-a ui-loader-verbose"><span class="ui-icon-loading"></span><h1>数据加载中...</h1></div>
 
   </body>
 </html>

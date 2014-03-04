@@ -1,22 +1,27 @@
 (function() {
+  var __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
+
   define(function(require) {
     "use strict";
-    var $, Backbone, SongListView, tpls, _;
+    var $, Backbone, Loader, SongListView, tpls, _;
     $ = require('jquery');
     _ = require('underscore');
     Backbone = require('backbone');
     SongListView = require('views/songList');
-    tpls = {};
-    tpls["song"] = require('text!tpl/songMore.html');
-    tpls["ring"] = require('text!tpl/ringMore.html');
-    tpls["info"] = require('text!tpl/songMore.html');
+    tpls = {
+      song: require('text!tpl/songMore.html'),
+      ring: require('text!tpl/ringMore.html'),
+      info: require('text!tpl/songMore.html')
+    };
+    Loader = require('utils/loader');
     return Backbone.View.extend({
       currPage: 0,
-      totalPage: 0,
       initialize: function(options) {
         this.eachPage = options["eachPage"] || 10;
         this.type = options["type"] || "song";
-        return this.template = _.template(tpls[this.type]);
+        this.template = _.template(tpls[this.type]);
+        this.url = options["url"];
+        return this.key = options["key"];
       },
       events: {
         "click .prev": "prev",
@@ -32,27 +37,48 @@
       page: function() {
         return this.goto(parseInt(this.$pageBox.val()));
       },
+      generate_url: function(n) {
+        var url;
+        if (__indexOf.call(this.url, '?') >= 0) {
+          url = "" + this.url + "&";
+        } else {
+          url = "" + this.url + "?";
+        }
+        url += "page=" + n + "&eachPage=" + this.eachPage;
+        return url;
+      },
       goto: function(n) {
+        var _this = this;
         if (n > 0 && n <= this.totalPage) {
-          this.songMore.render(this.data.slice(this.eachPage * (n - 1), this.eachPage * n));
-          this.$pageBox.val(n);
-          this.currPage = n;
+          this.loader = new Loader(this.generate_url(n), function(data) {
+            _this.songMore.render(data[_this.key]);
+            _this.$pageBox.val(n);
+            return _this.currPage = n;
+          });
         }
         return false;
       },
-      render: function(songs) {
-        this.data = songs;
-        this.totalPage = Math.ceil(this.data.length / this.eachPage);
-        this.currPage = 1;
-        this.$el.html(this.template({
-          totalPage: this.totalPage,
-          currPage: this.currPage
-        }));
-        this.$pageBox = this.$el.find(".pageBox");
-        this.songMore = new SongListView({
-          el: this.$el.find("#song-list"),
-          type: this.type
-        }).render(this.data.slice(0, this.eachPage));
+      render: function(triggerChangePage) {
+        var _this = this;
+        if (triggerChangePage == null) {
+          triggerChangePage = true;
+        }
+        this.loader = new Loader(this.generate_url(1), function(data) {
+          _this.totalPage = data["totalPage"];
+          _this.currPage = 1;
+          _this.$el.html(_this.template({
+            totalPage: _this.totalPage,
+            currPage: _this.currPage
+          }));
+          _this.$pageBox = _this.$el.find(".pageBox");
+          _this.songMore = new SongListView({
+            el: _this.$el.find("#song-list"),
+            type: _this.type
+          }).render(data[_this.key]);
+          if (triggerChangePage) {
+            return window.indexView.triggerChangePage();
+          }
+        });
         return this;
       }
     });

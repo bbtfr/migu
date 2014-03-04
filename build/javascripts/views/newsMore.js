@@ -11,10 +11,11 @@
     Loader = require('utils/loader');
     return Backbone.View.extend({
       currPage: 0,
-      totalPage: 0,
       initialize: function(options) {
-        this.eachPage = options["eachPage"] || 6;
-        return this.type = options["type"] || "news";
+        this.eachPage = options["eachPage"] || 8;
+        this.type = options["type"] || "news";
+        this.url = options["url"];
+        return this.key = options["key"];
       },
       events: {
         "click .prev": "prev",
@@ -31,26 +32,37 @@
         return this.goto(parseInt(this.$pageBox.val()));
       },
       goto: function(n) {
+        var _this = this;
         if (n > 0 && n <= this.totalPage) {
-          this.newsMore.render(this.data.slice(this.eachPage * (n - 1), this.eachPage * n));
-          this.$pageBox.val(n);
-          this.currPage = n;
+          this.loader = new Loader("" + this.url + "?page=" + n + "&eachPage=" + this.eachPage, function(data) {
+            _this.newsMore.render(data[_this.key]);
+            _this.$pageBox.val(n);
+            return _this.currPage = n;
+          });
         }
         return false;
       },
-      render: function(news) {
-        this.data = news;
-        this.totalPage = Math.ceil(this.data.length / this.eachPage);
-        this.currPage = 1;
-        this.$el.html(template({
-          totalPage: this.totalPage,
-          currPage: this.currPage
-        }));
-        this.$pageBox = this.$el.find(".pageBox");
-        this.newsMore = new NewsListView({
-          el: this.$el.find("#news-list"),
-          type: this.type
-        }).render(this.data.slice(0, this.eachPage));
+      render: function(triggerChangePage) {
+        var _this = this;
+        if (triggerChangePage == null) {
+          triggerChangePage = true;
+        }
+        this.loader = new Loader("" + this.url + "?page=1&eachPage=" + this.eachPage, function(data) {
+          _this.currPage = 1;
+          _this.totalPage = data["totalPage"];
+          _this.$el.html(template({
+            totalPage: _this.totalPage,
+            currPage: _this.currPage
+          }));
+          _this.$pageBox = _this.$el.find(".pageBox");
+          _this.newsMore = new NewsListView({
+            el: _this.$el.find("#news-list"),
+            type: _this.type
+          }).render(data[_this.key]);
+          if (triggerChangePage) {
+            return window.indexView.triggerChangePage();
+          }
+        });
         return this;
       }
     });

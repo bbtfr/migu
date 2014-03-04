@@ -12,6 +12,10 @@ define (require) ->
 
   Loader       = require('utils/loader')
 
+  urls =
+    rmtj: "api/rmtj.json"
+    cnxh: "api/cnxh.json"
+
   Backbone.View.extend
 
     events:
@@ -19,10 +23,10 @@ define (require) ->
       "click #cnxh .refresh a": "refresh_cnxh"
 
     refresh_rmtj: ->
-      @refresh("api/rmtj.json", @rmtj, "rmtj")
+      @refresh(urls["rmtj"], @rmtj, "rmtj")
 
     refresh_cnxh: ->
-      @refresh("api/cnxh.json", @cnxh, "cnxh")
+      @refresh(urls["cnxh"], @cnxh, "cnxh")
 
     refresh: (url, page, key) ->
       @loader = new Loader url, (data) =>
@@ -31,8 +35,11 @@ define (require) ->
 
     render: (rmtjData, cnxhData) ->
       @$el.html(template())
-      @rmtj = new SongListView(el: @$el.find("#rmtj-list")).render(rmtjData)
-      @cnxh = new SongListView(el: @$el.find("#cnxh-list")).render(cnxhData)
+
+      @rmtj = new SongListView(el: @$el.find("#rmtj-list"))
+      @cnxh = new SongListView(el: @$el.find("#cnxh-list"))
+      @refresh_rmtj()
+      @refresh_cnxh()
 
       @$el.tabs()
 

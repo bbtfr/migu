@@ -14,16 +14,28 @@ define (require) ->
 
   Loader       = require('utils/loader')
 
+  urls =
+    "wdcl": "api/wdcl.json"
+    "qtcl": "api/qtcl.json"
+
   Backbone.View.extend
 
     render: ->
-      @loader = new Loader "api/wdcl.json?token=#{window.login.token}", (data) =>
-        @$el.html(template())
-
-        @currRing = new CurrRingView(el: @$el.find("#currRing")).render(data["dqcl"][0]) if data["dqcl"]
-        @myRing = new SongMoreView(el: @$el.find("#myRing"), type: "ring", eachPage: 3).render(data["wdcl"])
-        @hot = new HotView(el: @$el.find("#hot")).render(data["rmtj"], data["cnxh"])
+      @$el.html(template())
+      
+      @loader = new Loader "#{urls["wdcl"]}?token=#{window.login.token}", (data) =>
+        @currRing = new CurrRingView(el: @$el.find("#currRing")).render(data["dqcl"][0])
         
         window.indexView.triggerChangePage()
 
+      @myRing = new SongMoreView(
+        el: @$el.find("#myRing")
+        url: "#{urls["qtcl"]}?token=#{window.login.token}"
+        key: "qtcl"
+        eachPage: 3
+        type: "ring"
+      ).render(false)
+
+      @hot = new HotView(el: @$el.find("#hot")).render()
+      
       return @

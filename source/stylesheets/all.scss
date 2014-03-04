@@ -1,6 +1,7 @@
 /*
  *= require 'jquerymobile'
  *= require 'base'
+ *= require 'login'
  */
 
 // header nav current button jquery mobile adapter
@@ -84,6 +85,42 @@ header nav a.ui-btn-active {
       color: #FFF;
     }
   }
+}
+
+// user login dialog navbar current button jquery mobile adapter
+.uLogin nav li {
+  width: 50%;
+
+  &:first-child {
+    -webkit-border-radius:10px 0 0 0;
+  }
+  
+  &:last-child {
+    -webkit-border-radius:0 10px 0 0;
+  }
+
+  > a {
+    color: #FFF;
+    display: block;
+  }
+
+  &.ui-state-active {
+    background: #F9F9F9;
+
+    > a {
+      color: #000;
+    }
+  }
+}
+
+.regBtnG {
+  width: 100%;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #CCC;
+  color: #333;
+  -webkit-box-shadow: 0 0 5px #D6D6D6;
+  -moz-box-shadow: 0 0 5px #D6D6D6;
 }
 
 // search navbar current button jquery mobile adapter

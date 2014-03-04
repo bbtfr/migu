@@ -13,15 +13,14 @@ define (require) ->
 
   Loader       = require('utils/loader')
 
+  url = "api/sf.json"
+
   Backbone.View.extend
 
     render: ->
-      @loader = new Loader "api/sf.json", (data) =>
-        @$el.html(template(data))
-        
-        @sf = new SongMoreView(el: @$el.find("#sf")).render(data["sf"])
-        @hot = new HotView(el: @$el.find("#hot")).render(data["rmtj"], data["cnxh"])
-        
-        window.indexView.triggerChangePage()
+      @$el.html(template())
+      
+      @sf = new SongMoreView(el: @$el.find("#sf"), url: url, key: "sf").render()
+      @hot = new HotView(el: @$el.find("#hot")).render()
 
       return @

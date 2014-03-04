@@ -15,11 +15,12 @@ define (require) ->
   Backbone.View.extend
 
     currPage: 0
-    totalPage: 0
 
     initialize: (options) ->
-      @eachPage = options["eachPage"] || 6
+      @eachPage = options["eachPage"] || 8
       @type = options["type"] || "news"
+      @url = options["url"]
+      @key = options["key"]
 
     events:
       "click .prev": "prev"
@@ -37,20 +38,23 @@ define (require) ->
 
     goto: (n) ->
       if n > 0 and n <= @totalPage
-        @newsMore.render(@data[@eachPage*(n-1)...@eachPage*n])
-        @$pageBox.val(n)
-        @currPage = n
+        @loader = new Loader "#{@url}?page=#{n}&eachPage=#{@eachPage}", (data) =>
+          @newsMore.render(data[@key])
+          @$pageBox.val(n)
+          @currPage = n
       false
 
-    render: (news) ->
-      @data = news
-      @totalPage = Math.ceil(@data.length/@eachPage)
-      @currPage = 1
+    render: (triggerChangePage=true) ->
+      @loader = new Loader "#{@url}?page=1&eachPage=#{@eachPage}", (data) =>
+        @currPage = 1
+        @totalPage = data["totalPage"]
 
-      @$el.html(template(totalPage: @totalPage, currPage: @currPage))
-      @$pageBox = @$el.find(".pageBox")
-      
-      @newsMore = new NewsListView(el: @$el.find("#news-list"), type: @type).render(@data[0...@eachPage])
+        @$el.html(template(totalPage: @totalPage, currPage: @currPage))
+        @$pageBox = @$el.find(".pageBox")
+        
+        @newsMore = new NewsListView(el: @$el.find("#news-list"), type: @type).render(data[@key])
+
+        window.indexView.triggerChangePage() if triggerChangePage
 
       return @
       

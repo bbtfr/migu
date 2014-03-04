@@ -1,7 +1,7 @@
 (function() {
   define(function(require) {
     "use strict";
-    var $, Backbone, HotView, Loader, SongMoreView, template, tpl, _;
+    var $, Backbone, HotView, Loader, SongMoreView, template, tpl, url, _;
     $ = require('jquery');
     _ = require('underscore');
     Backbone = require('backbone');
@@ -10,19 +10,18 @@
     HotView = require('views/hot');
     template = _.template(tpl);
     Loader = require('utils/loader');
+    url = "api/sf.json";
     return Backbone.View.extend({
       render: function() {
-        var _this = this;
-        this.loader = new Loader("api/sf.json", null, function(data) {
-          _this.$el.html(template(data));
-          _this.sf = new SongMoreView({
-            el: _this.$el.find("#sf")
-          }).render(data["sf"]);
-          _this.hot = new HotView({
-            el: _this.$el.find("#hot")
-          }).render(data["rmtj"], data["cnxh"]);
-          return window.indexView.triggerChangePage();
-        });
+        this.$el.html(template());
+        this.sf = new SongMoreView({
+          el: this.$el.find("#sf"),
+          url: url,
+          key: "sf"
+        }).render();
+        this.hot = new HotView({
+          el: this.$el.find("#hot")
+        }).render();
         return this;
       }
     });

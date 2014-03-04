@@ -8,7 +8,11 @@ define (require) ->
   
   template    = _.template(tpl)
 
-  Loader      = require('utils/loader')
+  Loader      = require('utils/post_loader')
+
+  urls =
+    "token": "api/token.json"
+    "reg_vip": "api/reg_vip.json"
 
   Backbone.View.extend
 
@@ -30,6 +34,10 @@ define (require) ->
         return
       
       $get_token = @$el.find(".get_token").hide()
+
+      @loader = new Loader urls["token"], {}, (data) =>
+        # nothing
+        
       $wait = @$el.find(".wait").show()
       $wait.val("还剩#{countdown}秒")
 
@@ -49,7 +57,7 @@ define (require) ->
         window.indexView.showInfo "您输入的短信验证码有误"
         return
 
-      @loader = new Loader "api/reg_vip.json", (data) =>
+      @loader = new Loader urls["reg_vip"], {}, (data) =>
         window.router.navigate("/regSucc", true)
       , (data) =>
         window.router.navigate("/regFail", true)

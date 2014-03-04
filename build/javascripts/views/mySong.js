@@ -1,7 +1,7 @@
 (function() {
   define(function(require) {
     "use strict";
-    var $, Backbone, HotView, Loader, SongMoreView, template, tpl, _;
+    var $, Backbone, HotView, Loader, SongMoreView, template, tpl, url, _;
     $ = require('jquery');
     _ = require('underscore');
     Backbone = require('backbone');
@@ -10,19 +10,18 @@
     HotView = require('views/hot');
     template = _.template(tpl);
     Loader = require('utils/loader');
+    url = "api/wdgd.json";
     return Backbone.View.extend({
       render: function() {
-        var _this = this;
-        this.loader = new Loader("api/wdgd.json?token=" + window.login.token, null, function(data) {
-          _this.$el.html(template());
-          _this.mySong = new SongMoreView({
-            el: _this.$el.find("#mySong")
-          }).render(data["wdgd"]);
-          _this.hot = new HotView({
-            el: _this.$el.find("#hot")
-          }).render(data["rmtj"], data["cnxh"]);
-          return window.indexView.triggerChangePage();
-        });
+        this.$el.html(template());
+        this.mySong = new SongMoreView({
+          el: this.$el.find("#mySong"),
+          url: "" + url + "?token=" + window.login.token,
+          key: "wdgd"
+        }).render();
+        this.hot = new HotView({
+          el: this.$el.find("#hot")
+        }).render();
         return this;
       }
     });

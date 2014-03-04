@@ -40,6 +40,7 @@
     $(document).on("mobileinit", function() {
       $.mobile.linkBindingEnabled = false;
       $.mobile.hashListeningEnabled = false;
+      $.mobile.ignoreContentEnabled = true;
       $.mobile.loader.prototype.options.text = "数据加载中...";
       $.mobile.loader.prototype.options.textonly = false;
       return $.mobile.loader.prototype.options.textVisible = true;

@@ -13,27 +13,17 @@ define (require) ->
   
   Loader           = require('utils/loader')
 
+  url = "api/hd.json"
+
   Backbone.View.extend
 
     render: ->
-      @loader = new Loader "api/hd.json", (data) =>
+      @loader = new Loader url, (data) =>
         @$el.html(template())
 
-        @jbrd = [
-          new ActivityListView(el: @$el.find("#jbrd1-list")).render(data["jbrd"][0..1])
-          new ActivityListView(el: @$el.find("#jbrd2-list")).render(data["jbrd"][2..3])
-          new ActivityListView(el: @$el.find("#jbrd3-list")).render(data["jbrd"][4..5])
-        ]
-        @yyxc = [
-          new ActivityListView(el: @$el.find("#yyxc1-list")).render(data["yyxc"][0..1])
-          new ActivityListView(el: @$el.find("#yyxc2-list")).render(data["yyxc"][2..3])
-          new ActivityListView(el: @$el.find("#yyxc3-list")).render(data["yyxc"][4..5])
-        ]
-        @djtj = [
-          new ActivityListView(el: @$el.find("#djtj1-list")).render(data["djtj"][0..1])
-          new ActivityListView(el: @$el.find("#djtj2-list")).render(data["djtj"][2..3])
-          new ActivityListView(el: @$el.find("#djtj3-list")).render(data["djtj"][4..5])
-        ]
+        @jbrd = new ActivityListView(el: @$el.find("#jbrd")).render(data["jbrd"])
+        @yyxc = new ActivityListView(el: @$el.find("#yyxc")).render(data["yyxc"])
+        @djtj = new ActivityListView(el: @$el.find("#djtj")).render(data["djtj"])
         
         window.indexView.triggerChangePage()
       

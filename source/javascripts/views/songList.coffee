@@ -5,10 +5,12 @@ define (require) ->
   _           = require('underscore')
   Backbone    = require('backbone')
 
-  tpls         = {}
-  tpls["song"] = require('text!tpl/songList.html')
-  tpls["ring"] = require('text!tpl/ringList.html')
-  tpls["info"] = require('text!tpl/infoList.html')
+  tpls = 
+    song: require('text!tpl/songList.html')
+    ring: require('text!tpl/ringList.html')
+    info: require('text!tpl/infoList.html')
+    album: require('text!tpl/albumList.html')
+    artist: require('text!tpl/artistList.html')
 
   Backbone.View.extend
   

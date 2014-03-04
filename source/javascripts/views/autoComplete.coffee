@@ -14,10 +14,9 @@ define (require) ->
 
     render: (query) ->
       if query and query != @query
-        $.post "api/autocomplete.json", { query: query }, (data) =>
+        $.getJSON "api/autocomplete.json?query=#{query}", (data) =>
           @$el.html(template(data))
           @query = query
-        , 'json'
 
       return @
 

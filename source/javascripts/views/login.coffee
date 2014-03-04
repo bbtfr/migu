@@ -10,6 +10,10 @@ define (require) ->
 
   Loader      = require('utils/loader')
 
+  urls =
+    token: "api/token.json"
+    login: "api/login.json"
+
   Backbone.View.extend
 
     events:
@@ -30,6 +34,10 @@ define (require) ->
         return
       
       $get_token = @$el.find(".get_token").hide()
+
+      @loader = new Loader urls["token"], (data) =>
+        # nothing
+
       $wait = @$el.find(".wait").show()
       $wait.val("还剩#{countdown}秒")
 
@@ -49,7 +57,7 @@ define (require) ->
         window.indexView.showInfo "您输入的短信验证码有误"
         return
 
-      @loader = new Loader "api/login.json", { mobile: @mobile, token: @token }, (data) =>
+      @loader = new Loader urls["login"], (data) =>
         $.cookie 'login', $.param(data)
         window.login = data
         @back()

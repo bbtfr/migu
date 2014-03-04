@@ -1,12 +1,13 @@
 (function() {
   define(function(require) {
     "use strict";
-    var $, AutoCompleteView, Backbone, NavbarMap, PageSlider, PlayerView, _;
+    var $, AutoCompleteView, Backbone, LoginDialogView, NavbarMap, PageSlider, PlayerView, _;
     $ = require('jquery');
     _ = require('underscore');
     Backbone = require('backbone');
     PlayerView = require('views/player');
     AutoCompleteView = require('views/autoComplete');
+    LoginDialogView = require('views/loginDialog');
     PageSlider = require('utils/page_slider');
     NavbarMap = {
       "sf": "home",
@@ -26,7 +27,8 @@
         "click #search .send_query": "send_query",
         "focus #search .query": "send_autocomplete",
         "blur #search": "remove_autocomplete",
-        "click a[href^='#play']": "play"
+        "click a[href^='#play']": "play",
+        "click a[href^='#loginDialog']": "showLoginDialog"
       },
       initialize: function() {
         this.$el = $("body");
@@ -34,7 +36,9 @@
         this.autocomplete = new AutoCompleteView({
           el: this.$el.find("#autocomplete")
         });
-        return window.player = this.player = new PlayerView();
+        window.loginDialog = this.loginDialog = new LoginDialogView;
+        window.player = this.player = new PlayerView();
+        return this.updateUsername(window.login);
       },
       triggerChangePage: function() {
         return this.$container.trigger("page_slider.change");
@@ -68,6 +72,22 @@
           window.player.add(song.attributes, true);
         }
         return false;
+      },
+      showLoginDialog: function(e) {
+        this.login();
+        return false;
+      },
+      login: function(callback) {
+        if (callback == null) {
+          callback = null;
+        }
+        if (!window.login) {
+          return this.loginDialog.render(callback);
+        } else {
+          if (callback) {
+            return callback();
+          }
+        }
       },
       toggleNavbarButton: function(key) {
         if (NavbarMap[key]) {
@@ -122,6 +142,22 @@
         return setTimeout(function() {
           return _this.autocomplete.empty();
         }, 200);
+      },
+      updateUsername: function(data) {
+        var $loginSidebarLink;
+        window.login = data;
+        $loginSidebarLink = this.$el.find(".loginSidebarLink");
+        if (data) {
+          $.cookie('login', $.param(data));
+          if (data.email) {
+            return $loginSidebarLink.text(data.email);
+          } else {
+            return $loginSidebarLink.text(data.mobile);
+          }
+        } else {
+          $.removeCookie('login');
+          return $loginSidebarLink.text("登录");
+        }
       }
     });
   });

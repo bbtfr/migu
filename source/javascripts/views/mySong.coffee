@@ -13,15 +13,19 @@ define (require) ->
 
   Loader       = require('utils/loader')
 
+  url = "api/wdgd.json"
+
   Backbone.View.extend
 
     render: ->
-      @loader = new Loader "api/wdgd.json?token=#{window.login.token}", (data) =>
-        @$el.html(template())
+      @$el.html(template())
 
-        @mySong = new SongMoreView(el: @$el.find("#mySong")).render(data["wdgd"])
-        @hot = new HotView(el: @$el.find("#hot")).render(data["rmtj"], data["cnxh"])
+      @mySong = new SongMoreView(
+        el: @$el.find("#mySong")
+        url: "#{url}?token=#{window.login.token}"
+        key: "wdgd"
+      ).render()
+
+      @hot = new HotView(el: @$el.find("#hot")).render()
         
-        window.indexView.triggerChangePage()
-
       return @

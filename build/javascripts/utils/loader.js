@@ -2,10 +2,10 @@
   define(function(require) {
     "use strict";
     var Loader;
-    return Loader = function(url, postData, success, fail) {
+    return Loader = function(url, success, fail) {
       var _this = this;
       window.indexView.showLoading();
-      $.post(url, postData, "json").done(function(data) {
+      $.getJSON(url).done(function(data) {
         if (data["success"]) {
           window.indexView.hideLoading();
           return success(data);

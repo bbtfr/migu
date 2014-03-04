@@ -1,0 +1,14 @@
+<div class="mainTit textLeft">赠送歌曲</div>
+<ul class="giveInp">
+  <% gifts = zf["gifts"] %>
+  <% for(i=0; i<gifts.length; i++) { %>
+    <li><input name="" type="checkbox" class="gift"><label><%= gifts[i]["title"] %><span>资费：<%= gifts[i]["cost"] %></span></label></li>
+  <% } %>
+</ul>
+<ul class="loginInp">
+  <li class="marTop">您的姓名或昵称：</li>
+  <li><input name="" type="text" placeholder="您的姓名或昵称" class="inpBox" id="username"></li>
+  <li class="marTop">好友的手机号码：</li>
+  <li><input name="" type="text" placeholder="好友的手机号码" class="inpBox" id="mobile"></li>
+  <li class="marTop"><input name="" type="submit" value="确定" class="inpBtn send_gift"></li>
+</ul>

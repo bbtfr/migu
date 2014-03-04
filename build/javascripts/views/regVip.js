@@ -1,13 +1,17 @@
 (function() {
   define(function(require) {
     "use strict";
-    var $, Backbone, Loader, template, tpl, _;
+    var $, Backbone, Loader, template, tpl, urls, _;
     $ = require('jquery');
     _ = require('underscore');
     Backbone = require('backbone');
     tpl = require('text!tpl/regVip.html');
     template = _.template(tpl);
-    Loader = require('utils/loader');
+    Loader = require('utils/post_loader');
+    urls = {
+      "token": "api/token.json",
+      "reg_vip": "api/reg_vip.json"
+    };
     return Backbone.View.extend({
       events: {
         "click .get_token": "get_token",
@@ -29,6 +33,7 @@
           return;
         }
         $get_token = this.$el.find(".get_token").hide();
+        this.loader = new Loader(urls["token"], {}, function(data) {});
         $wait = this.$el.find(".wait").show();
         $wait.val("还剩" + countdown + "秒");
         return index = setInterval(function() {
@@ -49,7 +54,7 @@
           window.indexView.showInfo("您输入的短信验证码有误");
           return;
         }
-        return this.loader = new Loader("api/reg_vip.json", null, function(data) {
+        return this.loader = new Loader(urls["reg_vip"], {}, function(data) {
           return window.router.navigate("/regSucc", true);
         }, function(data) {
           return window.router.navigate("/regFail", true);

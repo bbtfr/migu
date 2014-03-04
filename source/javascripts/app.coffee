@@ -63,7 +63,7 @@ require [
     # Disabling this will prevent jQuery Mobile from handling hash changes
     $.mobile.hashListeningEnabled = false
 
-    # $.mobile.ignoreContentEnabled = true;
+    $.mobile.ignoreContentEnabled = true
 
     # loading config
     $.mobile.loader.prototype.options.text = "数据加载中..."

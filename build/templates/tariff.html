@@ -5,17 +5,36 @@
 			<dd><p><%= zf["title"] %></p><p><%= zf["artist"] %></p></dd>
 			<dd><a href="#play/<%= zf["id"] %>" class="btnQ"></a><a href="#play/<%= zf["id"] %>" class="btnRing"></a></dd>
 		</dl>
-		<ul class="prTariff">
-			<% downloads = zf["downloads"] %>
-			<% for(i=0; i<downloads.length; i++) { %>
-				<li><a href="#download/<%= zf["id"] %>/type/<%= i %>" class="download" data-type="<%= i %>"><div><p><%= downloads[i]["title"] %></p><i>资费：<%= downloads[i]["cost"] %></i></div><em class="down">下载</em></a></li>
-			<% } %>
-			<li><a href="#ring/<%= zf["id"] %>/set" id="ring"><div><p>设为手机彩铃</p><i>资费：<%= zf["ring"]["cost"] %> 有效期：<%= zf["ring"]["due_to"] %></i></div><em class="ring">设置</em></a></li>
-			<li><a href="#gift/<%= zf["id"] %>" id="gift"><div><p>赠送歌曲</p><i>资费：<%= zf["gift"]["cost"] %></i></div><em class="give">赠送</em></a></li>
-		</ul>
+
+		<div class="userGrade">会员级别：咪咕特级会员</div>
+		
+		<div id="tariff">
+			<div class="mainTit textLeft">订购彩铃</div>
+			<ul class="prTariff">
+				<li><a href="#ring/<%= zf["id"] %>/set" data-order="2"><div><p>设为手机彩铃</p><i>资费：<%= zf["ring"]["cost"] %> （彩铃有效期：<%= zf["ring"]["due_to"] %>）</i></div><em class="ring">设置</em></a></li>
+				<li><a href="#ring/vip" data-order="5"><div><p>开通彩铃包月</p><i>全场彩铃免费订制</i></div><em class="ring">下载</em></a></li>
+			</ul>
+			
+			<div class="mainTit textLeft">下载歌曲</div>
+			<ul class="prTariff">
+				<% downloads = zf["downloads"] %>
+				<% for(i=0; i<downloads.length; i++) { %>
+					<li><a href="#download/<%= zf["id"] %>/type/<%= i %>" class="download" data-type="<%= i %>" data-order="3"><div><p><%= downloads[i]["title"] %></p><i>资费：<%= downloads[i]["cost"] %></i></div><em class="down">下载</em></a></li>
+				<% } %>
+			</ul>
+			<div class="mainTit textLeft">其他</div>
+			<ul class="prTariff prGive">
+				<li><a href="#gift/<%= zf["id"] %>" data-order="4"><div><p>赠送歌曲给好友</p></div><em class="give">赠送</em></a></li>
+				<li><a href="#gift/<%= zf["id"] %>" data-order="4"><div><p>推荐歌曲给好友</p></div><em class="groom">下载</em></a></li>
+			</ul>
+		</div>
 	</section>
+
 	<section class="regSuper">
 		<a href="#regVip">开通特会，全场MP3免费</a>
+	</section>
+		<ul class="prTariff">
+		</ul>
 	</section>
 </article>
 <article id="hot" data-role="tabs"></article>

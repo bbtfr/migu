@@ -12,17 +12,19 @@ define (require) ->
   
   template     = _.template(tpl)
 
+  url = "api/bd.json"
+
   Backbone.View.extend
 
     render: ->
-      @loader = new Loader "api/bd.json", (data) =>
+      @loader = new Loader url, (data) =>
         @$el.html(template(data))
         @yyb = new SongListView(el: @$el.find("#yyb-list")).render(data["yyb"])
+        @xrb = new SongListView(el: @$el.find("#xrb-list")).render(data["xrb"])
         @jqb = new SongListView(el: @$el.find("#jqb-list")).render(data["jqb"])
         @clb = new SongListView(el: @$el.find("#clb-list")).render(data["clb"])
-        @bd4 = new SongListView(el: @$el.find("#bd4-list")).render(data["yyb"])
-        @bd5 = new SongListView(el: @$el.find("#bd5-list")).render(data["jqb"])
-        @bd6 = new SongListView(el: @$el.find("#bd6-list")).render(data["clb"])
+        @ztb = new SongListView(el: @$el.find("#ztb-list")).render(data["ztb"])
+        @yyrb = new SongListView(el: @$el.find("#yyrb-list")).render(data["yyrb"])
 
         window.indexView.triggerChangePage()
 

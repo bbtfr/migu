@@ -1,0 +1,303 @@
+   identical  build/images/activities.png
+   identical  build/images/type_variety.png
+   identical  build/images/type_theme.png
+   identical  build/images/type_style.png
+   identical  build/images/type_singer.png
+   identical  build/images/type_scene.png
+   identical  build/images/type_mood.png
+   identical  build/images/type_languages.png
+   identical  build/images/type_hot.png
+   identical  build/images/type_holiday.png
+   identical  build/images/selected.png
+   identical  build/images/mv.png
+   identical  build/images/app_magazine.png
+   identical  build/images/album.png
+   identical  build/samples/random1.jpg
+   identical  build/samples/random2.jpg
+   identical  build/samples/random16.jpg
+   identical  build/samples/random15.jpg
+   identical  build/samples/random14.jpg
+   identical  build/samples/random13.jpg
+   identical  build/samples/random12.jpg
+   identical  build/samples/random11.jpg
+   identical  build/samples/random10.jpg
+   identical  build/samples/random3.jpg
+   identical  build/samples/news_detail.jpg
+   identical  build/samples/news.jpg
+   identical  build/samples/cover2.jpg
+   identical  build/samples/cover1.jpg
+   identical  build/samples/cover.jpg
+   identical  build/samples/activity4.jpg
+   identical  build/samples/activity5.jpg
+   identical  build/samples/activity6.jpg
+   identical  build/samples/random5.jpg
+   identical  build/samples/random6.jpg
+   identical  build/samples/random7.jpg
+   identical  build/samples/random8.jpg
+   identical  build/samples/random9.jpg
+   identical  build/samples/slide.jpg
+   identical  build/samples/slide1.jpg
+   identical  build/samples/slide2.jpg
+   identical  build/samples/slide3.jpg
+   identical  build/samples/activity1.jpg
+   identical  build/samples/activity2.jpg
+   identical  build/samples/activity3.jpg
+   identical  build/samples/banner.jpg
+   identical  build/samples/random4.jpg
+   identical  build/images/ajax-loader.gif
+   identical  build/javascripts/views/player.js
+   identical  build/javascripts/collections/news.js
+   identical  build/javascripts/collections/song.js
+   identical  build/javascripts/lib/backbone.js
+   identical  build/javascripts/lib/jquery.cookie.js
+   identical  build/javascripts/lib/jquery.flexslider.js
+   identical  build/javascripts/lib/jquery.jplayer.js
+   identical  build/javascripts/lib/jquery.js
+   identical  build/javascripts/lib/jquery.mobile.js
+   identical  build/javascripts/lib/jquery.ui.effect.js
+   identical  build/javascripts/lib/text.js
+   identical  build/javascripts/lib/underscore.js
+   identical  build/javascripts/models/activity.js
+   identical  build/javascripts/models/news.js
+   identical  build/javascripts/models/song.js
+   identical  build/javascripts/require.js
+      update  build/javascripts/router.js
+   identical  build/javascripts/utils/loader.js
+   identical  build/javascripts/utils/page_slider.js
+      create  build/javascripts/utils/post_loader.js
+   identical  build/javascripts/views/activity.js
+   identical  build/javascripts/views/activityList.js
+      create  build/javascripts/views/add.js
+      create  build/javascripts/views/add1.js
+      create  build/javascripts/views/add2.js
+   identical  build/javascripts/views/autoComplete.js
+   identical  build/javascripts/views/currRing.js
+   identical  build/javascripts/views/findSong.js
+      update  build/javascripts/views/home.js
+   identical  build/javascripts/views/hot.js
+      update  build/javascripts/views/index.js
+   identical  build/javascripts/views/login.js
+      create  build/javascripts/views/loginDialog.js
+      update  build/javascripts/views/myRing.js
+      update  build/javascripts/views/mySong.js
+   identical  build/javascripts/views/newsList.js
+   identical  build/javascripts/views/newsMore.js
+   identical  build/javascripts/collections/activity.js
+      create  build/javascripts/views/prList.js
+   identical  build/javascripts/views/random.js
+   identical  build/javascripts/views/random1.js
+   identical  build/javascripts/views/rank.js
+   identical  build/javascripts/views/rank1.js
+      create  build/javascripts/views/reg.js
+      create  build/javascripts/views/reg1.js
+      create  build/javascripts/views/reg2.js
+      create  build/javascripts/views/reg3.js
+   identical  build/javascripts/views/regSucc.js
+      update  build/javascripts/app.js
+      update  build/javascripts/views/regVip.js
+   identical  build/javascripts/views/sf.js
+   identical  build/javascripts/views/showNews.js
+   identical  build/javascripts/views/slider.js
+   identical  build/javascripts/views/songList.js
+      update  build/javascripts/views/songMore.js
+   identical  build/javascripts/views/tariff.js
+   identical  build/javascripts/views/topNews.js
+   identical  build/javascripts/views/type.js
+   identical  build/javascripts/views/type1.js
+      create  build/javascripts/views/uLogin.js
+   identical  build/javascripts/views/vip.js
+   identical  build/javascripts/views/zx.js
+   identical  build/javascripts/views/search.js
+      update  build/stylesheets/base.css
+   identical  build/stylesheets/jquerymobile.css
+      update  build/stylesheets/all.css
+   identical  build/api/autocomplete.json
+   identical  build/javascripts/app.build.json
+[deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+      update  build/index.html
+   identical  build/flash/Jplayer.swf
+   identical  build/api/zx.json
+   identical  build/api/zx/zx_id.json
+   identical  build/samples/media.lrc
+   identical  build/samples/media.mp3
+   identical  build/api/zf/music_id.json
+   identical  build/api/xgxw.json
+   identical  build/api/wdgd.json
+   identical  build/api/wdcl.json
+   identical  build/api/vip_slides.json
+   identical  build/api/tt.json
+   identical  build/api/token.json
+   identical  build/api/slides.json
+   identical  build/api/sf.json
+   identical  build/api/search.json
+   identical  build/api/rmtj.json
+   identical  build/api/reg_vip.json
+      create  build/api/reg1.json
+      create  build/api/reg.json
+   identical  build/api/README.html
+   identical  build/api/qtcl.json
+   identical  build/api/pd/pd_id.json
+   identical  build/api/login.json
+   identical  build/api/hot.json
+   identical  build/api/home.json
+   identical  build/api/hd.json
+   identical  build/api/fl/fl_id.json
+   identical  build/api/cnxh.json
+   identical  build/api/bd.json
+   identical  build/api/bd/bd_id.json
+   identical  build/templates/activity.html
+   identical  build/templates/activityList.html
+      create  build/templates/add.html
+      create  build/templates/add1.html
+      create  build/templates/add2.html
+   identical  build/templates/autoComplete.html
+   identical  build/templates/currRing.html
+      update  build/templates/home.html
+   identical  build/templates/hot.html
+   identical  build/templates/infoList.html
+   identical  build/templates/login.html
+   identical  build/templates/lyricsListItem.html
+   identical  build/templates/myRing.html
+   identical  build/templates/mySong.html
+   identical  build/templates/newsList.html
+   identical  build/templates/newsMore.html
+   identical  build/templates/playListItem.html
+      create  build/templates/prList.html
+   identical  build/templates/random.html
+   identical  build/templates/random1.html
+   identical  build/templates/rank.html
+   identical  build/templates/rank1.html
+      create  build/templates/reg.html
+      create  build/templates/reg1.html
+      create  build/templates/reg2.html
+      create  build/templates/reg3.html
+   identical  build/templates/regSucc.html
+   identical  build/templates/regVip.html
+   identical  build/templates/ringList.html
+   identical  build/templates/ringMore.html
+   identical  build/templates/rNewsList.html
+   identical  build/templates/search.html
+   identical  build/templates/sf.html
+   identical  build/templates/showNews.html
+   identical  build/templates/slider.html
+   identical  build/templates/songList.html
+   identical  build/templates/songMore.html
+   identical  build/templates/tariff.html
+   identical  build/templates/topNews.html
+   identical  build/templates/type.html
+   identical  build/templates/type1.html
+      create  build/templates/uLogin.html
+   identical  build/templates/vip.html
+   identical  build/templates/zx.html
+      remove  build/index.html.bak
+      remove  build/javascripts/app.build.js
+
+Tracing dependencies for: app
+Uglifying file: /Users/amber/Workspace/migu/build/javascripts/app.build.js
+
+/Users/amber/Workspace/migu/build/javascripts/app.build.js
+----------------
+/Users/amber/Workspace/migu/build/javascripts/lib/jquery.js
+/Users/amber/Workspace/migu/build/javascripts/lib/underscore.js
+/Users/amber/Workspace/migu/build/javascripts/lib/backbone.js
+/Users/amber/Workspace/migu/build/javascripts/utils/page_slider.js
+/Users/amber/Workspace/migu/build/javascripts/lib/text.js
+text!tpl/playListItem.html
+text!tpl/lyricsListItem.html
+/Users/amber/Workspace/migu/build/javascripts/lib/jquery.jplayer.js
+/Users/amber/Workspace/migu/build/javascripts/views/player.js
+text!tpl/autoComplete.html
+/Users/amber/Workspace/migu/build/javascripts/utils/loader.js
+/Users/amber/Workspace/migu/build/javascripts/views/autoComplete.js
+text!tpl/uLogin.html
+/Users/amber/Workspace/migu/build/javascripts/views/uLogin.js
+text!tpl/reg.html
+/Users/amber/Workspace/migu/build/javascripts/utils/post_loader.js
+/Users/amber/Workspace/migu/build/javascripts/views/reg.js
+/Users/amber/Workspace/migu/build/javascripts/views/loginDialog.js
+/Users/amber/Workspace/migu/build/javascripts/views/index.js
+text!tpl/home.html
+text!tpl/slider.html
+/Users/amber/Workspace/migu/build/javascripts/lib/jquery.flexslider.js
+/Users/amber/Workspace/migu/build/javascripts/views/slider.js
+text!tpl/songList.html
+text!tpl/ringList.html
+text!tpl/infoList.html
+/Users/amber/Workspace/migu/build/javascripts/views/songList.js
+text!tpl/newsList.html
+text!tpl/rNewsList.html
+/Users/amber/Workspace/migu/build/javascripts/views/newsList.js
+text!tpl/prList.html
+/Users/amber/Workspace/migu/build/javascripts/views/prList.js
+/Users/amber/Workspace/migu/build/javascripts/views/home.js
+text!tpl/rank.html
+/Users/amber/Workspace/migu/build/javascripts/views/rank.js
+text!tpl/type.html
+/Users/amber/Workspace/migu/build/javascripts/views/type.js
+text!tpl/activity.html
+text!tpl/activityList.html
+/Users/amber/Workspace/migu/build/javascripts/views/activityList.js
+/Users/amber/Workspace/migu/build/javascripts/views/activity.js
+text!tpl/vip.html
+/Users/amber/Workspace/migu/build/javascripts/views/vip.js
+text!tpl/login.html
+/Users/amber/Workspace/migu/build/javascripts/views/login.js
+text!tpl/random.html
+/Users/amber/Workspace/migu/build/javascripts/views/random.js
+text!tpl/random1.html
+/Users/amber/Workspace/migu/build/javascripts/views/random1.js
+text!tpl/mySong.html
+text!tpl/songMore.html
+text!tpl/ringMore.html
+/Users/amber/Workspace/migu/build/javascripts/views/songMore.js
+text!tpl/hot.html
+/Users/amber/Workspace/migu/build/javascripts/views/hot.js
+/Users/amber/Workspace/migu/build/javascripts/views/mySong.js
+text!tpl/myRing.html
+text!tpl/currRing.html
+/Users/amber/Workspace/migu/build/javascripts/views/currRing.js
+/Users/amber/Workspace/migu/build/javascripts/views/myRing.js
+text!tpl/sf.html
+/Users/amber/Workspace/migu/build/javascripts/views/sf.js
+text!tpl/zx.html
+text!tpl/topNews.html
+/Users/amber/Workspace/migu/build/javascripts/views/topNews.js
+text!tpl/newsMore.html
+/Users/amber/Workspace/migu/build/javascripts/views/newsMore.js
+/Users/amber/Workspace/migu/build/javascripts/views/zx.js
+text!tpl/showNews.html
+/Users/amber/Workspace/migu/build/javascripts/views/showNews.js
+text!tpl/rank1.html
+/Users/amber/Workspace/migu/build/javascripts/views/rank1.js
+text!tpl/type1.html
+/Users/amber/Workspace/migu/build/javascripts/views/type1.js
+text!tpl/regVip.html
+/Users/amber/Workspace/migu/build/javascripts/views/regVip.js
+text!tpl/regSucc.html
+/Users/amber/Workspace/migu/build/javascripts/views/regSucc.js
+text!tpl/search.html
+/Users/amber/Workspace/migu/build/javascripts/views/search.js
+text!tpl/tariff.html
+/Users/amber/Workspace/migu/build/javascripts/views/tariff.js
+text!tpl/reg1.html
+/Users/amber/Workspace/migu/build/javascripts/views/reg1.js
+text!tpl/reg2.html
+/Users/amber/Workspace/migu/build/javascripts/views/reg2.js
+text!tpl/reg3.html
+/Users/amber/Workspace/migu/build/javascripts/views/reg3.js
+text!tpl/add.html
+/Users/amber/Workspace/migu/build/javascripts/views/add.js
+text!tpl/add1.html
+/Users/amber/Workspace/migu/build/javascripts/views/add1.js
+text!tpl/add2.html
+/Users/amber/Workspace/migu/build/javascripts/views/add2.js
+/Users/amber/Workspace/migu/build/javascripts/lib/jquery.cookie.js
+/Users/amber/Workspace/migu/build/javascripts/router.js
+/Users/amber/Workspace/migu/build/javascripts/models/song.js
+/Users/amber/Workspace/migu/build/javascripts/collections/song.js
+/Users/amber/Workspace/migu/build/javascripts/models/news.js
+/Users/amber/Workspace/migu/build/javascripts/collections/news.js
+/Users/amber/Workspace/migu/build/javascripts/models/activity.js
+/Users/amber/Workspace/migu/build/javascripts/collections/activity.js
+/Users/amber/Workspace/migu/build/javascripts/app.js
+

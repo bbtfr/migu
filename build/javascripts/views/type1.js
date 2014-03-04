@@ -18,14 +18,12 @@
         return this.url = options["url"];
       },
       render: function() {
-        var _this = this;
-        this.loader = new Loader(this.url, null, function(data) {
-          _this.$el.html(template(data));
-          _this.type = new SongMoreView({
-            el: _this.$el.find("#type")
-          }).render(data["fl"]);
-          return window.indexView.triggerChangePage();
-        });
+        this.$el.html(template());
+        this.type = new SongMoreView({
+          el: this.$el.find("#type"),
+          url: this.url,
+          key: "fl"
+        }).render();
         return this;
       },
       back: function() {
