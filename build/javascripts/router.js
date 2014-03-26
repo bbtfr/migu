@@ -37,6 +37,8 @@
     Views["add2"] = require('views/add2');
     Views["singerShow"] = require('views/singerShow');
     Views["albumShow"] = require('views/albumShow');
+    Views["findPsw"] = require('views/findPsw');
+    Views["findPswSucc"] = require('views/findPswSucc');
     views = {};
     require('jquerycookie');
     QueryStringToHash = QueryStringToHash = function(query) {

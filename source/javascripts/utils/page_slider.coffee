@@ -11,6 +11,7 @@ define (require) ->
     # Use this function if you want PageSlider to automatically determine the sliding direction based on the state history
     @slidePage = (page, options={}) ->
       $container.off("page_slider.finish")
+      $(document).scrollTop(0)
       if page.rerender?
         $container.on "page_slider.finish", ->
           page.rerender()

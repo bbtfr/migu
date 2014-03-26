@@ -53,6 +53,9 @@ define (require) ->
   Views["singerShow"]   = require('views/singerShow')
   Views["albumShow"]   = require('views/albumShow')
 
+  Views["findPsw"] = require('views/findPsw')
+  Views["findPswSucc"] = require('views/findPswSucc')
+
   views             = {}
 
   require('jquerycookie')

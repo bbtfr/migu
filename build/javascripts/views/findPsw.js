@@ -5,27 +5,21 @@
     $ = require('jquery');
     _ = require('underscore');
     Backbone = require('backbone');
-    tpl = require('text!tpl/uLogin.html');
+    tpl = require('text!tpl/findPsw.html');
     template = _.template(tpl);
     Loader = require('utils/loader');
     urls = {
       token: "api/token.json",
-      loginbytoken: "api/loginbytoken.json",
-      loginbypass: "api/loginbypass.json"
+      findpassword: "api/findpassword.json"
     };
     return Backbone.View.extend({
       events: {
         "click .get_token": "get_token",
-        "click .send_token": "send_token",
-        "click .send_pass": "send_pass",
-        "click .forget_password": "forget_password"
-      },
-      initialize: function(options) {
-        return this.callback = options["callback"];
+        "click .find_password": "find_password"
       },
       render: function() {
         this.$el.html(template());
-        window.loginDialog.triggerChangePage();
+        window.indexView.triggerChangePage();
         return this;
       },
       get_token: function() {
@@ -41,6 +35,7 @@
         this.loader = new Loader(urls["token"], function(data) {});
         $wait = this.$el.find(".wait").show();
         $wait.val("还剩" + countdown + "秒");
+        console.log($wait);
         return index = setInterval(function() {
           if (countdown > 0) {
             countdown -= 1;
@@ -52,36 +47,18 @@
           }
         }, 1000);
       },
-      send_token: function() {
+      find_password: function() {
         var _this = this;
         this.token = this.$el.find(".token").val();
         if (!this.token.match(/\d{6}/g)) {
           window.indexView.showInfo("您输入的短信验证码有误");
           return;
         }
-        return this.loader = new Loader(urls["loginbytoken"], function(data) {
-          window.indexView.updateUsername(data);
-          if (_this.callback) {
-            _this.callback();
-          }
-          return _this.remove();
-        });
-      },
-      send_pass: function() {
-        var _this = this;
-        this.pass = this.$el.find(".pass").val();
         this.password = this.$el.find(".password").val();
-        return this.loader = new Loader(urls["loginbypass"], function(data) {
+        return this.loader = new Loader(urls["findpassword"], function(data) {
           window.indexView.updateUsername(data);
-          if (_this.callback) {
-            _this.callback();
-          }
-          return _this.remove();
+          return window.router.navigate('findPswSucc', true);
         });
-      },
-      forget_password: function() {
-        window.router.navigate('findPsw', true);
-        return this.remove();
       }
     });
   });
