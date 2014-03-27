@@ -1,7 +1,14 @@
 (function() {
   define(function(require) {
     "use strict";
-    var $, $container, Backbone, IndexView, Loader, PageSlider, QueryStringToHash, Router, Views, e, login, views;
+    var $, $container, Backbone, IndexView, Loader, PageSlider, QueryStringToHash, Router, Views, e, login, orig_require, views;
+    orig_require = require;
+    require = function(_list, _callback) {
+      var $;
+      $ = orig_require("jquery");
+      increase_curr_required(1);
+      return orig_require(_list, _callback);
+    };
     $ = require("jquery");
     Backbone = require("backbone");
     PageSlider = require("utils/page_slider");

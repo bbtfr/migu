@@ -18,7 +18,8 @@
         "click .get_token": "get_token",
         "click .send_token": "send_token",
         "click .send_pass": "send_pass",
-        "click .forget_password": "forget_password"
+        "click .forget_password": "forget_password",
+        "click .close": "remove"
       },
       initialize: function(options) {
         return this.callback = options["callback"];

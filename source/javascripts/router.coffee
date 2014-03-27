@@ -1,6 +1,13 @@
 define (require) ->
   "use strict"
 
+  orig_require = require
+
+  require = (_list, _callback) ->
+    $ = orig_require("jquery")
+    increase_curr_required(1)
+    orig_require(_list, _callback)
+
   $                 = require("jquery")
   Backbone          = require("backbone")
   PageSlider        = require("utils/page_slider")

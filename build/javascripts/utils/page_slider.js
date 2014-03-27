@@ -13,6 +13,8 @@
           options = {};
         }
         $container.off("page_slider.finish");
+        $(document).scrollTop(0);
+        window.indexView.remove_autocomplete_immediately();
         if (page.rerender != null) {
           $container.on("page_slider.finish", function() {
             return page.rerender();
@@ -20,7 +22,7 @@
         }
         $container.off("page_slider.change").one("page_slider.change", function() {
           if (firstTime) {
-            $.mobile.loading("hide");
+            $("#progress").remove();
             page.$el.appendTo($container);
             $container.trigger("page_slider.finish");
             firstTime = false;

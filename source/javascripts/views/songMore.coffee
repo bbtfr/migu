@@ -11,6 +11,8 @@ define (require) ->
     song: require('text!tpl/songMore.html')
     ring: require('text!tpl/ringMore.html')
     info: require('text!tpl/songMore.html')
+    album: require('text!tpl/songMore.html')
+    artist: require('text!tpl/songMore.html')
 
   Loader       = require('utils/loader')
 
@@ -57,12 +59,12 @@ define (require) ->
 
     render: (triggerChangePage=true) ->
       @loader = new Loader @generate_url(1), (data) =>
-        @totalPage = data["totalPage"]
+        @totalPage = data["totalPage"] || 1
         @currPage = 1
 
         @$el.html(@template(totalPage: @totalPage, currPage: @currPage))
         @$pageBox = @$el.find(".pageBox")
-        
+
         @songMore = new SongListView(el: @$el.find("#song-list"), type: @type).render(data[@key])
 
         window.indexView.triggerChangePage() if triggerChangePage

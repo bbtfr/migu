@@ -23,6 +23,7 @@ define (require) ->
       "click .send_token": "send_token"
       "click .send_pass": "send_pass"
       "click .forget_password": "forget_password"
+      "click .close": "remove"
 
     initialize: (options) ->
       @callback = options["callback"]
@@ -80,3 +81,4 @@ define (require) ->
     forget_password: ->
       window.router.navigate('findPsw', true)
       @remove()
+

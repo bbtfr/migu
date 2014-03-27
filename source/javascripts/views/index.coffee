@@ -125,10 +125,13 @@ define (require) ->
       , 200
 
     remove_autocomplete: () ->
-      clearInterval @autocomplateIndex
       setTimeout =>
-        @autocomplete.empty()
+        @remove_autocomplete_immediately()
       , 200
+
+    remove_autocomplete_immediately: () ->
+      @autocomplete.empty()
+      clearInterval @autocomplateIndex
 
     updateUsername: (data) ->
       window.login = data

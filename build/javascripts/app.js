@@ -1,4 +1,6 @@
 (function() {
+  var orig_require;
+
   require.config({
     baseUrl: "javascripts",
     paths: {
@@ -36,6 +38,22 @@
     }
   });
 
+  orig_require = window.require;
+
+  this.total_required = 45;
+
+  this.curr_required = 0;
+
+  this.increase_curr_required = function(i) {
+    this.curr_required += i;
+    return document.getElementById("progress-text").innerText = "数据加载中（" + this.curr_required + " / " + this.total_required + "）...";
+  };
+
+  this.require = function(_list, _callback) {
+    this.increase_curr_required(_list.length);
+    return orig_require(_list, _callback);
+  };
+
   require(["jquery", "backbone", "router", "views/index", "collections/song", "collections/news", "collections/activity"], function($, Backbone, Router, IndexView, SongCollection, NewsCollection, ActivityCollection) {
     $(document).on("mobileinit", function() {
       $.mobile.linkBindingEnabled = false;
@@ -46,7 +64,6 @@
       return $.mobile.loader.prototype.options.textVisible = true;
     });
     return require(["jquerymobile"], function() {
-      $.mobile.loading("show");
       this.indexView = new IndexView();
       this.songs = new SongCollection();
       this.news = new NewsCollection();

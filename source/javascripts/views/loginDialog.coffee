@@ -11,9 +11,6 @@ define (require) ->
   PageSlider    = require('utils/page_slider')
 
   Backbone.View.extend
-  
-    events:
-      "click .close": "close"
 
     triggerChangePage: ->
       @$el.trigger "page_slider.change"
@@ -27,6 +24,3 @@ define (require) ->
       @container.slidePage @uLogin
 
       return @
-
-    close: () ->
-      @$el.empty()

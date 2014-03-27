@@ -138,10 +138,13 @@
       },
       remove_autocomplete: function() {
         var _this = this;
-        clearInterval(this.autocomplateIndex);
         return setTimeout(function() {
-          return _this.autocomplete.empty();
+          return _this.remove_autocomplete_immediately();
         }, 200);
+      },
+      remove_autocomplete_immediately: function() {
+        this.autocomplete.empty();
+        return clearInterval(this.autocomplateIndex);
       },
       updateUsername: function(data) {
         var $loginSidebarLink;

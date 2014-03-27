@@ -12,8 +12,10 @@ define (require) ->
         if fail
           window.indexView.hideLoading()
           fail() 
-        else
+        else if data["error"]
           window.indexView.showInfo(data["error"])
+        else
+          window.indexView.showInfo("未知错误，请稍候重试...")
     .fail () =>
       if fail
         window.indexView.hideLoading()

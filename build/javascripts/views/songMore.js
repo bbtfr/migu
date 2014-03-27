@@ -11,7 +11,9 @@
     tpls = {
       song: require('text!tpl/songMore.html'),
       ring: require('text!tpl/ringMore.html'),
-      info: require('text!tpl/songMore.html')
+      info: require('text!tpl/songMore.html'),
+      album: require('text!tpl/songMore.html'),
+      artist: require('text!tpl/songMore.html')
     };
     Loader = require('utils/loader');
     return Backbone.View.extend({
@@ -64,7 +66,7 @@
           triggerChangePage = true;
         }
         this.loader = new Loader(this.generate_url(1), function(data) {
-          _this.totalPage = data["totalPage"];
+          _this.totalPage = data["totalPage"] || 1;
           _this.currPage = 1;
           _this.$el.html(_this.template({
             totalPage: _this.totalPage,

@@ -113,6 +113,10 @@ header nav a.ui-btn-active {
   }
 }
 
+.ui-panel-wrapper .regBtn {
+  width: auto;
+}
+
 .regBtnG {
   width: 100%;
   -webkit-border-radius: 8px;
@@ -158,6 +162,11 @@ header nav a.ui-btn-active {
 // sidebar
 .sidebar {
   left: -200px;
+  overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar { 
+  display: none; 
 }
 
 // player
@@ -526,4 +535,16 @@ li:focus, a:focus {
     opacity: 1;
     right: 10px;
   }
+}
+
+.uLogin {
+  left: 5%;
+}
+
+#progress {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: white;
+  z-index: 99999;
 }

@@ -12,11 +12,7 @@ define (require) ->
 
   Backbone.View.extend
 
-    render: ->
-
-      @loader = new Loader "api/types.json", (data) ->
-        console.log data
-        
+    render: ->        
       @$el.html(template())
 
       window.indexView.triggerChangePage()
