@@ -12,8 +12,7 @@
 //= require_tree ./models 
 //= require_tree ./collections 
 //= require_tree ./routers
-//= require template
 //= require_tree ./templates 
-//= require widget
+//= require views/widget
 //= require_tree ./views
 //= require widget_map

@@ -12,8 +12,7 @@ Migu.Widget = Backbone.View.extend
 
   initialize: (options={}) ->
     @type = options["type"]
-    console.info("Create Widget #{@type}")
-    console.debug(options)
+    console.debug("Create Widget #{@type}", { options: options })
     console.time(@type)
 
     @options = options

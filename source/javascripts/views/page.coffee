@@ -7,8 +7,7 @@ Migu.Views.Page = Backbone.View.extend
   className: "page-container"
 
   initialize: (options) ->
-    console.info("Create Page")
-    console.debug(options)
+    console.info("Create Page", { options: options })
     console.time("Page")
 
     @url = required(options, "url")
@@ -38,7 +37,3 @@ Migu.Views.Page = Backbone.View.extend
 
     @
 
-  remove: () ->
-    Backbone.View::remove.call(@)
-    for part in @parts
-      part.remove()

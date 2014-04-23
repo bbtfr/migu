@@ -7,9 +7,8 @@ Migu.Views.StaticPage = Backbone.View.extend
   className: "page-container"
 
   initialize: (options) ->
-    console.info("Create StaticPage")
-    console.debug(options)
-    console.time("StaticPage")
+    console.info("Create Page", { options: options })
+    console.time("Page")
 
     @Widget = required(options, "Widget")
 
@@ -23,6 +22,6 @@ Migu.Views.StaticPage = Backbone.View.extend
     @$container.html(@widget.$el)
 
     @trigger "ready"
-    console.timeEnd("StaticPage")
+    console.timeEnd("Page")
 
     @

@@ -1,4 +1,4 @@
-DebugLevel = 1
+DebugLevel = 0
 
 window.Migu =
   Models: {}
@@ -8,12 +8,16 @@ window.Migu =
   Routers: {}
 
   initialize: ->
+    console.info("Initialize Migu")
+    console.time("Migu")
+
     @musics = new Backbone.Collection()
-    
     @loading = new @Loading()
     @router = new @Routers.AppRouter()
     @index = new @Views.Index(el: $("body")).render()
     @index.on "ready", =>
+      console.timeEnd("Migu")
+      
       $("#progress").remove()
       Backbone.history.start()
       @index.wrapper.on "createPage", =>
@@ -32,6 +36,12 @@ window.Migu =
 
     remove: (key) ->
       localStorage.removeItem key
+
+  # For JST
+  loadTemplate: (path) ->
+    if template = $("[id='#{path}']").html()
+      JST[path] = _.template(template)
+    required(JST, path)
 
 
 $(document).ready ->
