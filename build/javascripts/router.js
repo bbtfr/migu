@@ -1,14 +1,7 @@
 (function() {
   define(function(require) {
     "use strict";
-    var $, $container, Backbone, IndexView, Loader, PageSlider, QueryStringToHash, Router, Views, e, login, orig_require, views;
-    orig_require = require;
-    require = function(_list, _callback) {
-      var $;
-      $ = orig_require("jquery");
-      increase_curr_required(1);
-      return orig_require(_list, _callback);
-    };
+    var $, $container, Backbone, IndexView, Loader, PageSlider, QueryStringToHash, Router, Views, e, k, login, views;
     $ = require("jquery");
     Backbone = require("backbone");
     PageSlider = require("utils/page_slider");
@@ -44,8 +37,8 @@
     Views["add2"] = require('views/add2');
     Views["singerShow"] = require('views/singerShow');
     Views["albumShow"] = require('views/albumShow');
-    Views["findPsw"] = require('views/findPsw');
-    Views["findPswSucc"] = require('views/findPswSucc');
+    Views["free"] = require('views/free');
+    Views["musician"] = require('views/musician');
     views = {};
     require('jquerycookie');
     QueryStringToHash = QueryStringToHash = function(query) {
@@ -70,6 +63,7 @@
       return query_string;
     };
     try {
+      k = QueryStringToHash(window.location.href);
       login = $.cookie('login');
       if (login) {
         window.login = QueryStringToHash(login);

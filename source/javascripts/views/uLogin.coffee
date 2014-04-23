@@ -22,8 +22,6 @@ define (require) ->
       "click .get_token": "get_token"
       "click .send_token": "send_token"
       "click .send_pass": "send_pass"
-      "click .forget_password": "forget_password"
-      "click .close": "remove"
 
     initialize: (options) ->
       @callback = options["callback"]
@@ -77,8 +75,3 @@ define (require) ->
         window.indexView.updateUsername(data)
         @callback() if @callback
         @remove()
-
-    forget_password: ->
-      window.router.navigate('findPsw', true)
-      @remove()
-

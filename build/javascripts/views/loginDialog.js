@@ -9,6 +9,9 @@
     RegView = require('views/reg');
     PageSlider = require('utils/page_slider');
     return Backbone.View.extend({
+      events: {
+        "click .close": "close"
+      },
       triggerChangePage: function() {
         return this.$el.trigger("page_slider.change");
       },
@@ -24,6 +27,9 @@
         });
         this.container.slidePage(this.uLogin);
         return this;
+      },
+      close: function() {
+        return this.$el.empty();
       }
     });
   });

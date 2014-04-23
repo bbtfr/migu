@@ -242,5 +242,28 @@ generate "artist", {
   musics: [:music, 100]
 }
 
+generate "free", {
+  list1: [:music, 8],
+  list2: [:music, 8],
+  list1Title: [:raw, "最新"],
+  list2Title: [:raw, "最热"]
+}
+
+generate "wqhg", {
+  wqhg: [:music, 8],
+  totalPage: [:raw, 10],
+}
+
+generate "rqycph", {
+  rqycph: [:music, 8],
+  totalPage: [:raw, 10],
+}
+
+generate "tjyyr", {
+  tjyyr: [:music, 8],
+  totalPage: [:raw, 10],
+}
+
+
 
 generate_readme

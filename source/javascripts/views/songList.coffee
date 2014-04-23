@@ -11,6 +11,7 @@ define (require) ->
     info: require('text!tpl/infoList.html')
     album: require('text!tpl/albumList.html')
     artist: require('text!tpl/artistList.html')
+    musician: require('text!tpl/musicianList.html')
 
   Backbone.View.extend
   

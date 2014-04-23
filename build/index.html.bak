@@ -5,7 +5,7 @@
     <title>咪咕音乐</title>
     <meta content="咪咕音乐" name="keywords"/>
     <meta content="咪咕音乐" name="description"/>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <meta content="telephone=no" name="format-detection" />
     <meta http-equiv="Cache-Control" content="no-cache">
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -42,7 +42,7 @@
 <!--公用头部end -->
 
   <div class="ui-panel-wrapper" data-role="pagecontainer">
-    <section class="container"></section>
+    <section class="container" vms="1234"></section>
   </div>
   
   <!--播放器begin -->
@@ -140,8 +140,5 @@
 </aside>
 <!--侧边栏end -->
 
-<div id="progress">
-  <div class="ui-loader ui-corner-all ui-body-a ui-loader-verbose"><span class="ui-icon-loading"></span><h1 id="progress-text">数据加载中...</h1></div>
-</div>
   </body>
 </html>

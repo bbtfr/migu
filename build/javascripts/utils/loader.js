@@ -13,10 +13,8 @@
           if (fail) {
             window.indexView.hideLoading();
             return fail();
-          } else if (data["error"]) {
-            return window.indexView.showInfo(data["error"]);
           } else {
-            return window.indexView.showInfo("未知错误，请稍候重试...");
+            return window.indexView.showInfo(data["error"]);
           }
         }
       }).fail(function() {

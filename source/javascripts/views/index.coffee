@@ -11,6 +11,8 @@ define (require) ->
 
   PageSlider       = require('utils/page_slider')
 
+  VMSMap = require('vmsMap')
+
   NavbarMap =
     "sf": "home"
     "zx": "home"
@@ -37,6 +39,10 @@ define (require) ->
       "blur #search": "remove_autocomplete"
       "click a[href^='#play']": "play"
       "click a[href^='#loginDialog']": "showLoginDialog"
+      "click [rl-id]": "logRLId"
+      "click [t-id]": "logTId"
+      "click [s-id]": "logSId"
+      "click a": "cleanVms"
 
     initialize: ->
       @$el = $("body")
@@ -45,6 +51,14 @@ define (require) ->
       window.loginDialog = @loginDialog = new LoginDialogView
       window.player = @player = new PlayerView()
       @updateUsername(window.login)
+
+      # For logging VMS
+      $("body").click @logVms
+      Backbone.history.bind "route", (route, router) ->
+        hash = window.location.hash
+        console.log hash
+        console.log VMSMap[hash]
+        $.get "path/to/vms"
 
     triggerChangePage: ->
       @$container.trigger "page_slider.change"
@@ -69,11 +83,11 @@ define (require) ->
       id = $(e.target).closest('a').attr('href').match(/\d+/g)[0]
       song = window.songs.get(id)
       window.player.add song.attributes, true if song
-      false
+      e.preventDefault()
     
     showLoginDialog: (e) ->
       @login()
-      false
+      e.preventDefault()
 
     # login dialog
     login: (callback=null) ->
@@ -91,7 +105,7 @@ define (require) ->
 
     toggleNavbarMore: (e) ->
       @$navbarMore.slideToggle()
-      false
+      e.preventDefault()
 
     # change page animation
     changePage: (key, page) ->
@@ -125,13 +139,14 @@ define (require) ->
       , 200
 
     remove_autocomplete: () ->
+      clearInterval @autocomplateIndex
       setTimeout =>
-        @remove_autocomplete_immediately()
+        @autocomplete.empty()
       , 200
 
     remove_autocomplete_immediately: () ->
-      @autocomplete.empty()
       clearInterval @autocomplateIndex
+      @autocomplete.empty()
 
     updateUsername: (data) ->
       window.login = data
@@ -146,4 +161,19 @@ define (require) ->
         $.removeCookie 'login'
         $loginSidebarLink.text("登录")
 
+    logVms: (e) ->
+      if window.clickVms
+        window.vms = vms = window.sId + window.tId + window.rlId
+        console.log window.vms
+        window.clickVms = false
+      true
 
+    logRLId: (e) ->
+      window.clickVms = true
+      window.rlId = $(e.currentTarget).attr('rl-id')
+    logTId: (e) ->
+      window.tId = $(e.currentTarget).attr('t-id')
+    logSId: (e) ->
+      window.sId = $(e.currentTarget).attr('s-id')
+    cleanVms: (e) ->
+      window.vms = null

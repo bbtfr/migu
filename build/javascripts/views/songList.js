@@ -10,7 +10,8 @@
       ring: require('text!tpl/ringList.html'),
       info: require('text!tpl/infoList.html'),
       album: require('text!tpl/albumList.html'),
-      artist: require('text!tpl/artistList.html')
+      artist: require('text!tpl/artistList.html'),
+      musician: require('text!tpl/musicianList.html')
     };
     return Backbone.View.extend({
       initialize: function(options) {

@@ -45,20 +45,6 @@ require.config
         "jquery"
       ]
 
-orig_require = window.require
-
-@total_required = 45
-@curr_required = 0
-
-@increase_curr_required = (i) ->
-  @curr_required += i
-  document.getElementById("progress-text").innerText = 
-    "数据加载中（#{@curr_required} / #{@total_required}）..."
-
-@require = (_list, _callback) ->
-  @increase_curr_required(_list.length)
-  orig_require(_list, _callback)
-
 require [
   "jquery"
   "backbone"
@@ -85,6 +71,8 @@ require [
     $.mobile.loader.prototype.options.textVisible = true
 
   require ["jquerymobile"], ->
+    $.mobile.loading "show"
+
     @indexView = new IndexView()
     
     @songs = new SongCollection()
@@ -94,6 +82,4 @@ require [
     # Instantiates a new Backbone.js Mobile Router
     @router = new Router()
     Backbone.history.start()
-
-    # window.require = orig_require
     

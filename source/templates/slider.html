@@ -1,7 +1,7 @@
 <div class="flexslider">
   <ul class="slides">
     <% for(i=0; i<slides.length; i++) { %>
-      <li>
+      <li vms="<%= slides[i] %>">
         <img src="<%= slides[i] %>" />
       </li>
     <% } %>

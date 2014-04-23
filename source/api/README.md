@@ -18,9 +18,9 @@
 ```json
 [
   {
-    "id": 0,
-    "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-    "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+    "id": 1,
+    "title": "他不懂",
+    "artist": "张杰",
     "mp3": "samples/media.mp3",
     "cover": "samples/cover.jpg",
     "lyrics": "samples/media.lrc"
@@ -51,9 +51,9 @@
 
 ```json
 {
-  "id": 9,
-  "title": "解放(私人定制片尾曲)",
-  "artist": "羽泉",
+  "id": 0,
+  "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+  "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
   "cover": "samples/cover.jpg",
   "downloads": [
     {
@@ -71,7 +71,7 @@
   ],
   "ring": {
     "cost": "2元",
-    "due_to": "2014-02-23 19:30:25 +0800"
+    "due_to": "2014-04-08 11:03:54 +0800"
   },
   "gifts": [
     {
@@ -125,10 +125,10 @@
 
 ```json
 {
-  "id": 4,
-  "title": "苏醒自组工作室称一哥 曾打李炜遭雪藏",
-  "subtitle": "新浪娱乐讯 前段时间苏醒[微博]因为殴打事件而被天娱公司雪藏200天，直到2013年12月30日苏醒才通过微博透露已被解冻出",
-  "created_at": "2014-02-23 19:30:25 +0800",
+  "id": 5,
+  "title": "陈奕迅否认与经纪人闹翻 称会继续领奖",
+  "subtitle": "北京时间1月6日消息，据香港媒体报导，陈奕迅[微博]日前出席《叱咤颁奖礼》被指黑面及状态欠佳",
+  "created_at": "2014-04-08 11:03:54 +0800",
   "content": "<img src=\"samples/news_detail.jpg\"><p>今日，姚贝娜在圣诞夜前夕曝光了一组圣诞红唇美妆时尚大片。在这组以白色雪景与圣诞礼物为背景的时尚大片中，姚贝娜以一袭红裙装温暖出镜，在漫天飞雪中尽展亲切笑容。</p><p>近日刚刚发行了全新EP《1/2的我》的姚贝娜，不仅在音乐上勇于突破，以更全面的自己真实回归，在时尚造型上也令人愈发有期待感。此前，姚贝娜不仅多次受邀出席各品牌的时尚活动，参加各类时尚大片的拍摄，成为了新一代的时尚宠儿。在圣诞来临之际，姚贝娜特别为大家拍摄了一组以圣诞为主题的美妆大片，希望以她温暖的笑容陪大家度过这个寒冬里的圣诞节日。</p><p>此次拍摄的每张大片中，姚贝娜均以红唇与红色美衣作为主色调进行整体搭配，复古时尚，温暖笑容弥漫在温馨浪漫圣诞气氛的漫天飘雪中，甜美可人。此次的时尚大片中，姚贝娜用最简约的红色优雅与精致唯美，演绎出今冬最in的圣诞时尚感，温暖笑容与圣诞飘雪浑然天成，韵味十足。</p>"
 }
 ```
@@ -148,11 +148,11 @@
 ```json
 [
   {
-    "id": 5,
-    "title": "2014陈绮贞“时间的歌” 深圳全新演唱会",
-    "time": "2014-01-04",
-    "location": "华润深圳湾体育中心",
-    "image": "samples/activity6.jpg"
+    "id": 0,
+    "title": "全能星战",
+    "time": "2013年10月18日",
+    "location": "上海体育馆",
+    "image": "samples/activity1.jpg"
   }
 ]
 ```
@@ -214,9 +214,17 @@ ymq: 乐迷圈信息，包含 4 条 链接信息
 {
   "sf": [
     {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -230,6 +238,30 @@ ymq: 乐迷圈信息，包含 4 条 链接信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 9,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
@@ -238,17 +270,19 @@ ymq: 乐迷圈信息，包含 4 条 链接信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 8,
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    }
+  ],
+  "bd": [
+    {
+      "id": 4,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -270,15 +304,13 @@ ymq: 乐迷圈信息，包含 4 条 链接信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
-    }
-  ],
-  "bd": [
+    },
     {
       "id": 6,
       "title": "Better Life",
@@ -296,38 +328,6 @@ ymq: 乐迷圈信息，包含 4 条 链接信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 9,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
@@ -336,15 +336,21 @@ ymq: 乐迷圈信息，包含 4 条 链接信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     }
   ],
   "zx": [
+    {
+      "id": 0,
+      "title": "[咪咕杂志]2014星凯国际城星光璀璨",
+      "subtitle": "激情点燃梦想！以动感炫酷的激光秀开启全场",
+      "image": "samples/news.jpg"
+    },
     {
       "id": 1,
       "title": "谢霆锋甘为情牺牲生命 张柏芝近照似少女",
@@ -355,12 +361,6 @@ ymq: 乐迷圈信息，包含 4 条 链接信息
       "id": 3,
       "title": "冯小刚邀王菲再唱春晚 20日开始带妆彩排",
       "subtitle": "“不走寻常路”已然成为每年央视春晚[微博]导演组为了创新而遵循的法则",
-      "image": "samples/news.jpg"
-    },
-    {
-      "id": 2,
-      "title": "古惑仔五子赴台尝美食 无拍电影续集打算",
-      "subtitle": "1月5日台北，港星郑伊健[微博]、陈小春[微博]、谢天华[微博]、钱嘉乐[微博]及林晓峰",
       "image": "samples/news.jpg"
     },
     {
@@ -370,21 +370,21 @@ ymq: 乐迷圈信息，包含 4 条 链接信息
       "image": "samples/news.jpg"
     },
     {
+      "id": 5,
+      "title": "陈奕迅否认与经纪人闹翻 称会继续领奖",
+      "subtitle": "北京时间1月6日消息，据香港媒体报导，陈奕迅[微博]日前出席《叱咤颁奖礼》被指黑面及状态欠佳",
+      "image": "samples/news.jpg"
+    },
+    {
+      "id": 4,
+      "title": "苏醒自组工作室称一哥 曾打李炜遭雪藏",
+      "subtitle": "新浪娱乐讯 前段时间苏醒[微博]因为殴打事件而被天娱公司雪藏200天，直到2013年12月30日苏醒才通过微博透露已被解冻出",
+      "image": "samples/news.jpg"
+    },
+    {
       "id": 2,
       "title": "古惑仔五子赴台尝美食 无拍电影续集打算",
       "subtitle": "1月5日台北，港星郑伊健[微博]、陈小春[微博]、谢天华[微博]、钱嘉乐[微博]及林晓峰",
-      "image": "samples/news.jpg"
-    },
-    {
-      "id": 3,
-      "title": "冯小刚邀王菲再唱春晚 20日开始带妆彩排",
-      "subtitle": "“不走寻常路”已然成为每年央视春晚[微博]导演组为了创新而遵循的法则",
-      "image": "samples/news.jpg"
-    },
-    {
-      "id": 1,
-      "title": "谢霆锋甘为情牺牲生命 张柏芝近照似少女",
-      "subtitle": "新浪娱乐讯 北京时间1月6日消息，据香港媒体报导，谢霆锋为电影《救火英雄》巡回宣传，",
       "image": "samples/news.jpg"
     },
     {
@@ -396,41 +396,45 @@ ymq: 乐迷圈信息，包含 4 条 链接信息
   ],
   "yygc": [
     {
+      "url": "images/mv.png",
+      "image": "images/mv.png"
+    },
+    {
       "url": "images/album.png",
       "image": "images/album.png"
     },
     {
-      "url": "images/activities.png",
-      "image": "images/activities.png"
+      "url": "images/mv.png",
+      "image": "images/mv.png"
     },
     {
       "url": "images/selected.png",
       "image": "images/selected.png"
-    },
-    {
-      "url": "images/mv.png",
-      "image": "images/mv.png"
     }
   ],
   "yyc": [
     {
-      "url": "images/mv.png",
-      "image": "images/mv.png"
+      "url": "images/album.png",
+      "image": "images/album.png"
     },
     {
       "url": "images/mv.png",
       "image": "images/mv.png"
+    },
+    {
+      "url": "images/activities.png",
+      "image": "images/activities.png"
     },
     {
       "url": "images/selected.png",
       "image": "images/selected.png"
-    },
-    {
-      "url": "images/album.png",
-      "image": "images/album.png"
     }
   ],
   "ymq": [
+    {
+      "url": "images/mv.png",
+      "image": "images/mv.png"
+    },
     {
       "url": "images/activities.png",
       "image": "images/activities.png"
@@ -440,12 +444,8 @@ ymq: 乐迷圈信息，包含 4 条 链接信息
       "image": "images/selected.png"
     },
     {
-      "url": "images/album.png",
-      "image": "images/album.png"
-    },
-    {
-      "url": "images/mv.png",
-      "image": "images/mv.png"
+      "url": "images/selected.png",
+      "image": "images/selected.png"
     }
   ],
   "success": true
@@ -477,33 +477,9 @@ totalPage: 总页数信息，包含 10 条 信息
 {
   "sf": [
     {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 3,
       "title": "想着你亲爱的",
       "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -517,17 +493,33 @@ totalPage: 总页数信息，包含 10 条 信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -549,9 +541,17 @@ totalPage: 总页数信息，包含 10 条 信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -586,9 +586,9 @@ rmtj: 热门推荐信息，包含 10 条 音乐信息
 {
   "rmtj": [
     {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -605,6 +605,22 @@ rmtj: 热门推荐信息，包含 10 条 音乐信息
       "id": 8,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -626,22 +642,6 @@ rmtj: 热门推荐信息，包含 10 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 1,
       "title": "他不懂",
       "artist": "张杰",
@@ -658,9 +658,9 @@ rmtj: 热门推荐信息，包含 10 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -694,9 +694,25 @@ cnxh: 猜你喜欢信息，包含 10 条 音乐信息
 {
   "cnxh": [
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -710,17 +726,17 @@ cnxh: 猜你喜欢信息，包含 10 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -742,22 +758,6 @@ cnxh: 猜你喜欢信息，包含 10 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 1,
       "title": "他不懂",
       "artist": "张杰",
@@ -766,9 +766,9 @@ cnxh: 猜你喜欢信息，包含 10 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -837,33 +837,27 @@ totalPage: 总页数信息，包含 10 条 信息
 {
   "zx": [
     {
-      "id": 1,
-      "title": "谢霆锋甘为情牺牲生命 张柏芝近照似少女",
-      "subtitle": "新浪娱乐讯 北京时间1月6日消息，据香港媒体报导，谢霆锋为电影《救火英雄》巡回宣传，",
-      "image": "samples/news.jpg"
-    },
-    {
-      "id": 5,
-      "title": "陈奕迅否认与经纪人闹翻 称会继续领奖",
-      "subtitle": "北京时间1月6日消息，据香港媒体报导，陈奕迅[微博]日前出席《叱咤颁奖礼》被指黑面及状态欠佳",
-      "image": "samples/news.jpg"
-    },
-    {
-      "id": 1,
-      "title": "谢霆锋甘为情牺牲生命 张柏芝近照似少女",
-      "subtitle": "新浪娱乐讯 北京时间1月6日消息，据香港媒体报导，谢霆锋为电影《救火英雄》巡回宣传，",
-      "image": "samples/news.jpg"
-    },
-    {
       "id": 2,
       "title": "古惑仔五子赴台尝美食 无拍电影续集打算",
       "subtitle": "1月5日台北，港星郑伊健[微博]、陈小春[微博]、谢天华[微博]、钱嘉乐[微博]及林晓峰",
       "image": "samples/news.jpg"
     },
     {
-      "id": 2,
-      "title": "古惑仔五子赴台尝美食 无拍电影续集打算",
-      "subtitle": "1月5日台北，港星郑伊健[微博]、陈小春[微博]、谢天华[微博]、钱嘉乐[微博]及林晓峰",
+      "id": 3,
+      "title": "冯小刚邀王菲再唱春晚 20日开始带妆彩排",
+      "subtitle": "“不走寻常路”已然成为每年央视春晚[微博]导演组为了创新而遵循的法则",
+      "image": "samples/news.jpg"
+    },
+    {
+      "id": 3,
+      "title": "冯小刚邀王菲再唱春晚 20日开始带妆彩排",
+      "subtitle": "“不走寻常路”已然成为每年央视春晚[微博]导演组为了创新而遵循的法则",
+      "image": "samples/news.jpg"
+    },
+    {
+      "id": 4,
+      "title": "苏醒自组工作室称一哥 曾打李炜遭雪藏",
+      "subtitle": "新浪娱乐讯 前段时间苏醒[微博]因为殴打事件而被天娱公司雪藏200天，直到2013年12月30日苏醒才通过微博透露已被解冻出",
       "image": "samples/news.jpg"
     },
     {
@@ -876,6 +870,12 @@ totalPage: 总页数信息，包含 10 条 信息
       "id": 3,
       "title": "冯小刚邀王菲再唱春晚 20日开始带妆彩排",
       "subtitle": "“不走寻常路”已然成为每年央视春晚[微博]导演组为了创新而遵循的法则",
+      "image": "samples/news.jpg"
+    },
+    {
+      "id": 1,
+      "title": "谢霆锋甘为情牺牲生命 张柏芝近照似少女",
+      "subtitle": "新浪娱乐讯 北京时间1月6日消息，据香港媒体报导，谢霆锋为电影《救火英雄》巡回宣传，",
       "image": "samples/news.jpg"
     },
     {
@@ -913,10 +913,10 @@ zx: 资讯信息，包含 1 条 新闻详情信息
 ```json
 {
   "zx": {
-    "id": 2,
-    "title": "古惑仔五子赴台尝美食 无拍电影续集打算",
-    "subtitle": "1月5日台北，港星郑伊健[微博]、陈小春[微博]、谢天华[微博]、钱嘉乐[微博]及林晓峰",
-    "created_at": "2014-02-23 19:30:25 +0800",
+    "id": 5,
+    "title": "陈奕迅否认与经纪人闹翻 称会继续领奖",
+    "subtitle": "北京时间1月6日消息，据香港媒体报导，陈奕迅[微博]日前出席《叱咤颁奖礼》被指黑面及状态欠佳",
+    "created_at": "2014-04-08 11:03:54 +0800",
     "content": "<img src=\"samples/news_detail.jpg\"><p>今日，姚贝娜在圣诞夜前夕曝光了一组圣诞红唇美妆时尚大片。在这组以白色雪景与圣诞礼物为背景的时尚大片中，姚贝娜以一袭红裙装温暖出镜，在漫天飞雪中尽展亲切笑容。</p><p>近日刚刚发行了全新EP《1/2的我》的姚贝娜，不仅在音乐上勇于突破，以更全面的自己真实回归，在时尚造型上也令人愈发有期待感。此前，姚贝娜不仅多次受邀出席各品牌的时尚活动，参加各类时尚大片的拍摄，成为了新一代的时尚宠儿。在圣诞来临之际，姚贝娜特别为大家拍摄了一组以圣诞为主题的美妆大片，希望以她温暖的笑容陪大家度过这个寒冬里的圣诞节日。</p><p>此次拍摄的每张大片中，姚贝娜均以红唇与红色美衣作为主色调进行整体搭配，复古时尚，温暖笑容弥漫在温馨浪漫圣诞气氛的漫天飘雪中，甜美可人。此次的时尚大片中，姚贝娜用最简约的红色优雅与精致唯美，演绎出今冬最in的圣诞时尚感，温暖笑容与圣诞飘雪浑然天成，韵味十足。</p>"
   },
   "success": true
@@ -952,22 +952,6 @@ yyrb: 音乐人榜信息，包含 8 条 音乐信息
 {
   "yyb": [
     {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 0,
       "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
       "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
@@ -976,9 +960,25 @@ yyrb: 音乐人榜信息，包含 8 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -999,90 +999,6 @@ yyrb: 音乐人榜信息，包含 8 条 音乐信息
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    }
-  ],
-  "xrb": [
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    }
-  ],
-  "jqb": [
     {
       "id": 8,
       "title": "咪咕+U",
@@ -1092,9 +1008,35 @@ yyrb: 音乐人榜信息，包含 8 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    }
+  ],
+  "xrb": [
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1116,6 +1058,40 @@ yyrb: 音乐人榜信息，包含 8 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    }
+  ],
+  "jqb": [
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 4,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
@@ -1124,17 +1100,17 @@ yyrb: 音乐人榜信息，包含 8 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1146,13 +1122,61 @@ yyrb: 音乐人榜信息，包含 8 条 音乐信息
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
     }
   ],
   "clb": [
     {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1174,41 +1198,17 @@ yyrb: 音乐人榜信息，包含 8 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1224,6 +1224,72 @@ yyrb: 音乐人榜信息，包含 8 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    }
+  ],
+  "yyrb": [
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
@@ -1232,9 +1298,25 @@ yyrb: 音乐人榜信息，包含 8 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1243,48 +1325,6 @@ yyrb: 音乐人榜信息，包含 8 条 音乐信息
       "id": 0,
       "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
       "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    }
-  ],
-  "yyrb": [
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1298,49 +1338,9 @@ yyrb: 音乐人榜信息，包含 8 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 8,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1383,17 +1383,41 @@ totalPage: 总页数信息，包含 10 条 信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1407,7 +1431,7 @@ totalPage: 总页数信息，包含 10 条 信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
+      "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
       "mp3": "samples/media.mp3",
@@ -1415,17 +1439,9 @@ totalPage: 总页数信息，包含 10 条 信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1434,22 +1450,6 @@ totalPage: 总页数信息，包含 10 条 信息
       "id": 3,
       "title": "想着你亲爱的",
       "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1493,25 +1493,9 @@ totalPage: 总页数信息，包含 10 条 信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1525,25 +1509,17 @@ totalPage: 总页数信息，包含 10 条 信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1557,9 +1533,33 @@ totalPage: 总页数信息，包含 10 条 信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1596,32 +1596,18 @@ djtj: 独家推荐信息，包含 6 条 活动信息
 {
   "jbrd": [
     {
-      "id": 1,
-      "title": "周杰伦11月24日深圳演唱会",
-      "time": "2013-11-24",
-      "location": "华润深圳湾体育中心“春茧”体育场",
-      "image": "samples/activity2.jpg"
-    },
-    {
-      "id": 2,
-      "title": "陈楚生11月15日江苏南京歌友会",
-      "time": "2013-11-15",
-      "location": "南京青春剧场",
-      "image": "samples/activity3.jpg"
-    },
-    {
-      "id": 0,
-      "title": "全能星战",
-      "time": "2013年10月18日",
-      "location": "上海体育馆",
-      "image": "samples/activity1.jpg"
-    },
-    {
       "id": 5,
       "title": "2014陈绮贞“时间的歌” 深圳全新演唱会",
       "time": "2014-01-04",
       "location": "华润深圳湾体育中心",
       "image": "samples/activity6.jpg"
+    },
+    {
+      "id": 3,
+      "title": "汪峰11月9日上海演唱会抢票！",
+      "time": "11月09日",
+      "location": "上海体育馆",
+      "image": "samples/activity4.jpg"
     },
     {
       "id": 4,
@@ -1636,73 +1622,29 @@ djtj: 独家推荐信息，包含 6 条 活动信息
       "time": "2013-11-24",
       "location": "华润深圳湾体育中心“春茧”体育场",
       "image": "samples/activity2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "汪峰11月9日上海演唱会抢票！",
+      "time": "11月09日",
+      "location": "上海体育馆",
+      "image": "samples/activity4.jpg"
+    },
+    {
+      "id": 2,
+      "title": "陈楚生11月15日江苏南京歌友会",
+      "time": "2013-11-15",
+      "location": "南京青春剧场",
+      "image": "samples/activity3.jpg"
     }
   ],
   "yyxc": [
     {
-      "id": 4,
-      "title": "10月20日S.H.E天津演唱会抢票",
-      "time": "2013-10-20",
-      "location": "天津体育中心",
-      "image": "samples/activity5.jpg"
-    },
-    {
-      "id": 3,
-      "title": "汪峰11月9日上海演唱会抢票！",
-      "time": "11月09日",
-      "location": "上海体育馆",
-      "image": "samples/activity4.jpg"
-    },
-    {
-      "id": 5,
-      "title": "2014陈绮贞“时间的歌” 深圳全新演唱会",
-      "time": "2014-01-04",
-      "location": "华润深圳湾体育中心",
-      "image": "samples/activity6.jpg"
-    },
-    {
-      "id": 4,
-      "title": "10月20日S.H.E天津演唱会抢票",
-      "time": "2013-10-20",
-      "location": "天津体育中心",
-      "image": "samples/activity5.jpg"
-    },
-    {
       "id": 0,
       "title": "全能星战",
       "time": "2013年10月18日",
       "location": "上海体育馆",
       "image": "samples/activity1.jpg"
-    },
-    {
-      "id": 4,
-      "title": "10月20日S.H.E天津演唱会抢票",
-      "time": "2013-10-20",
-      "location": "天津体育中心",
-      "image": "samples/activity5.jpg"
-    }
-  ],
-  "djtj": [
-    {
-      "id": 0,
-      "title": "全能星战",
-      "time": "2013年10月18日",
-      "location": "上海体育馆",
-      "image": "samples/activity1.jpg"
-    },
-    {
-      "id": 3,
-      "title": "汪峰11月9日上海演唱会抢票！",
-      "time": "11月09日",
-      "location": "上海体育馆",
-      "image": "samples/activity4.jpg"
-    },
-    {
-      "id": 5,
-      "title": "2014陈绮贞“时间的歌” 深圳全新演唱会",
-      "time": "2014-01-04",
-      "location": "华润深圳湾体育中心",
-      "image": "samples/activity6.jpg"
     },
     {
       "id": 1,
@@ -1710,6 +1652,13 @@ djtj: 独家推荐信息，包含 6 条 活动信息
       "time": "2013-11-24",
       "location": "华润深圳湾体育中心“春茧”体育场",
       "image": "samples/activity2.jpg"
+    },
+    {
+      "id": 5,
+      "title": "2014陈绮贞“时间的歌” 深圳全新演唱会",
+      "time": "2014-01-04",
+      "location": "华润深圳湾体育中心",
+      "image": "samples/activity6.jpg"
     },
     {
       "id": 4,
@@ -1724,6 +1673,57 @@ djtj: 独家推荐信息，包含 6 条 活动信息
       "time": "2013-11-15",
       "location": "南京青春剧场",
       "image": "samples/activity3.jpg"
+    },
+    {
+      "id": 3,
+      "title": "汪峰11月9日上海演唱会抢票！",
+      "time": "11月09日",
+      "location": "上海体育馆",
+      "image": "samples/activity4.jpg"
+    }
+  ],
+  "djtj": [
+    {
+      "id": 5,
+      "title": "2014陈绮贞“时间的歌” 深圳全新演唱会",
+      "time": "2014-01-04",
+      "location": "华润深圳湾体育中心",
+      "image": "samples/activity6.jpg"
+    },
+    {
+      "id": 0,
+      "title": "全能星战",
+      "time": "2013年10月18日",
+      "location": "上海体育馆",
+      "image": "samples/activity1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "2014陈绮贞“时间的歌” 深圳全新演唱会",
+      "time": "2014-01-04",
+      "location": "华润深圳湾体育中心",
+      "image": "samples/activity6.jpg"
+    },
+    {
+      "id": 4,
+      "title": "10月20日S.H.E天津演唱会抢票",
+      "time": "2013-10-20",
+      "location": "天津体育中心",
+      "image": "samples/activity5.jpg"
+    },
+    {
+      "id": 2,
+      "title": "陈楚生11月15日江苏南京歌友会",
+      "time": "2013-11-15",
+      "location": "南京青春剧场",
+      "image": "samples/activity3.jpg"
+    },
+    {
+      "id": 1,
+      "title": "周杰伦11月24日深圳演唱会",
+      "time": "2013-11-24",
+      "location": "华润深圳湾体育中心“春茧”体育场",
+      "image": "samples/activity2.jpg"
     }
   ],
   "success": true
@@ -1754,9 +1754,25 @@ pd: 频道信息，包含 10 条 音乐信息
 {
   "pd": [
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1770,9 +1786,41 @@ pd: 频道信息，包含 10 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1781,54 +1829,6 @@ pd: 频道信息，包含 10 条 音乐信息
       "id": 2,
       "title": "爱就要爆灯",
       "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1862,13 +1862,13 @@ dqcl: 当前彩铃信息，包含 1 条 彩铃信息
 {
   "dqcl": [
     {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc",
-      "due_to": "2014-02-23 19:30:25 +0800"
+      "due_to": "2014-04-08 11:03:54 +0800"
     }
   ],
   "success": true
@@ -1900,31 +1900,31 @@ totalPage: 总页数信息，包含 10 条 信息
 {
   "qtcl": [
     {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc",
+      "due_to": "2014-04-08 11:03:54 +0800"
+    },
+    {
       "id": 2,
       "title": "爱就要爆灯",
       "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc",
-      "due_to": "2014-02-23 19:30:25 +0800"
+      "due_to": "2014-04-08 11:03:54 +0800"
     },
     {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc",
-      "due_to": "2014-02-23 19:30:25 +0800"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc",
-      "due_to": "2014-02-23 19:30:25 +0800"
+      "due_to": "2014-04-08 11:03:54 +0800"
     }
   ],
   "totalPage": 10,
@@ -1957,9 +1957,9 @@ totalPage: 总页数信息，包含 10 条 信息
 {
   "wdgd": [
     {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -1973,33 +1973,9 @@ totalPage: 总页数信息，包含 10 条 信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2013,17 +1989,41 @@ totalPage: 总页数信息，包含 10 条 信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2067,9 +2067,9 @@ cnxh: 猜你喜欢信息，包含 10 条 音乐信息
 ```json
 {
   "zf": {
-    "id": 2,
-    "title": "爱就要爆灯",
-    "artist": "龙梅子",
+    "id": 5,
+    "title": "解放(私人定制片尾曲)",
+    "artist": "羽泉",
     "cover": "samples/cover.jpg",
     "downloads": [
       {
@@ -2087,7 +2087,7 @@ cnxh: 猜你喜欢信息，包含 10 条 音乐信息
     ],
     "ring": {
       "cost": "2元",
-      "due_to": "2014-02-23 19:30:25 +0800"
+      "due_to": "2014-04-08 11:03:54 +0800"
     },
     "gifts": [
       {
@@ -2106,23 +2106,15 @@ cnxh: 猜你喜欢信息，包含 10 条 音乐信息
   },
   "rmtj": [
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
+      "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
       "mp3": "samples/media.mp3",
@@ -2138,7 +2130,31 @@ cnxh: 猜你喜欢信息，包含 10 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
       "mp3": "samples/media.mp3",
@@ -2154,31 +2170,15 @@ cnxh: 猜你喜欢信息，包含 10 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
       "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
@@ -2188,49 +2188,17 @@ cnxh: 猜你喜欢信息，包含 10 条 音乐信息
   ],
   "cnxh": [
     {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2239,14 +2207,6 @@ cnxh: 猜你喜欢信息，包含 10 条 音乐信息
       "id": 8,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2260,9 +2220,49 @@ cnxh: 猜你喜欢信息，包含 10 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 7,
       "title": "拯救(警察故事2013主题曲)",
       "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2298,6 +2298,30 @@ albums: 专辑信息，包含 100 条 音乐信息
 {
   "musics": [
     {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
@@ -2306,9 +2330,17 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2322,14 +2354,6 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 1,
       "title": "他不懂",
       "artist": "张杰",
@@ -2338,23 +2362,15 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
+      "id": 9,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
       "mp3": "samples/media.mp3",
@@ -2394,6 +2410,38 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 0,
       "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
       "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
@@ -2402,9 +2450,129 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 6,
       "title": "Better Life",
       "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2426,17 +2594,17 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2458,49 +2626,9 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2514,6 +2642,110 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 1,
       "title": "他不懂",
       "artist": "张杰",
@@ -2530,30 +2762,6 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 9,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
@@ -2570,17 +2778,9 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2602,33 +2802,25 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2645,158 +2837,6 @@ albums: 专辑信息，包含 100 条 音乐信息
       "id": 4,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2818,17 +2858,9 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -2850,193 +2882,9 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
+      "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3066,6 +2914,14 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 4,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
@@ -3074,9 +2930,73 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 0,
       "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
       "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3090,9 +3010,89 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3100,70 +3100,6 @@ albums: 专辑信息，包含 100 条 音乐信息
   ],
   "artists": [
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 8,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
@@ -3175,6 +3111,22 @@ albums: 专辑信息，包含 100 条 音乐信息
       "id": 9,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3204,182 +3156,6 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 6,
       "title": "Better Life",
       "artist": "飞儿乐团",
@@ -3388,14 +3164,6 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 3,
       "title": "想着你亲爱的",
       "artist": "祁隆",
@@ -3404,15 +3172,31 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
       "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
@@ -3428,41 +3212,49 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3471,6 +3263,38 @@ albums: 专辑信息，包含 100 条 音乐信息
       "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3500,9 +3324,9 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3516,6 +3340,14 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 3,
       "title": "想着你亲爱的",
       "artist": "祁隆",
@@ -3524,17 +3356,17 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3556,46 +3388,6 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 6,
       "title": "Better Life",
       "artist": "飞儿乐团",
@@ -3604,65 +3396,17 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3692,9 +3436,113 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 3,
       "title": "想着你亲爱的",
       "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3711,14 +3559,6 @@ albums: 专辑信息，包含 100 条 音乐信息
       "id": 3,
       "title": "想着你亲爱的",
       "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3732,7 +3572,7 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
+      "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
       "mp3": "samples/media.mp3",
@@ -3748,81 +3588,9 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 2,
       "title": "爱就要爆灯",
       "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3844,6 +3612,62 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 6,
       "title": "Better Life",
       "artist": "飞儿乐团",
@@ -3852,17 +3676,129 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3887,6 +3823,70 @@ albums: 专辑信息，包含 100 条 音乐信息
       "id": 7,
       "title": "拯救(警察故事2013主题曲)",
       "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -3902,86 +3902,6 @@ albums: 专辑信息，包含 100 条 音乐信息
   ],
   "albums": [
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 2,
       "title": "爱就要爆灯",
       "artist": "龙梅子",
@@ -3998,23 +3918,15 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
+      "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
       "mp3": "samples/media.mp3",
@@ -4022,33 +3934,9 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -4070,6 +3958,62 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 2,
       "title": "爱就要爆灯",
       "artist": "龙梅子",
@@ -4078,9 +4022,225 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 3,
       "title": "想着你亲爱的",
       "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -4110,54 +4270,6 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 9,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
@@ -4174,175 +4286,7 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
@@ -4358,15 +4302,23 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
       "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
@@ -4398,6 +4350,46 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 7,
       "title": "拯救(警察故事2013主题曲)",
       "artist": "成龙",
@@ -4414,9 +4406,41 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 4,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -4430,9 +4454,17 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -4454,9 +4486,33 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -4478,6 +4534,94 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 6,
       "title": "Better Life",
       "artist": "飞儿乐团",
@@ -4486,17 +4630,25 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -4526,78 +4678,6 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 8,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
@@ -4614,89 +4694,9 @@ albums: 专辑信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 9,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -4731,9 +4731,9 @@ totalPage: 总页数信息，包含 10 条 信息
 {
   "xgxw": [
     {
-      "id": 2,
-      "title": "古惑仔五子赴台尝美食 无拍电影续集打算",
-      "subtitle": "1月5日台北，港星郑伊健[微博]、陈小春[微博]、谢天华[微博]、钱嘉乐[微博]及林晓峰",
+      "id": 0,
+      "title": "[咪咕杂志]2014星凯国际城星光璀璨",
+      "subtitle": "激情点燃梦想！以动感炫酷的激光秀开启全场",
       "image": "samples/news.jpg"
     },
     {
@@ -4743,9 +4743,9 @@ totalPage: 总页数信息，包含 10 条 信息
       "image": "samples/news.jpg"
     },
     {
-      "id": 3,
-      "title": "冯小刚邀王菲再唱春晚 20日开始带妆彩排",
-      "subtitle": "“不走寻常路”已然成为每年央视春晚[微博]导演组为了创新而遵循的法则",
+      "id": 2,
+      "title": "古惑仔五子赴台尝美食 无拍电影续集打算",
+      "subtitle": "1月5日台北，港星郑伊健[微博]、陈小春[微博]、谢天华[微博]、钱嘉乐[微博]及林晓峰",
       "image": "samples/news.jpg"
     },
     {
@@ -4794,6 +4794,22 @@ tjqm: 推荐曲目信息，包含 10 条 音乐信息
   },
   "tjqm": [
     {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 6,
       "title": "Better Life",
       "artist": "飞儿乐团",
@@ -4802,7 +4818,7 @@ tjqm: 推荐曲目信息，包含 10 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
+      "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
       "mp3": "samples/media.mp3",
@@ -4818,57 +4834,41 @@ tjqm: 推荐曲目信息，包含 10 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -4910,249 +4910,9 @@ musics: 音乐信息，包含 100 条 音乐信息
   "description": "周杰伦的12，代表的也是一种圆满与完全，出道第12年的第十二个月，推出一年一张的新专辑，代表着对音乐的圆满成就，也代表音乐界另一个新的大循环的预告。",
   "musics": [
     {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 9,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -5174,254 +4934,6 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
@@ -5438,46 +4950,6 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 0,
       "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
       "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
@@ -5486,161 +4958,9 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 4,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -5662,9 +4982,25 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -5702,9 +5038,673 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 3,
       "title": "想着你亲爱的",
       "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -5744,33 +5744,17 @@ musics: 音乐信息，包含 100 条 音乐信息
   "content": "<p>歌手：周杰伦 </p><p>语言：国语</p><p>发行时间：2012-12-28 </p><p>唱片公司：杰威尔音乐</p>",
   "musics": [
     {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -5784,9 +5768,25 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -5800,241 +5800,9 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 6,
       "title": "Better Life",
       "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -6048,129 +5816,9 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
+      "id": 8,
       "title": "咪咕+U",
       "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 4,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 2,
-      "title": "爱就要爆灯",
-      "artist": "龙梅子",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -6200,9 +5848,41 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 3,
       "title": "想着你亲爱的",
       "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -6232,9 +5912,25 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -6256,9 +5952,145 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 1,
       "title": "他不懂",
       "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -6280,9 +6112,145 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
       "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -6304,9 +6272,9 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -6328,38 +6296,6 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 9,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
       "id": 0,
       "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
       "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
@@ -6368,65 +6304,17 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 8,
-      "title": "咪咕+U",
-      "artist": "金志文,周子琰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 1,
-      "title": "他不懂",
-      "artist": "张杰",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 6,
-      "title": "Better Life",
-      "artist": "飞儿乐团",
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -6443,62 +6331,6 @@ musics: 音乐信息，包含 100 条 音乐信息
       "id": 0,
       "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
       "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 0,
-      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
-      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 5,
-      "title": "解放(私人定制片尾曲)",
-      "artist": "羽泉",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
-      "mp3": "samples/media.mp3",
-      "cover": "samples/cover.jpg",
-      "lyrics": "samples/media.lrc"
-    },
-    {
-      "id": 3,
-      "title": "想着你亲爱的",
-      "artist": "祁隆",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -6512,15 +6344,63 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 7,
-      "title": "拯救(警察故事2013主题曲)",
-      "artist": "成龙",
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
     },
     {
-      "id": 9,
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
       "title": "解放(私人定制片尾曲)",
       "artist": "羽泉",
       "mp3": "samples/media.mp3",
@@ -6531,6 +6411,221 @@ musics: 音乐信息，包含 100 条 音乐信息
       "id": 1,
       "title": "他不懂",
       "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    }
+  ],
+  "success": true
+}
+```
+
+
+
+
+接口
+----------
+
+GET api/free.json
+
+
+
+返回数据应包含以下字段：
+
+``` 
+list1: 信息，包含 8 条 音乐信息 
+list2: 信息，包含 8 条 音乐信息 
+list1Title: 信息，包含 最新 条 信息 
+list2Title: 信息，包含 最热 条 信息 
+```
+
+
+
+例如：
+
+```json
+{
+  "list1": [
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
       "mp3": "samples/media.mp3",
       "cover": "samples/cover.jpg",
       "lyrics": "samples/media.lrc"
@@ -6544,6 +6639,356 @@ musics: 音乐信息，包含 100 条 音乐信息
       "lyrics": "samples/media.lrc"
     }
   ],
+  "list2": [
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    }
+  ],
+  "list1Title": "最新",
+  "list2Title": "最热",
+  "success": true
+}
+```
+
+
+
+
+往期回顾接口
+----------
+
+GET api/wqhg.json
+
+
+
+返回数据应包含以下字段：
+
+``` 
+wqhg: 往期回顾信息，包含 8 条 音乐信息 
+totalPage: 总页数信息，包含 10 条 信息 
+```
+
+
+
+例如：
+
+```json
+{
+  "wqhg": [
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    }
+  ],
+  "totalPage": 10,
+  "success": true
+}
+```
+
+
+
+
+人气原创排行接口
+----------
+
+GET api/rqycph.json
+
+
+
+返回数据应包含以下字段：
+
+``` 
+rqycph: 人气原创排行信息，包含 8 条 音乐信息 
+totalPage: 总页数信息，包含 10 条 信息 
+```
+
+
+
+例如：
+
+```json
+{
+  "rqycph": [
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 0,
+      "title": "爸爸去哪儿（湖南卫视少儿励志节目）",
+      "artist": "林志颖/Kimi/张亮/张悦轩/郭涛/郭子睿/王岳伦/王诗龄",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 1,
+      "title": "他不懂",
+      "artist": "张杰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 8,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 2,
+      "title": "爱就要爆灯",
+      "artist": "龙梅子",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    }
+  ],
+  "totalPage": 10,
+  "success": true
+}
+```
+
+
+
+
+推荐音乐人接口
+----------
+
+GET api/tjyyr.json
+
+
+
+返回数据应包含以下字段：
+
+``` 
+tjyyr: 推荐音乐人信息，包含 8 条 音乐信息 
+totalPage: 总页数信息，包含 10 条 信息 
+```
+
+
+
+例如：
+
+```json
+{
+  "tjyyr": [
+    {
+      "id": 3,
+      "title": "想着你亲爱的",
+      "artist": "祁隆",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 6,
+      "title": "Better Life",
+      "artist": "飞儿乐团",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 5,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 4,
+      "title": "咪咕+U",
+      "artist": "金志文,周子琰",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 9,
+      "title": "解放(私人定制片尾曲)",
+      "artist": "羽泉",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    },
+    {
+      "id": 7,
+      "title": "拯救(警察故事2013主题曲)",
+      "artist": "成龙",
+      "mp3": "samples/media.mp3",
+      "cover": "samples/cover.jpg",
+      "lyrics": "samples/media.lrc"
+    }
+  ],
+  "totalPage": 10,
   "success": true
 }
 ```

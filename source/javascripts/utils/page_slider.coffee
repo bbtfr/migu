@@ -11,15 +11,13 @@ define (require) ->
     # Use this function if you want PageSlider to automatically determine the sliding direction based on the state history
     @slidePage = (page, options={}) ->
       $container.off("page_slider.finish")
-      $(document).scrollTop(0)
-      window.indexView.remove_autocomplete_immediately()
       if page.rerender?
         $container.on "page_slider.finish", ->
           page.rerender()
           
       $container.off("page_slider.change").one "page_slider.change", ->
         if firstTime
-          $("#progress").remove()
+          $.mobile.loading "hide"
           page.$el.appendTo($container)
           $container.trigger "page_slider.finish"
           firstTime = false

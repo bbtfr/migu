@@ -1,13 +1,6 @@
 define (require) ->
   "use strict"
 
-  orig_require = require
-
-  require = (_list, _callback) ->
-    $ = orig_require("jquery")
-    increase_curr_required(1)
-    orig_require(_list, _callback)
-
   $                 = require("jquery")
   Backbone          = require("backbone")
   PageSlider        = require("utils/page_slider")
@@ -60,8 +53,8 @@ define (require) ->
   Views["singerShow"]   = require('views/singerShow')
   Views["albumShow"]   = require('views/albumShow')
 
-  Views["findPsw"] = require('views/findPsw')
-  Views["findPswSucc"] = require('views/findPswSucc')
+  Views["free"]     = require('views/free')
+  Views["musician"] = require('views/musician')
 
   views             = {}
 
@@ -96,6 +89,7 @@ define (require) ->
     query_string
   
   try
+    k = QueryStringToHash window.location.href
     login = $.cookie('login')
     window.login = QueryStringToHash login if login
   catch e

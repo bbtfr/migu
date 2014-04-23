@@ -17,9 +17,7 @@
       events: {
         "click .get_token": "get_token",
         "click .send_token": "send_token",
-        "click .send_pass": "send_pass",
-        "click .forget_password": "forget_password",
-        "click .close": "remove"
+        "click .send_pass": "send_pass"
       },
       initialize: function(options) {
         return this.callback = options["callback"];
@@ -79,10 +77,6 @@
           }
           return _this.remove();
         });
-      },
-      forget_password: function() {
-        window.router.navigate('findPsw', true);
-        return this.remove();
       }
     });
   });

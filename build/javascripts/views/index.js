@@ -1,7 +1,7 @@
 (function() {
   define(function(require) {
     "use strict";
-    var $, AutoCompleteView, Backbone, LoginDialogView, NavbarMap, PageSlider, PlayerView, _;
+    var $, AutoCompleteView, Backbone, LoginDialogView, NavbarMap, PageSlider, PlayerView, VMSMap, _;
     $ = require('jquery');
     _ = require('underscore');
     Backbone = require('backbone');
@@ -9,6 +9,7 @@
     AutoCompleteView = require('views/autoComplete');
     LoginDialogView = require('views/loginDialog');
     PageSlider = require('utils/page_slider');
+    VMSMap = require('vmsMap');
     NavbarMap = {
       "sf": "home",
       "zx": "home",
@@ -28,7 +29,11 @@
         "focus #search .query": "send_autocomplete",
         "blur #search": "remove_autocomplete",
         "click a[href^='#play']": "play",
-        "click a[href^='#loginDialog']": "showLoginDialog"
+        "click a[href^='#loginDialog']": "showLoginDialog",
+        "click [rl-id]": "logRLId",
+        "click [t-id]": "logTId",
+        "click [s-id]": "logSId",
+        "click a": "cleanVms"
       },
       initialize: function() {
         this.$el = $("body");
@@ -38,7 +43,15 @@
         });
         window.loginDialog = this.loginDialog = new LoginDialogView;
         window.player = this.player = new PlayerView();
-        return this.updateUsername(window.login);
+        this.updateUsername(window.login);
+        $("body").click(this.logVms);
+        return Backbone.history.bind("route", function(route, router) {
+          var hash;
+          hash = window.location.hash;
+          console.log(hash);
+          console.log(VMSMap[hash]);
+          return $.get("path/to/vms");
+        });
       },
       triggerChangePage: function() {
         return this.$container.trigger("page_slider.change");
@@ -71,11 +84,11 @@
         if (song) {
           window.player.add(song.attributes, true);
         }
-        return false;
+        return e.preventDefault();
       },
       showLoginDialog: function(e) {
         this.login();
-        return false;
+        return e.preventDefault();
       },
       login: function(callback) {
         if (callback == null) {
@@ -99,7 +112,7 @@
       },
       toggleNavbarMore: function(e) {
         this.$navbarMore.slideToggle();
-        return false;
+        return e.preventDefault();
       },
       changePage: function(key, page) {
         this.toggleNavbarButton(key);
@@ -138,13 +151,10 @@
       },
       remove_autocomplete: function() {
         var _this = this;
+        clearInterval(this.autocomplateIndex);
         return setTimeout(function() {
-          return _this.remove_autocomplete_immediately();
+          return _this.autocomplete.empty();
         }, 200);
-      },
-      remove_autocomplete_immediately: function() {
-        this.autocomplete.empty();
-        return clearInterval(this.autocomplateIndex);
       },
       updateUsername: function(data) {
         var $loginSidebarLink;
@@ -161,6 +171,28 @@
           $.removeCookie('login');
           return $loginSidebarLink.text("登录");
         }
+      },
+      logVms: function(e) {
+        var vms;
+        if (window.clickVms) {
+          window.vms = vms = window.sId + window.tId + window.rlId;
+          console.log(window.vms);
+          window.clickVms = false;
+        }
+        return true;
+      },
+      logRLId: function(e) {
+        window.clickVms = true;
+        return window.rlId = $(e.currentTarget).attr('rl-id');
+      },
+      logTId: function(e) {
+        return window.tId = $(e.currentTarget).attr('t-id');
+      },
+      logSId: function(e) {
+        return window.sId = $(e.currentTarget).attr('s-id');
+      },
+      cleanVms: function(e) {
+        return window.vms = null;
       }
     });
   });
