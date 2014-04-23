@@ -1,0 +1,32 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "首发",
+  activeMenuId: 1,
+  data: [
+    {
+      vms: "VMS0001",
+      type: "MusicRankList",
+      totalPage: 10,
+      paginateUrl: "/api/widgets/MusicList.json?page=$PAGE&t=MusicRankList",
+      data: g(:music, 10)
+    }, {
+      vms: "VMS0001",
+      type: "HotTabs",
+      data: [
+        {
+          title: "热门推荐",
+          type: "MusicRankList",
+          refreshUrl: "/api/widgets/MusicList.json?n=5&t=MusicRankList",
+          data: g(:music, 5)
+        }, {
+          title: "猜你喜欢",
+          type: "MusicRankList",
+          refreshUrl: "/api/widgets/MusicList.json?n=5&t=MusicRankList",
+          data: g(:music, 5)
+        }
+      ]
+    }
+  ],
+  success: true
+}.to_json %>

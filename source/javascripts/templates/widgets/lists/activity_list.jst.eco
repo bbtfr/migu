@@ -1,0 +1,6 @@
+<% for o in @data: %>
+  <dl class="activityMore">
+    <dt><a href="<%= o.link %>"><img src="<%= o.image %>"></a></dt>
+    <dd><a href="<%= o.link %>"><p><%= o.title %></p><p>时间：<%= o.time %></p><p>地点：<%= o.location %></p><p>状态：<%= o.status %></p></a></dd>
+  </dl>
+<% end %>

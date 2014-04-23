@@ -1,0 +1,7 @@
+<article class="activityShow">
+  <aside>
+    <h2 class="mainTit textLeft">活动说明</h2>
+    <div class="activityInfo"><%= @info %></div>
+  </aside>
+  <section class="miguVip"><span><b>咪咕特级会员</b></span>下载本活动专区歌曲，可优先抽取奖品。更可享受彩铃<span>7折优惠</span>、歌曲/震铃<span>免费下载</span>，还等什么？马上开通吧<a href="vip.html">升级到特级会员免费下歌曲</a></section>
+</article>

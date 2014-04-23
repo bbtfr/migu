@@ -1,0 +1,8 @@
+<form action="<%= @data.url %>">
+  <div class="mainTit textLeft"><%= @data.gtitle %></div>
+  <ul class="prTariff">
+    <li class="btn"><div><p>您即将订购该曲彩铃</p><i><%= @data.subtitle %></i></div><em class="btn"><input name="submit" type="submit" value="确定"><input name="back" type="button" value="返回"></em></li>
+    <% mp = @tariffs.where(type: 'SetMP')[0] %>
+    <li><a href="#confirm/<%= mp.id %>"><div><p>开通彩铃包月</p><i>全场彩铃免费订制</i></div><em class="ring">订购</em></a></li>
+  </ul>
+</form>

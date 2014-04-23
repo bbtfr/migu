@@ -1,0 +1,1 @@
+<li><a href="#play/<%= @media.id %>/play-only" class="jp-playlist-item"><%= @media["title"] %> （<%= @media["artist"] %>）</a></li>

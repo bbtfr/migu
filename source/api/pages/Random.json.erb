@@ -1,0 +1,20 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "随便听听详情",
+  activeMenuId: 2,
+  data: [
+    {
+      vms: "VMS0001",
+      type: "ImageBanner",
+      image: "samples/activity_banner.jpg"
+    }, {
+      vms: "VMS0001",
+      type: "RandomList",
+      title: "新歌推荐",
+      randomLink: "#pages/Random",
+      data: %w(新歌推荐 热门流行 网络红歌 经典老歌 华语 日韩 欧美 舞曲 影视原声 伤感情歌 小清新 舒缓节奏 凤凰传奇 汪峰 梅艳芳 王菲).each_with_index.map { |o, i| { title: o, image: "samples/random#{i+1}.jpg", link: "#pages/RandomShow" } }
+    }
+  ],
+  success: true
+}.to_json %>

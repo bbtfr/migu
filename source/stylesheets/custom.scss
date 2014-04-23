@@ -1,0 +1,43 @@
+.menuMore {
+  height: 38px;
+}
+
+.focus {
+  min-height: 150px;
+}
+
+.lyric {
+  ul {
+    white-space: nowrap;
+
+    li {
+      display: inline;
+      padding-right: 30px;
+      min-width: 200px;
+    }
+  }
+}
+
+.vipReg .regBtn {
+  width: auto;
+}
+
+.uLogin {
+  left: 5%;
+  
+  .tab {
+    li {
+      box-flex: 1;
+      -moz-box-flex: 1;
+      -webkit-box-flex: 1;
+    }
+
+    li.current:first-child {
+      background:#F9F9F9;color:#000;-webkit-border-radius:10px 0 0 0;
+    }
+
+    li.current:last-child {
+      background:#F9F9F9;color:#000;-webkit-border-radius:0 10px 0 0;
+    }
+  }
+}

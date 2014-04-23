@@ -1,0 +1,10 @@
+<form action="">
+  <div class="regCont">
+    <ul class="operList">
+      <li><span class="myTel">手机号码：<b>18215600406</b></span><input name="mobile" type="hidden" value=""></li>
+      <li><input name="getToken" type="submit" value="发送短信验证码" class="regBtn"><input name="countDown" type="button" value="剩余时间" class="regBtnN" style="display:none;"></li>
+      <li><input name="token" type="password" placeholder="请输入短信验证码：" class="inpReg"></li>
+      <li><input name="sendToken" type="submit" value="提交" class="regBtn"></li>
+    </ul>
+  </div>
+</form>

@@ -1,0 +1,29 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "活动详情",
+  activeMenuId: 2,
+  data: [
+    {
+      vms: "VMS0001",
+      type: "ImageBanner",
+      image: "samples/activity_banner.jpg"
+    }, {
+      vms: "VMS0001",
+      type: "Activity",
+      info: "我的隔壁是不是住着某个可爱的外星人呢？能否和他创造出奇迹般的甜蜜浪漫呢？ 400年前坠落在朝鲜的外星人，带着他迄今为止4个世纪的秘密，独自在韩国首尔的天空下生活着。"
+    }, {
+      vms: "VMS0001",
+      type: "MusicList",
+      header: "推荐曲目",
+      moreLink: "#pages/url/api/pages/MultiPageMusicList.json?n=10&am=2",
+      data: g(:music, 8)
+    }, {
+      vms: "VMS0001",
+      type: "Slider",
+      header: "精美图库",
+      data: 3.times.map { |i| { image: "samples/slide#{i+1}.jpg", link: "" } }
+    }
+  ],
+  success: true
+}.to_json %>

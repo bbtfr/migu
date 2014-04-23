@@ -1,0 +1,18 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  activeMenuId: req.params["am"] || 1,
+  data: [
+    {
+      vms: "VMS0001",
+      type: req.params["t"] || "MusicList",
+      header: req.params["h"],
+      headerBack: req.params["hb"],
+      headerTextCenter: req.params["htc"] || true,
+      totalPage: 10,
+      paginateUrl: "/api/widgets/MusicList.json?page=$PAGE&n=#{req.params["n"]||8}&t=#{req.params["t"] || "MusicList"}",
+      data: g(:music, 10)
+    }
+  ],
+  success: true
+}.to_json %>

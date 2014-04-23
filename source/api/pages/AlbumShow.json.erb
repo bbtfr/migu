@@ -1,0 +1,23 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "活动详情",
+  data: [
+    {
+      vms: "VMS0001",
+      type: "Album",
+      header: "十二新作",
+      image: "samples/album.jpg",
+      description: "<p>十二新作</p><p>歌手：周杰伦 </p><p>语言：国语</p><p>发行时间：2012-12-28 </p><p>唱片公司：杰威尔音乐</p>",
+      info: "周杰伦的12，代表的也是一种圆满与完全，出道第12年的第十二个月，推出一年一张的新专辑，代表着对音乐的圆满成就，也代表音乐界另一个新的大循环的预告。"
+    }, {
+      vms: "VMS0001",
+      type: "MusicList",
+      header: "十二新作歌曲",
+      totalPage: 10,
+      paginateUrl: "/api/widgets/MusicList.json?page=$PAGE",
+      data: g(:music, 8)
+    }
+  ],
+  success: true
+}.to_json %>

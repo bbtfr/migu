@@ -1,0 +1,23 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "资讯更多",
+  activeMenuId: 2,
+  data: [
+    {
+      vms: "VMS0001",
+      type: "TopNews",
+      link: "#pages/NewsShow",
+      image: "samples/news.jpg",
+      title: "一秒嗨翻天 2013洗脑神曲大盘点",
+      subtitle: "今日，姚贝娜在圣诞夜前夕曝光了一组圣诞红唇美妆时尚大片。在这组以白色雪景与圣诞礼物为背景的时尚大片中，姚贝娜以一袭红裙装温暖出镜，在漫天飞雪中尽展亲切笑容。"
+    }, {
+      vms: "VMS0001",
+      type: "NewsList",
+      totalPage: 10,
+      paginateUrl: "/api/widgets/NewsList.json?page=$PAGE",
+      data: g(:news, 6).map { |o| o.merge(link: "#pages/NewsShow") }
+    }
+  ],
+  success: true
+}.to_json %>

@@ -1,0 +1,15 @@
+<form action="">
+  <div class="regCont">
+    <ul class="operList">
+      <li>
+        <input name="mobile" type="tel" placeholder="手机号码：" class="inpReg telIcon">
+        <div class="tipsFont" style="display:none">该号码已被注册！</div>
+      </li>
+      <li class="text">密码（6-16位数字、字母和特殊字符组合）</li>
+      <li><input name="password" type="password" placeholder="输入密码：" class="inpReg pswIcon"></li>
+      <li><input name="password_confirmation" type="password" placeholder="输入确认密码：" class="inpReg pswIcon"></li>
+      <li><input name="step1" type="submit" value="下一步" class="regBtn"></li>
+    </ul>
+    <p>为您省去记住多个密码的麻烦，中国移动推出移动通行证，使用一个账号和密码可实现在手机阅读、动漫、视频、游戏、咪咕音乐5大网站间的自由登录跳转。即日起在5大网站的手机、邮箱新注册用户可以直接成为移动通行证用户；如果您已经是其中一个网站的手机或邮箱用户，使用相同账号在本网站注册成功后可以升级为移动通行证用户，快来试试吧。如果您已经是移动通行证用户，您可以直接<a href="#">登录</a></p>
+  </div>
+</form>

@@ -1,0 +1,32 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "榜单",
+  activeMenuId: 4,
+  data: [
+    {
+      vms: "VMS0001",
+      type: "LinkList",
+      header: "咪咕音乐榜",
+      headerTextCenter: true,
+      data: %w(咪咕金曲榜 咪咕潮流榜 咪咕新歌榜 咪咕彩铃榜 咪咕专辑榜 咪咕音乐人榜).each_with_index.map { |o, i| { title: o, image: "samples/rank#{i+1}.jpg", link: "#pages/url/api/pages/MultiPageMusicList.json?n=10&hb=1&am=4&h=#{o}&t=MusicRankList" } }
+    }, {
+      vms: "VMS0001",
+      type: "HotTabs",
+      data: [
+        {
+          title: "热门推荐",
+          type: "MusicRankList",
+          refreshUrl: "/api/widgets/MusicList.json?n=5&t=MusicRankList",
+          data: g(:music, 5)
+        }, {
+          title: "猜你喜欢",
+          type: "MusicRankList",
+          refreshUrl: "/api/widgets/MusicList.json?n=5&t=MusicRankList",
+          data: g(:music, 5)
+        }
+      ]
+    }
+  ],
+  success: true
+}.to_json %>

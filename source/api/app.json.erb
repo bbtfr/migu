@@ -1,0 +1,142 @@
+<%= {
+  menu: {
+    "默认" => [
+      {
+        id: 0,
+        title: "推荐",
+        link: "#pages/Home",
+      },
+      {
+        id: 1,
+        title: "首发",
+        link: "#pages/SF",
+      },
+      {
+        id: 2,
+        title: "活动",
+        link: "#pages/Activity",
+      },
+      {
+        id: 3,
+        title: "专题",
+        link: "#pages/PAGE004",
+      },
+      {
+        id: 4,
+        title: "榜单",
+        link: "#pages/Rank",
+      },
+      {
+        id: 5,
+        title: "分类",
+        link: "#pages/Type",
+      }
+    ],
+    "更多" => [
+      {
+        id: 6,
+        title: "咨询",
+        link: "#pages/PAGE007",
+      },
+      {
+        id: 7,
+        title: "MV",
+        link: "#pages/PAGE008",
+      },
+      {
+        id: 8,
+        title: "免费",
+        link: "#pages/PAGE009",
+      },
+      {
+        id: 9,
+        title: "会员",
+        link: "#pages/Vip",
+      },
+      {
+        id: 10,
+        title: "音乐人",
+        link: "#pages/PAGE011",
+      }
+    ]
+  },    
+  sidebar: [
+    {
+      type: "LinkList",
+      title: "在线内容",
+      data: [
+        {
+          title: "回到首页",
+          icon: "home",
+          link: "#pages/Home",
+        },
+        {
+          title: "随便听听",
+          icon: "random",
+          link: "#pages/RandomShow",
+        },
+        {
+          title: "找歌",
+          icon: "find",
+          link: "#pages/PAGE013",
+        }
+      ]
+    }, {
+      type: "LinkList",
+      title: "个人管理",
+      data: [
+        {
+          title: "我的歌单",
+          icon: "mySong",
+          link: "#login/pages/MySong",
+        },
+        {
+          title: "我的彩铃",
+          icon: "myRing",
+          link: "#login/pages/MyRing",
+        },
+        {
+          title: "特级会员",
+          icon: "vip",
+          link: "#pages/Vip",
+        },
+        {
+          title: "添加书签",
+          icon: "book",
+          link: "#addBookmark",
+        },
+        {
+          title: "客户反馈",
+          icon: "guest",
+          link: "#pages/PAGE016",
+        }
+      ]
+    }, {
+      type: "AppList",
+      title: "在线内容",
+      data: [
+        {
+          title: "咪咕铃声",
+          icon: "miguRing",
+          link: "#",
+        },
+        {
+          title: "咪咕杂志",
+          icon: "miguSong",
+          link: "#",
+        },
+        {
+          title: "咪咕爱唱",
+          icon: "migumAgazine",
+          link: "#",
+        }
+      ]
+    }
+  ],
+  homePageLink: "#pages/Home",
+  pageUrl: "/api/pages/$PAGEID.json",
+  tariffUrl: "/api/tariff.json?music-id=$MUSICID",
+  autoCompleteUrl: "/api/autocomplete.json?query=$QUERY",
+  searchUrl: "/api/search.json?query=$QUERY&type=$TYPE",
+  success: true
+}.to_json %>

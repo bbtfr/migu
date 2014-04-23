@@ -1,0 +1,55 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "分类",
+  activeMenuId: 5,
+  data: [
+    {
+      vms: "VMS0001",
+      type: "TypeList",
+      image: "images/type_hot.png",
+      data: %w(网络 舞曲/电子 中国风 影视 90后 小清新 草原风 慢摇 广场舞).map { |o| { title: o, link: "#pages/url/api/pages/MultiPageMusicList.json?n=10&hb=1&am=5&h=#{o}&t=MusicRankList"} }
+    }, {
+      vms: "VMS0001",
+      type: "TypeList",
+      image: "images/type_mood.png",
+      data: %w(伤感 寂寞 幸福 思念 回忆 感动 开心 凄凉 浪漫 励志).map { |o| { title: o, link: "#pages/url/api/pages/MultiPageMusicList.json?n=10&hb=1&am=5&h=#{o}&t=MusicRankList"} }
+    }, {
+      vms: "VMS0001",
+      type: "TypeList",
+      image: "images/type_scene.png",
+      data: %w(夜店 酒吧 咖啡厅 旅行 运动 等待 分手 逛街 午后 睡前).map { |o| { title: o, link: "#pages/url/api/pages/MultiPageMusicList.json?n=10&hb=1&am=5&h=#{o}&t=MusicRankList"} }
+    }, {
+      vms: "VMS0001",
+      type: "TypeList",
+      image: "images/type_style.png",
+      data: %w(纯净 沧桑 清新 磁性 低沉 大气).map { |o| { title: o, link: "#pages/url/api/pages/MultiPageMusicList.json?n=10&hb=1&am=5&h=#{o}&t=MusicRankList"} }
+    }, {
+      vms: "VMS0001",
+      type: "TypeList",
+      image: "images/type_theme.png",
+      data: %w(纯净 沧桑 清新 磁性 低沉 大气).map { |o| { title: o, link: "#pages/url/api/pages/MultiPageMusicList.json?n=10&hb=1&am=5&h=#{o}&t=MusicRankList"} }
+    }, {
+      vms: "VMS0001",
+      type: "TypeList",
+      image: "images/type_holiday.png",
+      data: %w(元旦/春节 情人节 母亲节 父亲节 七夕节 中秋节 国庆节 光棍节 感恩节 圣诞节).map { |o| { title: o, link: "#pages/url/api/pages/MultiPageMusicList.json?n=10&hb=1&am=5&h=#{o}&t=MusicRankList"} }
+    }, {
+      vms: "VMS0001",
+      type: "TypeList",
+      image: "images/type_languages.png",
+      data: %w(国语 粤语 闽南语 英语 日语 韩语).map { |o| { title: o, link: "#pages/url/api/pages/MultiPageMusicList.json?n=10&hb=1&am=5&h=#{o}&t=MusicRankList"} }
+    }, {
+      vms: "VMS0001",
+      type: "TypeList",
+      image: "images/type_variety.png",
+      data: %w(好声音 我是歌手 梦之声 最强音 快男2013 春晚2014).map { |o| { title: o, link: "#pages/url/api/pages/MultiPageMusicList.json?n=10&hb=1&am=5&h=#{o}&t=MusicRankList"} }
+    }, {
+      vms: "VMS0001",
+      type: "TypeList",
+      image: "images/type_singer.png",
+      data: %w(华语男歌手 华语女歌手 华语组合 日韩男歌手 日韩女歌手 日韩组合 欧美男歌手 欧美女歌手 欧美组合 其他).map { |o| { title: o, link: "#pages/url/api/pages/MultiPageMusicList.json?n=10&hb=1&am=5&h=#{o}&t=MusicRankList"} }
+    }
+  ],
+  success: true
+}.to_json %>

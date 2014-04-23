@@ -1,0 +1,22 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "活动详情",
+  data: [
+    {
+      vms: "VMS0001",
+      type: "Artist",
+      header: "周杰伦",
+      image: "samples/artist.jpg",
+      description: "<p>周杰伦</p><p>出 生 地：台湾省台北县</p><p>出生日期：1979-01-18</p>",
+    }, {
+      vms: "VMS0001",
+      type: "MusicList",
+      header: "周杰伦歌曲",
+      totalPage: 10,
+      paginateUrl: "/api/widgets/MusicList.json?page=$PAGE",
+      data: g(:music, 8)
+    }
+  ],
+  success: true
+}.to_json %>

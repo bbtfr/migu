@@ -1,0 +1,5 @@
+<ul class="seaSinger">
+  <% for o in @data: %>
+    <li><a href="<%= o.link %>"><img src="<%= o.image %>"><p><span><%= o.title %></span><span><%= o.artist %></span></p></a></li>
+  <% end %>
+</ul>

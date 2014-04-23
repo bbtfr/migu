@@ -1,0 +1,31 @@
+<body>
+
+  <%= partial "login_dialog" %>
+  <%= partial "loading" %>
+
+  <div id="pusher">
+      
+      <div id="sidebar"></div>
+
+      <!--中间内容begin -->
+      <div id="content">
+
+        <div class="mask"></div>
+
+        <div id="header"></div>
+        
+        <div id="page-wrapper"></div>
+
+        <%= partial "player" %>
+        
+      </div>
+      <!--中间内容end -->
+  </div>
+
+  <%= partial "templates" %>
+
+  <!-- For Debugging -->
+  <!-- // <script src="http://jsconsole.com/remote.js?bbtfr"></script> -->
+  <%= javascript_include_tag :all %>
+
+</body>

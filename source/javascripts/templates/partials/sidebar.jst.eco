@@ -1,0 +1,28 @@
+<!--侧边栏begin -->
+<aside class="sidebar">
+  <section class="login">
+    <a href="#login" id="login-btn">登录</a>
+    <a href="#closeSidebar"><em class="fl_r">关闭</em></a>
+  </section>
+  <% for g in @data: %>
+    <section class="navList">
+      <h2><%= g.title %></h2>
+      <% if g.type == "LinkList": %>
+        <ul class="sideList">
+          <% for o in g.data: %>
+            <li class="<%= o.icon %>"><a href="<%= o.link %>"><%= o.title %></a></li>
+          <% end %>
+        </ul>
+      <% else if g.type == "AppList": %>
+        <div class="sideApp">
+          <% for o in g.data: %>
+            <a href="<%= o.link %>" class="<%= o.icon %>">&nbsp;<!-- <%= o.title %> --></a>
+          <% end %>
+          <a href="#moreApp" class="moreApp">&nbsp;<!-- 更多应用 --></a>
+        </div>
+      <% end %>
+    </section>
+  <% end %>
+  <section class="loginOut"><a href="#logout">注销</a></section>
+</aside>
+<!--侧边栏end -->

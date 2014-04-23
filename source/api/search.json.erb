@@ -1,0 +1,44 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "搜索",
+  data: [
+    {
+      vms: "VMS0001",
+      type: "SearchTabs",
+      query: "爱情",
+      data: [
+        {
+          title: "歌曲",
+          type: "MusicRankList",
+          paginateUrl: "/api/widgets/MusicList.json?n=8&t=MusicRankList",
+          data: g(:music, 8)
+        }, {
+          title: "歌手",
+          type: "ArtistList",
+          paginateUrl: "/api/widgets/MusicList.json?n=8&t=ArtistList",
+          data: [
+            {
+              image: "samples/artist.jpg",
+              link: "#pages/ArtistShow",
+              title: "周杰伦"
+            }
+          ]
+        }, {
+          title: "专辑",
+          type: "AlbumList",
+          paginateUrl: "/api/widgets/MusicList.json?n=8&t=AlbumList",
+          data: [
+            {
+              image: "samples/album.jpg",
+              link: "#pages/AlbumShow",
+              title: "十二新作",
+              artist: "周杰伦"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  success: true
+}.to_json %>

@@ -1,0 +1,10 @@
+<article>
+  <nav class="hotTab">
+    <ul>
+      <% for o in @data: %>
+        <li><%= o.title %></li>
+      <% end %>
+    </ul>
+  </nav>
+  <div class="tabs-container"></div>
+</article>

@@ -1,0 +1,82 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "资费",
+  data: [
+    {
+      vms: "VMS0001",
+      type: "Tariff",
+      grade: "咪咕特级会员",
+      media: g(:music, 1)[0],
+      data: [
+        {
+          title: "订购彩铃",
+          data: [
+            {
+              type: "SetRing",
+              title: "设为手机彩铃",
+              subtitle: "资费：2元 彩铃有效期：2019-01-01",
+              url: "/api/order.json"
+            }, {
+              type: "SetMP",
+              title: "开通彩铃包月",
+              subtitle: "全场彩铃免费订制下载",
+              url: "/api/order.json"
+            }
+          ]
+        }, {
+          title: "下载歌曲",
+          data: [
+            {
+              type: "Download",
+              title: "普通音质歌曲：2.76M",
+              subtitle: "资费：0元",
+              url: "/api/order.json"
+            }, {
+              type: "Download",
+              title: "高清音质歌曲：2.76M",
+              subtitle: "资费：0元",
+              url: "/api/order.json"
+            }, {
+              type: "Download",
+              title: "高品质歌曲（320Kbps）：6.21M",
+              subtitle: "资费：0元",
+              url: "/api/order.json"
+            }
+          ]
+        }, {
+          title: "其他",
+          data: [
+            {
+              type: "SendGift",
+              title: "赠送歌曲给好友",
+              subtitle: "资费：0元",
+              url: "/api/order.json"
+            }, {
+              type: "Recommend",
+              title: "推荐歌曲给好友",
+              url: "/api/order.json"
+            }
+          ]
+        }
+      ]
+    }, {
+      vms: "VMS0001",
+      type: "HotTabs",
+      data: [
+        {
+          title: "热门推荐",
+          type: "MusicRankList",
+          refreshUrl: "/api/widgets/MusicList.json?n=5&t=MusicRankList",
+          data: g(:music, 5)
+        }, {
+          title: "猜你喜欢",
+          type: "MusicRankList",
+          refreshUrl: "/api/widgets/MusicList.json?n=5&t=MusicRankList",
+          data: g(:music, 5)
+        }
+      ]
+    }
+  ],
+  success: true
+}.to_json %>

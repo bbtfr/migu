@@ -1,0 +1,16 @@
+<div class="vipBanner"><img src="images/vip_banner.jpg"></div>
+<div class="vipInfo"> 咪咕特级会员是中国移动向喜爱音乐的客户提供的一种包含多项权益的会员服务，咪咕特级会员可专享“所有标清歌曲及来电铃声免费下载无限量”、“免费在线试听”和“免费开通彩铃功能”等特色权益，时刻乐享畅听无极限、下载无极限、玩乐无极限的精彩会员体</div>
+<div class="vipReg">
+  <a href="#register" class="regBtn">开通特级会员</a>
+  <h4 class="vipTit">特级会员权益</h4>
+  <ul class="vipInterests">
+    <li>★免费开通彩铃</li>
+    <li>★畅享免费高清在线听</li>
+    <li>★200万首正版曲库</li>
+    <li>★专享彩铃订购7折惠</li>
+    <li>★专享炫彩铃音盒</li>
+    <li>★咪咕音乐杂志</li>
+    <li>★参与会员专属明星歌会</li>
+  </ul>
+  <a href="#register" class="regBtn">开通特级会员</a>
+</div>

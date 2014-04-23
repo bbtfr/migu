@@ -1,0 +1,9 @@
+<!--焦点begin -->
+<div class="focus swiper-wrapper">
+  <% for o in @data: %>
+    <div class="swiper-slide"> 
+      <img src="<%= o.image %>">
+    </div>
+  <% end %>
+</div>
+<!--焦点begin -->

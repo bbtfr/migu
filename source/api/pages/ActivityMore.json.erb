@@ -1,0 +1,16 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "活动更多",
+  activeMenuId: 2,
+  data: [
+    {
+      vms: "VMS0001",
+      type: "ActivityList",
+      totalPage: 10,
+      paginateUrl: "/api/widgets/ActivityList.json?page=$PAGE",
+      data: g(:activity, 4).map { |o| o.merge(link: "#pages/ActivityShow", status: "进行中") }
+    }
+  ],
+  success: true
+}.to_json %>

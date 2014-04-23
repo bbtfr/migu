@@ -1,0 +1,1 @@
+<aside class="randomNow">当前：<%= @title %><a href="<%= @randomLink %>">换台</a></aside>

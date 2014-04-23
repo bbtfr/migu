@@ -1,0 +1,32 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "活动",
+  activeMenuId: 2,
+  data: [
+    {
+      vms: "VMS0001",
+      type: "Slider",
+      data: 3.times.map { |i| { image: "samples/slide#{i+1}.jpg", link: "" } }
+    }, {
+      vms: "VMS0001",
+      type: "ActivityImageList",
+      title: "劲爆热点 大奖",
+      moreLink: "#pages/ActivityMore",
+      data: g(:activity, 5).map { |o| o.merge(link: "#pages/ActivityShow") }
+    }, {
+      vms: "VMS0001",
+      type: "ActivityImageList",
+      title: "音乐现场 抢票",
+      moreLink: "#pages/ActivityMore",
+      data: g(:activity, 6).map { |o| o.merge(link: "#pages/ActivityShow") }
+    }, {
+      vms: "VMS0001",
+      type: "ActivityImageList",
+      title: "独家推荐 专题",
+      moreLink: "#pages/ActivityMore",
+      data: g(:activity, 6).map { |o| o.merge(link: "#pages/ActivityShow") }
+    }
+  ],
+  success: true
+}.to_json %>

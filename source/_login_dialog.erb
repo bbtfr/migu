@@ -1,0 +1,44 @@
+<!--统一认证 -->
+<div id="login-dialog" style="display:none">
+  <div class="mask"></div>
+  <div class="uLogin">
+    <nav>
+      <ul class="tab">
+        <li>随机密码登陆</li>
+        <li>移动通行证登陆</li>
+      </ul>
+    </nav>
+    <div class="tabs-container swiper-container">
+      <div class="swiper-wrapper">
+        <section class="swiper-slide">
+          <form action="/path/to/loginByToken" id="loginByToken">
+            <ul class="inpList">
+              <li class="marTop">手机号码：</li>
+              <li><input name="mobile" type="text" placeholder="输入通行证号码" class="inpReg"></li>
+              <li class="marTop"><input name="getToken" type="submit" value="发送短信验证码" class="regBtn"><input name="countDown" type="button" value="剩余时间" class="regBtnN" style="display:none;"></li>
+              <li class="marTop">验证码：</li>
+              <li><input name="token" type="text" placeholder="请输入短信验证码" class="inpReg"></li>
+              <li class="marTop"><input name="login" type="submit" value="登陆" class="regBtn"></li>
+              <li><input name="close" type="submit" value="返回" class="regBtnR"></li>
+            </ul>
+          </form>
+        </section>
+        <section class="swiper-slide">
+          <form action="/path/to/loginByPass" id="loginByToken">
+            <ul class="inpList" style="display:">
+              <li class="marTop">通行证账号（手机或邮箱）：</li>
+              <li><input name="" type="text" placeholder="输入邮箱或者手机号" class="inpReg"></li>
+              <li class="marTop">密码：</li>
+              <li><input name="" type="password" placeholder="输入密码" class="inpReg"></li>
+              <li class="marTop"><input name="" type="submit" value="登陆" class="regBtn"></li>
+              <li><input name="" type="submit" value="返回" class="regBtnR"></li>
+              <li><input name="" type="submit" value="忘记密码" class="regBtnR"></li>
+              <li>没有通行证？立刻<a href="reg.html">注册</a></li>
+            </ul>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<!--统一认证 -->

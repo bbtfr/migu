@@ -1,0 +1,1 @@
+<h2 class="mainTit<%= " textLeft" unless @headerBack or @headerTextCenter %>"><% if @headerBack: %><a href="#back" class="back">&nbsp;<!-- 返回 --></a><% end %><%= @header %></h2>

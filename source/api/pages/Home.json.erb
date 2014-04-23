@@ -1,0 +1,53 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "推荐",
+  activeMenuId: 0,
+  data: [
+    {
+      vms: "VMS0001",
+      type: "Slider",
+      data: 3.times.map { |i| { image: "samples/slide#{i+1}.jpg", link: "" } }
+    }, {
+      vms: "VMS0001",
+      type: "Tabs",
+      data: [
+        {
+          title: "最新",
+          type: "MusicList",
+          moreLink: "#more",
+          data: g(:music, 8)
+        }, {
+          title: "最热",
+          type: "MusicList",
+          moreLink: "#more",
+          data: g(:music, 8)
+        }, {
+          title: "免费",
+          type: "MusicList",
+          moreLink: "#more",
+          data: g(:music, 8)
+        }
+      ]
+    }, {
+      vms: "VMS0001",
+      type: "Tabs",
+      data: [
+        {
+          title: "专题",
+          type: "ImageList",
+          data: g(:link, 4)
+        }, {
+          title: "活动",
+          type: "ImageList",
+          data: g(:link, 4)
+        }, {
+          title: "专辑",
+          type: "ImageList",
+          data: g(:link, 4)
+        }
+      ]
+    }
+  ],
+  success: true
+}.to_json %>

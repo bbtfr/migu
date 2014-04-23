@@ -1,0 +1,5 @@
+<ul class="songList rankList">
+  <% for o in @data: %>
+    <li><div><a href="#play/<%= o.id %>"><h6><%= o.title %></h6><p><%= o.artist %></p></a></div><em><a href="#login/tariff/<%= o.id %>"><!-- 下载 --></a></em></li>
+  <% end %>
+</ul>

@@ -1,0 +1,17 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "首发",
+  activeMenuId: 1,
+  data: [
+    {
+      vms: "VMS0001",
+      type: "Vip",
+    }, {
+      vms: "VMS0001",
+      type: "Slider",
+      data: 3.times.map { |i| { image: "samples/slide#{i+1}.jpg", link: "" } }
+    }
+  ],
+  success: true
+}.to_json %>

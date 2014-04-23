@@ -1,0 +1,21 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "随便听听",
+  activeMenuId: 2,
+  data: [
+    {
+      vms: "VMS0001",
+      type: "ImageBanner",
+      image: "samples/activity_banner.jpg"
+    }, {
+      vms: "VMS0001",
+      type: "MusicRandomList",
+      title: "新歌推荐",
+      refreshUrl: "/api/widgets/MusicList.json?n=8&t=MusicRankList",
+      randomLink: "#pages/Random",
+      data: g(:music, 8)
+    }
+  ],
+  success: true
+}.to_json %>

@@ -1,0 +1,9 @@
+<!--焦点begin -->
+<ul class="focus slides">
+  <% for o in @data: %>
+    <li class="slide">
+      <img src="<%= o.image %>">
+    </li>
+  <% end %>
+</ul>
+<!--焦点begin -->

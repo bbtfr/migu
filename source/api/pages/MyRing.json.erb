@@ -1,0 +1,41 @@
+<%= {
+  vms: "VMS0001",
+  type: "page",
+  title: "我的彩铃",
+  data: [
+    {
+      vms: "VMS0001",
+      type: "CurrRing",
+      header: "当前彩铃",
+      media: g(:ring, 1)[0]
+    }, {
+      vms: "VMS0001",
+      type: "RingList",
+      header: "其他彩铃",
+      paginateUrl: "/api/widgets/MusicList.json?n=4&t=RingList",
+      data: g(:ring, 4)
+    }, {
+      vms: "VMS0001",
+      type: "AppLink",
+      link: "#",
+      image: "images/app_magazine.png"
+    }, {
+      vms: "VMS0001",
+      type: "HotTabs",
+      data: [
+        {
+          title: "热门推荐",
+          type: "MusicRankList",
+          refreshUrl: "/api/widgets/MusicList.json?n=5&t=MusicRankList",
+          data: g(:music, 5)
+        }, {
+          title: "猜你喜欢",
+          type: "MusicRankList",
+          refreshUrl: "/api/widgets/MusicList.json?n=5&t=MusicRankList",
+          data: g(:music, 5)
+        }
+      ]
+    }
+  ],
+  success: true
+}.to_json %>
