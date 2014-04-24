@@ -30,3 +30,4 @@ Migu.registerCreateWidgetCallback (options) ->
       refreshUrl: deleted(options, "refreshUrl")
       data: options
   options
+  

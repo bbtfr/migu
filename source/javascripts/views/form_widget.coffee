@@ -1,16 +1,22 @@
 #= require libs/zepto/form
 #= require libs/zepto/fx_methods
 
-Migu.Views.Login = Backbone.View.extend
+Migu.FormWidget = Migu.Widget.extend
+
+  requiredParams: []
+  type: "Form"
 
   events:
     "submit form": "submitForm"
     "click input[type='submit']": "clickSubmit"
+    "click input[type='submit'][name='retry']": "retry"
 
-  render: () ->
+  _afterRender: () ->
+    @_initCountDown()
+    
+  _initCountDown: () ->
     @$countDown = @$el.find("[name='countDown']").hide()
     @$getToken = @$el.find("[name='getToken']").show()
-    @
 
   open: () ->
     @$el.fadeIn()
@@ -18,7 +24,7 @@ Migu.Views.Login = Backbone.View.extend
   close: () ->
     @$el.fadeOut()
 
-  _countDown: () ->
+  countDown: () ->
     @$countDown.show()
     @$getToken.hide()
     
@@ -50,6 +56,10 @@ Migu.Views.Login = Backbone.View.extend
   clickSubmit: (event) ->
     @submitName = $(event.target).attr("name")
 
+  _callSubmit: (submit) ->
+    console.debug "Call Submit", { submit: submit }
+    submit["submit"].call(@, submit["submitData"], submit["url"]) if submit
+
   submitForm: (event) ->
     event.preventDefault()
     if submit = required(@, @submitName)
@@ -57,4 +67,19 @@ Migu.Views.Login = Backbone.View.extend
       for o in $(event.target).serializeArray()
         submitData[o.name] = o.value
       url = $(event.target).attr("url")
-      submit.call(@, submitData, url)
+
+      # Save data for retry
+      @submit =
+        submit: submit
+        submitName: @submitName
+        submitData: submitData
+        url: url
+
+      @_callSubmit(@submit)
+
+  retry: (event) ->
+    event.preventDefault() if event
+    @_callSubmit(@submit)
+
+  back: () ->
+    @render()

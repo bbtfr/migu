@@ -1,18 +1,18 @@
-#= require views/login
+#= require views/form_widget
 #= require views/widgets/tabs
 
-Migu.Views.LoginDialog = Migu.Views.Login.extend
+Migu.Views.LoginDialog = Migu.FormWidget.extend
 
-  events: _.extend Migu.Views.Login::events, 
+  events: _.extend Migu.FormWidget::events, 
     "click nav li": "changeTab"
     "click .mask": "close"
 
   open: () ->
-    Migu.Views.Login::open.call(@)
+    Migu.FormWidget::open.call(@)
     @swiper.resizeFix()
 
   render: () ->
-    Migu.Views.Login::render.call(@)
+    Migu.FormWidget::render.call(@)
     Migu.Widgets.Tabs::_createTabs.call(@)
     @
 
@@ -20,7 +20,7 @@ Migu.Views.LoginDialog = Migu.Views.Login.extend
   changeTab: Migu.Widgets.Tabs::changeTab
 
   getToken: (data) ->
-    @_countDown()
+    @countDown()
 
   login: (data) ->
     @trigger "success", data

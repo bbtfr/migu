@@ -2,7 +2,7 @@ window.required = (obj, key) ->
   if obj[key]?
     obj[key]
   else
-    console.error("parameter '#{key}' is required for ", obj)
+    console.error("Parameter '#{key}' is required for ", obj)
 
 window.deleted = (obj, key) ->
   value = obj[key]

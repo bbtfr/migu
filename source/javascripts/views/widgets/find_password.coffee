@@ -1,6 +1,6 @@
-#= require views/widgets/register
+#= require views/widgets/wizzard
 
-Migu.Widgets.FindPassword = Migu.Widgets.Register.extend
+Migu.Widgets.FindPassword = Migu.Widgets.Wizzard.extend
   
   stepTemplates: [
     Migu.loadTemplate("templates/widgets/find_passwords/step1")
@@ -9,5 +9,5 @@ Migu.Widgets.FindPassword = Migu.Widgets.Register.extend
   tipsTemplate: Migu.loadTemplate("templates/widgets/find_passwords/tips")
 
   step1: (submitData, url) ->
-    $.post url, submitData, (data) =>
+    Migu.post url, submitData, (data) =>
       @_showTips(data)

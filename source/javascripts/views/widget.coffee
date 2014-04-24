@@ -11,7 +11,7 @@ Migu.Widget = Backbone.View.extend
   }
 
   initialize: (options={}) ->
-    @type = options["type"]
+    @type ||= options["type"]
     console.debug("Create Widget #{@type}", { options: options })
     console.time(@type)
 
@@ -28,7 +28,7 @@ Migu.Widget = Backbone.View.extend
     @_afterInitialize(options) if @_afterInitialize?
 
   render: ->
-    @$el.html(@template(@))
+    @$el.html(@template(@)) if @template?
     @_afterRender() if @_afterRender?
     @trigger("ready")
     console.timeEnd(@type)
