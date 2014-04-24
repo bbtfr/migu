@@ -37,14 +37,19 @@ CSS使用SCSS编写
 开发环境搭建
 ----------
 Ruby环境和Nodejs环境
+Mac下安装环境
 
     brew install ruby
     brew install nodejs
+    gem install bundle
+
+Windows下安装环境
+
+下载安装[RailsInstaller](http://railsinstaller.org)
 
 middleman环境
 
     cd path/to/migu
-    gem install bundle
     bundle install
 
 开发模式启动项目

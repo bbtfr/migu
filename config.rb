@@ -63,6 +63,12 @@ helpers do
   end
 end
 
+# Hash.class_eval
+#   def to_json
+#     JSON.pretty_generate(self)
+#   end
+# end
+
 # set :debug_assets, true
 
 set :css_dir, 'stylesheets'

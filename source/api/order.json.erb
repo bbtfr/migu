@@ -1,4 +1,4 @@
-<%= [{
+<%= JSON.pretty_generate([{
   success: true,
   title: '订购成功',
   description: '彩铃包月成功'
@@ -6,4 +6,4 @@
   success: false,
   title: '订购失败',
   description: '彩铃包月失败'
-}].sample.to_json %>
+}].sample) %>

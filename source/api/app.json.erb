@@ -1,4 +1,4 @@
-<%= {
+<%= JSON.pretty_generate({
   menu: {
     "默认" => [
       {
@@ -139,4 +139,4 @@
   autoCompleteUrl: "/api/autocomplete.json?query=$QUERY",
   searchUrl: "/api/search.json?query=$QUERY&type=$TYPE",
   success: true
-}.to_json %>
+}) %>

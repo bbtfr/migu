@@ -1,4 +1,4 @@
-<%= {
+<%= JSON.pretty_generate({
   vms: "VMS0001",
   type: "page",
   activeMenuId: req.params["am"] || 1,
@@ -15,4 +15,4 @@
     }
   ],
   success: true
-}.to_json %>
+}) %>

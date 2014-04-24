@@ -1,6 +1,6 @@
-<%= {
+<%= JSON.pretty_generate({
   vms: "VMS0001",
   type: "ActivityList",
   data: g(:activity, 4).map { |o| o.merge(link: "#pages/ActivityShow", status: "进行中") },
   success: true
-}.to_json %>
+}) %>

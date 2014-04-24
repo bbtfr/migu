@@ -58,23 +58,27 @@ Migu.FormWidget = Migu.Widget.extend
 
   _callSubmit: (submit) ->
     console.debug "Call Submit", { submit: submit }
-    submit["submit"].call(@, submit["submitData"], submit["url"]) if submit
+    if submit
+      submit["submitCallback"].call(@, submit["submitData"], submit["url"]) 
+
+  _generateSubmit: ($form) ->
+    submitData = {}
+    for o in $form.serializeArray()
+      submitData[o.name] = o.value
+    url = $form.attr("url")
+
+    return {
+      submitName: @submitName
+      submitData: submitData
+      url: url
+    }
 
   submitForm: (event) ->
     event.preventDefault()
     if submit = required(@, @submitName)
-      submitData = {}
-      for o in $(event.target).serializeArray()
-        submitData[o.name] = o.value
-      url = $(event.target).attr("url")
-
       # Save data for retry
-      @submit =
-        submit: submit
-        submitName: @submitName
-        submitData: submitData
-        url: url
-
+      @submit = @_generateSubmit($(event.target))
+      @submit["submitCallback"] = submit
       @_callSubmit(@submit)
 
   retry: (event) ->

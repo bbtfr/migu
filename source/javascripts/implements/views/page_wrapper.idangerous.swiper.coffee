@@ -36,7 +36,7 @@ Migu.Views.PageWrapper = Backbone.View.extend
     Migu.index.header.activateMenuItem(page.options?["activeMenuId"])
 
   _setTimeout: (callback) ->
-    setTimeout callback, 100
+    setTimeout callback, 0
 
   createPage: (options) ->
     page = new Migu.Views.Page(options).render()

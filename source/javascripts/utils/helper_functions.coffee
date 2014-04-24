@@ -23,3 +23,17 @@ if DebugLevel > 0
   console.timeEnd = -> undefined
 if DebugLevel > 1
   console.info = -> undefined
+
+
+# Test which transition event should be used
+el = document.createElement('fake')
+transitions =
+  transition: 'transitionend'
+  OTransition: 'oTransitionEnd'
+  MozTransition: 'transitionend'
+  WebkitTransition: 'webkitTransitionEnd'
+
+for type, event of transitions
+  if el.style[type]?
+    window.TransitionEndEvent = event
+    break

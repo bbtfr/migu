@@ -3,7 +3,7 @@
 //= require libs/zepto/ajax
 //= require libs/zepto/fx
 // require libs/jquery
-//= require libs/fastclick
+// require libs/fastclick
 //= require libs/underscore
 //= require libs/backbone
 //= require libs/jplayer

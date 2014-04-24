@@ -1,5 +1,4 @@
-<%= {
-  vms: "VMS0001",
+<%= JSON.pretty_generate({
   type: "page",
   title: "推荐",
   activeMenuId: 0,
@@ -7,9 +6,9 @@
     {
       vms: "VMS0001",
       type: "Slider",
-      data: 3.times.map { |i| { image: "samples/slide#{i+1}.jpg", link: "" } }
+      data: 3.times.map { |i| { image: "samples/slide#{i+1}.jpg", link: "#home" } }
     }, {
-      vms: "VMS0001",
+      vms: "VMS0002",
       type: "Tabs",
       data: [
         {
@@ -30,7 +29,7 @@
         }
       ]
     }, {
-      vms: "VMS0001",
+      vms: "VMS0003",
       type: "Tabs",
       data: [
         {
@@ -50,4 +49,4 @@
     }
   ],
   success: true
-}.to_json %>
+}) %>

@@ -11,6 +11,7 @@ Migu.Widgets.Paginate = Migu.Widget.extend
   ]
 
   optionalParams: {
+    "vms": null
     "currPage": 1
   }
 
@@ -60,7 +61,7 @@ Migu.Widgets.Paginate = Migu.Widget.extend
     @$pageBox = @$el.find(".pageBox")
     @$container = @$el.find(".paginate-container")
 
-    @_createWidget(@data[1])
+    @renderPage(1)
 
 Migu.registerCreateWidgetCallback (options) ->
   if options["paginateUrl"]? and options["type"] != "Paginate"

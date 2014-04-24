@@ -41,7 +41,7 @@ window.Migu =
 $(document).ready ->
   # When document is ready
   # use fast click to speed up click event
-  FastClick.attach(document.body)
+  # FastClick.attach(document.body)
 
   # initialize
   Migu.initialize()

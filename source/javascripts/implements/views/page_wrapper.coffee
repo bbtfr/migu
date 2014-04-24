@@ -6,20 +6,8 @@ Migu.Views.PageWrapper = Backbone.View.extend
   render: () ->
     @pages = []
     @hashes = []
-
-    # Test which transition event should be used
-    el = document.createElement('fake')
-    transitions =
-      transition: 'transitionend'
-      OTransition: 'oTransitionEnd'
-      MozTransition: 'transitionend'
-      WebkitTransition: 'webkitTransitionEnd'
-
-    for type, event of transitions
-      if el.style[type]?
-        @TransitionEndEvent = event
-        break
-
+    @$el.on TransitionEndEvent, =>
+      @$el.removeClass("animate")
     @
 
   _pages: (action, page) ->
@@ -30,7 +18,7 @@ Migu.Views.PageWrapper = Backbone.View.extend
     Migu.index.header.activateMenuItem(page.options?["activeMenuId"])
 
   _setTimeout: (callback) ->
-    setTimeout callback, 100
+    setTimeout callback, 0
 
   createPage: (options) ->
     page = new Migu.Views.Page(options).render()
@@ -51,11 +39,11 @@ Migu.Views.PageWrapper = Backbone.View.extend
       @_activateMenuItem(page)
       @_setTimeout =>
         if @pages.length > 1
-          @$el.addClass("slideLeft")
+          @$el.addClass("slideLeft animate")
           lastPage.$el.removeClass("active")
         page.$el.addClass("active")
         if @pages.length > 1
-          @$el.one @TransitionEndEvent, =>
+          @$el.one TransitionEndEvent, =>
             @_setTimeout =>
               @$el.removeClass("slideLeft")
         @trigger("createPage:after")
@@ -72,10 +60,10 @@ Migu.Views.PageWrapper = Backbone.View.extend
       Migu.router.navigate(hash)
       @_activateMenuItem(page)
 
-      @$el.addClass("slideRight")
+      @$el.addClass("slideRight animate")
       page.$el.addClass("active")
       lastPage.$el.removeClass("active")
-      @$el.one @TransitionEndEvent, =>
+      @$el.one TransitionEndEvent, =>
         @_setTimeout =>
           @$el.removeClass("slideRight")
           @_pages("pop").remove()

@@ -7,7 +7,7 @@ Migu.Widget = Backbone.View.extend
   ]
 
   optionalParams: {
-
+    "vms": null
   }
 
   initialize: (options={}) ->
@@ -24,6 +24,8 @@ Migu.Widget = Backbone.View.extend
     # Optional parameters
     for param, value of @optionalParams
       @[param] = options[param] || value
+
+    @vms = options["vms"]
 
     @_afterInitialize(options) if @_afterInitialize?
 

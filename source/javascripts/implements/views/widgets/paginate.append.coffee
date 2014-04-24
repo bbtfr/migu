@@ -10,6 +10,7 @@ Migu.Widgets.Paginate = Migu.Widget.extend
   ]
 
   optionalParams: {
+    "vms": null
     "currPage": 1
   }
 

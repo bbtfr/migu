@@ -1,6 +1,6 @@
-<%= {
+<%= JSON.pretty_generate({
   vms: "VMS0001",
   type: req.params["t"] || "MusicList",
   data: g(:music, (req.params["n"] || 8).to_i),
   success: true
-}.to_json %>
+}) %>
