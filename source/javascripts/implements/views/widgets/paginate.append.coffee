@@ -36,7 +36,7 @@ Migu.Widgets.Paginate = Migu.Widget.extend
     @currPage = n
 
   renderPage: (n) ->
-    if @data[n]?
+    if @data[n]
       @_renderPage(@data[n], n)
     else
       url = @paginateUrl.replace("$PAGE", n)
@@ -48,7 +48,7 @@ Migu.Widgets.Paginate = Migu.Widget.extend
     @$pageBox = @$el.find(".pageBox")
     @$container = @$el.find(".paginate-container")
 
-    @_createWidget(@data[1])
+    @renderPage(1)
 
 Migu.registerCreateWidgetCallback (options) ->
   if options["paginateUrl"]? and options["type"] != "Paginate"
@@ -56,5 +56,5 @@ Migu.registerCreateWidgetCallback (options) ->
       type: "Paginate"
       paginateUrl: deleted(options, "paginateUrl")
       totalPage: deleted(options, "totalPage") || 10
-      data: [ options ]
+      data: if options["data"] then [ options ] else []
   options

@@ -8,6 +8,7 @@ Migu.Views.Pusher = Backbone.View.extend
   render: () ->
     @$el.on TransitionEndEvent, =>
       @$el.removeClass("animate")
+    @
 
   openSidebar: (event) ->
     event.preventDefault() if event

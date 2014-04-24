@@ -49,7 +49,7 @@ Migu.Widgets.Paginate = Migu.Widget.extend
 
   renderPage: (n) ->
     if n > 0 and n <= @totalPage
-      if @data[n]?
+      if @data[n]
         @_renderPage(@data[n], n)
       else
         url = @paginateUrl.replace("$PAGE", n)
@@ -69,5 +69,5 @@ Migu.registerCreateWidgetCallback (options) ->
       type: "Paginate"
       paginateUrl: deleted(options, "paginateUrl")
       totalPage: deleted(options, "totalPage") || 10
-      data: [ options ]
+      data: if options["data"] then [ options ] else []
   options
