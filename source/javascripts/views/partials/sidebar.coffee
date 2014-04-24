@@ -4,7 +4,12 @@ Migu.Views.Sidebar = Backbone.View.extend
 
   render: (data) ->
     @$el.html(@template(data: data))
+    @$loginBtn = @$el.find("#login-btn")
     @
 
-  _updateAfterLogin: () ->
-    @$el.find("#login-btn").text("13800138000")
+  # Set sidebar login button text
+  updateLoginBtn: (mobile) ->
+    if mobile
+      @$loginBtn.text(mobile)
+    else
+      @$loginBtn.text("登录")

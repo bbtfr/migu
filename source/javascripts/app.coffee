@@ -1,5 +1,3 @@
-DebugLevel = 0
-
 window.Migu =
   Models: {}
   Collections: {}
@@ -15,57 +13,35 @@ window.Migu =
     @loading = new @Loading()
     @router = new @Routers.AppRouter()
     @index = new @Views.Index(el: $("body")).render()
+
     @index.on "ready", =>
+      # When index view is ready
       console.timeEnd("Migu")
+
+      # Prepare if user is logged-in
+      if login = @local.get("login")
+        # Test valid login
+        for key in ["mobile", "token"]
+          unless login[key]
+            @local.remove("login")
+            login = {}
+            break
+        # Set sidebar login button text
+        @index.sidebar.updateLoginBtn(login["mobile"])
       
+      # Remove progress mask, 进度/欢迎页面
       $("#progress").remove()
+
+      # Start backbone history
       Backbone.history.start()
-      @index.wrapper.on "createPage", =>
-        @index.pusher.closeSidebar()
 
   navigate: (url) ->
     @router.navigate(url, true)
 
-  # Local Storage
-  local:
-    set: (key, value) ->
-      localStorage.setItem key, value
-
-    get: (key) ->
-      localStorage.getItem key
-
-    remove: (key) ->
-      localStorage.removeItem key
-
-  # For JST
-  loadTemplate: (path) ->
-    if template = $("[id='#{path}']").html()
-      JST[path] = _.template(template)
-    required(JST, path)
-
-
 $(document).ready ->
+  # When document is ready
   # use fast click to speed up click event
   FastClick.attach(document.body)
 
   # initialize
   Migu.initialize()
-
-
-window.required = (obj, key) ->
-  if obj[key]?
-    obj[key]
-  else
-    console.error("parameter '#{key}' is required for ", obj)
-
-window.deleted = (obj, key) ->
-  value = obj[key]
-  delete obj[key]
-  value
-
-if DebugLevel > 0
-  console.debug = -> undefined
-  console.time = -> undefined
-  console.timeEnd = -> undefined
-if DebugLevel > 1
-  console.info = -> undefined

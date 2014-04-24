@@ -2,7 +2,9 @@ Migu.Views.Index = Backbone.View.extend
 
   render: () ->
     Migu.loader "api/app.json", (data) =>
+      # All global events go here
       @global_events = new Migu.Views.GlobalEvents(el: @$el)
+
       @header = new Migu.Views.Header(el: @$el.find("#header")).render(data["menu"])
       @sidebar = new Migu.Views.Sidebar(el: @$el.find("#sidebar")).render(data["sidebar"])
       @auto_complete = new Migu.Views.AutoComplete(el: @$el.find("#search")).render()
@@ -10,18 +12,19 @@ Migu.Views.Index = Backbone.View.extend
       @wrapper = new Migu.Views.PageWrapper(el: @$el.find("#page-wrapper")).render()
       @player = new Migu.Views.Player(el: @$el.find("#player")).render()
       @loginDialog = new Migu.Views.LoginDialog(el: @$el.find("#login-dialog")).render()
-      @loginDialog.on "success", @_updateAfterLogin, @
 
+      # Delegate events:
+      # Close sidebar when page is created
+      @wrapper.on "createPage", =>
+        @pusher.closeSidebar()
+        @header.closeMore()
+
+      # Bind required data to Migu
       Migu.appData = data
-      Migu.homePageLink = required(data, "homePageLink")
-      Migu.pageUrl = required(data, "pageUrl")
-      Migu.autoCompleteUrl = required(data, "autoCompleteUrl")
-      Migu.searchUrl = required(data, "searchUrl")
-      Migu.tariffUrl = required(data, "tariffUrl")
+      for key in ["homePageLink", "pageUrl", "autoCompleteUrl", "searchUrl", 
+        "tariffUrl"]
+        Migu[key] = required(data, key)
       
       @trigger("ready")
 
     @
-
-  _updateAfterLogin: () ->
-    @sidebar._updateAfterLogin()

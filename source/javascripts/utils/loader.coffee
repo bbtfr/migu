@@ -5,10 +5,10 @@ loader = (url, options) ->
     success = options
     options = {}
   else
-    success = options['success']
-    error = options['error']
+    success = deleted(options, 'success')
+    error = deleted(options, 'error')
 
-  ajaxOptions = _.extend options, 
+  ajaxOptions = 
     url: url
     dataType: 'json'
     success: (data, status, xhr) =>
@@ -38,6 +38,6 @@ loader = (url, options) ->
   console.debug("Create Ajax Request", { options: ajaxOptions })
   console.time("Ajax #{url}")
   
-  return $.ajax ajaxOptions
+  return $.ajax _.extend(ajaxOptions, options)
 
 Migu.loader = loader

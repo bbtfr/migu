@@ -2,16 +2,19 @@
 
 Migu.Widgets.Register = Migu.Widget.extend
   
-  template: Migu.loadTemplate("templates/widgets/registers/step1")
-
-  stepTemplates:
-    "Step2": Migu.loadTemplate("templates/widgets/registers/step2")
+  stepTemplates: [
+    Migu.loadTemplate("templates/widgets/registers/step1")
+    Migu.loadTemplate("templates/widgets/registers/step2")
+  ]
 
   tipsTemplate: Migu.loadTemplate("templates/widgets/registers/tips")
 
   events: Migu.Views.Login::events
 
   requiredParams: []
+
+  _afterInitialize: () ->
+    @template ||= @stepTemplates[0]
 
   _afterRender: () ->
     @currStep = 0
@@ -25,7 +28,7 @@ Migu.Widgets.Register = Migu.Widget.extend
     @$el.html(@tipsTemplate(data))
 
   gotoStep: (step) ->
-    @$el.html(@stepTemplates["Step#{step}"]())
+    @$el.html(@stepTemplates[step-1]())
     @_initCountDown()
     @currStep = step
 
@@ -37,7 +40,7 @@ Migu.Widgets.Register = Migu.Widget.extend
     $.post url, submitData, (data) =>
       @gotoStep(2)
 
-  step2: (submitData, url) ->
+  sendToken: (submitData, url) ->
     $.post url, submitData, (data) =>
       @_showTips(data)
 

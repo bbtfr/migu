@@ -6,6 +6,7 @@ Migu.Routers.AppRouter = Backbone.Router.extend
     "pages/:id": "pageFromId"
 
     "login(/*url)": "login"
+    "logout": "logout"
     "play/:id(/:play_only)": "play"
 
     "search/*query": "search"
@@ -32,10 +33,17 @@ Migu.Routers.AppRouter = Backbone.Router.extend
     unless Migu.local.get("login")
       Migu.index.pusher.closeSidebar()
       Migu.index.loginDialog.open()
-      Migu.index.loginDialog.once "success", =>
+      Migu.index.loginDialog.once "success", (login) =>
+        Migu.local.set("login", login)
+        Migu.index.sidebar.updateLoginBtn(login["mobile"])
         Migu.navigate(url) if url
     else
       Migu.navigate(url) if url
+
+  logout: () ->
+    Migu.local.remove("login")
+    Migu.index.sidebar.updateLoginBtn()
+    Migu.index.pusher.closeSidebar()
 
   play: (id, play_only) ->
     media = Migu.musics.get(id)

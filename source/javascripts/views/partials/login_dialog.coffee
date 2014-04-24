@@ -23,5 +23,9 @@ Migu.Views.LoginDialog = Migu.Views.Login.extend
     @_countDown()
 
   login: (data) ->
-    @trigger "success"
+    @trigger "success", data
+    @close()
+
+  findPassword: () ->
+    Migu.navigate("findPassword")
     @close()
