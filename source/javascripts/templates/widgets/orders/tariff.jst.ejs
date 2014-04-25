@@ -1,0 +1,36 @@
+<dl class="songListen">
+  <dt><img src="<%= media.image %>"></dt>
+  <dd><p><%= media.title %></p><p><%= media.artist %></p></dd>
+  <dd><a href="#play/<%= media.id %>" class="btnQ"></a><a href="#play/<%= media.id %>" class="btnRing"></a></dd>
+</dl>
+<div class="userGrade">会员级别：<%= grade %></div>
+<div class="tariff-container">
+  <% for (i=0; i<data.length; i++) { %>
+    <% g = data[i] %>
+    <div class="mainTit textLeft"><%= g.title %></div>
+    <ul class="prTariff">
+      <% for (j=0; j<g.data.length; j++) { %>
+        <% o = g.data[j] %>
+        <li class="tariff-item">
+          <a href="#confirm/<%= o.id %>">
+            <div><p><%= o.title %></p><i><%= o.subtitle %></i></div>
+            <% if (o.type === "Download") { %>
+              <em class="down"><!-- 下载 --></em>
+            <% } else if (o.type === "SetMP") { %>
+              <em class="ring"><!-- 设置 --></em>
+            <% } else if (o.type === "SetRing") { %>
+              <em class="ring"><!-- 设置 --></em>
+            <% } else if (o.type === "SendGift") { %>
+              <em class="give"><!-- 赠送 --></em>
+            <% } else if (o.type === "Recommend") { %>
+              <em class="groom"><!-- 推荐 --></em>
+            <% } %>
+          </a>
+        </li>
+      <% } %>
+    </ul>
+  <% } %>
+</div>
+<div class="regSuper">
+  <a href="#">开通特会，全场MP3免费</a>
+</div>

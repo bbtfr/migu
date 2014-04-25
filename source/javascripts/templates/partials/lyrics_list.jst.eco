@@ -1,5 +1,0 @@
-<ul>
-  <% for o in @lyrics: %>
-    <li><%= o.text %></li>
-  <% end %>
-</ul>

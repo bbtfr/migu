@@ -1,8 +1,0 @@
-<form action="<%= @data.url %>">
-  <div class="mainTit textLeft"><%= @data.title %></div>
-  <div class="monthlyPay">
-    <p><b>您即将开通彩铃包月业务</b></p>
-    <p><input name="" type="submit" value="确认开通"></p>
-    <p><input name="back" type="button" value="返回"></p>
-  </div>
-</form>

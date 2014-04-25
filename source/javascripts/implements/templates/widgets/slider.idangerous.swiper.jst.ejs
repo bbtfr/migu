@@ -1,0 +1,12 @@
+<!--焦点begin -->
+<div class="focus swiper-wrapper">
+  <% for (i=0; i<this.data.length; i++) { %>
+    <% o = this.data[i] %>
+    <div class="swiper-slide">
+      <% if (o.link) { %><a href="<%= o.link %>"><% } %>
+      <img src="<%= o.image %>">
+      <% if (o.link) { %></a><% } %>
+    </div>
+  <% } %>
+</div>
+<!--焦点begin -->

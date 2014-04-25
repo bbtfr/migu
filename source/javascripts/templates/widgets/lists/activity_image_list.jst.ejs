@@ -1,0 +1,24 @@
+<article class="activity">
+  <nav>
+    <h2><%= title %></h2>
+    <ul>
+      <% for (i=0; i<data.length; i+=2) { %>
+        <li><%= i/2+1 %></li>
+      <% } %>
+    </ul>
+    <em><a href="<%= moreLink %>">更多</a></em>
+  </nav>
+  <div class="list tabs-container swiper-container">
+    <div class="swiper-wrapper">
+      <% for (i=0; i<data.length; i+=2) { %>
+        <ul class="swiper-slide">
+          <% o = data[i] %>
+          <li><a href="<%= o.link %>"><img src="<%= o.image %>"><p><%= o.title %></p><p>时间：<%= o.time %></p><p>地点：<%= o.location %></p></a></li>
+          <% o = data[i+1] %>
+          <% if (!o) break %>
+          <li><a href="<%= o.link %>"><img src="<%= o.image %>"><p><%= o.title %></p><p>时间：<%= o.time %></p><p>地点：<%= o.location %></p></a></li>
+        </ul>
+      <% } %>
+    </div>
+  </div>
+</article>

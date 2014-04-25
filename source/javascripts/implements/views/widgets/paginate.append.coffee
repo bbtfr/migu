@@ -10,7 +10,7 @@ Migu.Widgets.Paginate = Migu.Widget.extend
   ]
 
   optionalParams: {
-    "vms": null
+    "vmsPrefix": null
     "currPage": 1
   }
 
@@ -21,12 +21,6 @@ Migu.Widgets.Paginate = Migu.Widget.extend
     event.preventDefault()
     @renderPage(@currPage+1)
 
-  _afterInitialize: () ->
-    dataObj = {}
-    for o, i in @data
-      dataObj[i+1] = o
-    @data = dataObj
-
   _createWidget: (options) ->
     if @widget = Migu.createWidget(options)
       @$container.append(@widget.$el)
@@ -36,6 +30,7 @@ Migu.Widgets.Paginate = Migu.Widget.extend
     @currPage = n
 
   renderPage: (n) ->
+    n -= 1
     if @data[n]
       @_renderPage(@data[n], n)
     else

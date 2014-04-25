@@ -1,5 +1,0 @@
-<ul class="newList">
-  <% for o in @data: %>
-    <li><a href="<%= o.link %>"><h4><%= o.title %></h4><p><%= o.subtitle %></p></a></li>
-  <% end %>
-</ul>

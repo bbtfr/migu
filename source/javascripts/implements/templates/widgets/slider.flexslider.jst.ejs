@@ -1,0 +1,12 @@
+<!--焦点begin -->
+<ul class="focus slides">
+  <% for (i=0; i<@data.length; i++) { %>
+    <% o = @data[i] %>
+    <li class="slide">
+      <% if (o.link) { %><a href="<%= o.link %>"><% } %>
+      <img src="<%= o.image %>">
+      <% if (o.link) { %></a><% } %>
+    </li>
+  <% } %>
+</ul>
+<!--焦点begin -->

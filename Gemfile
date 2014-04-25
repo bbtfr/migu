@@ -11,7 +11,6 @@ gem "middleman-livereload", "~> 3.1.0"
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
 gem "ejs"
-gem "eco"
 
 gem "rack-reverse-proxy"
 

@@ -44,7 +44,7 @@ Mac下安装环境
     brew install nodejs
     gem install bundle
 
-Windows下安装环境，请下载安装[RailsInstaller](http://railsinstaller.org)
+Windows下安装环境，请下载安装[RubyInstaller](http://rubyinstaller.org/downloads/)
 
 middleman环境
 

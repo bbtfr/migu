@@ -1,0 +1,25 @@
+<!--公用头部begin -->
+<header>
+  <div class="loginBar">您好，欢迎来到咪咕音乐，<a href="#">请登录</a></div>
+  <div class="logoBar">
+    <span class="logoControls"><a href="#openSidebar"></a></span>
+    <div class="logo"><a href="#home"><!-- 咪咕音乐 --></a><a href="#"><!-- 换肤 --></a></div>
+    <div class="topLink"><a href="#" class="favBtn"><!-- 收藏 --></a><a href="#" class="androidBtn"><!-- 安卓 --></a></div>
+  </div>
+  <nav id="menu">
+    <div>
+      <% for (i=0; i<data["默认"].length; i++) { %><% o = data["默认"][i] %><a href="<%= o.link %>" menu-id="<%= o.id %>"><%= o.title %></a><% } %><a href="#toggleMore" class="openMore">&nbsp;<!-- 更多 --></a>
+    </div>
+    <div class="menuMore" style="display:none;">
+      <% for (i=0; i<data["更多"].length; i++) { %><% o = data["更多"][i] %><a href="<%= o.link %>" menu-id="<%= o.id %>"><%= o.title %></a><% } %><a href="#closeMore" class="closeMore">收起</a>
+    </div>
+  </nav>
+  <div id="search" class="search">
+    <div class="text">
+      <input id="query" type="search" placeholder="咪咕搜索" lang="zh-CN">
+      <div id="drop" class="drop"></div>
+    </div>
+    <div class="btn"><input id="submit" type="button"></div>
+  </div>
+</header>
+<!--公用头部end -->

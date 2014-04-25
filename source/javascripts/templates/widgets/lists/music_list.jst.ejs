@@ -1,0 +1,13 @@
+<ul class="songList">
+  <% for (i=0; i<data.length; i++) { %>
+    <% o = data[i] %>
+    <% if (o.order) { %>
+      <i><%= o.order %></i>
+    <% } %>
+    <li><div><a href="#play/<%= o.id %>"><h6><%= o.title %></h6><p><%= o.artist %></p></a></div>
+    <em><a href="#collect/<%= o.id %>"><!-- 加入 --></a><a href="#login/tariff/<%= o.id %>"><!-- 下载 --></a></em></li>
+  <% } %>
+</ul>
+<% if (options.moreLink) { %>
+  <div class="more"><a href="<%= options.moreLink %>">更多歌曲&gt;&gt;</a></div>
+<% } %>

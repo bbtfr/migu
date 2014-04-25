@@ -1,0 +1,9 @@
+<div class="channel">
+  <h2>选择频道</h2>
+  <ul>
+    <% for (i=0; i<data.length; i++) { %>
+      <% o = data[i] %>
+      <li><a href="<%= o.link %>"><img src="<%= o.image %>"><p><%= o.title %></p></a></li>
+    <% } %>
+  </ul>
+</div>

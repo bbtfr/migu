@@ -7,7 +7,7 @@ Migu.Widget = Backbone.View.extend
   ]
 
   optionalParams: {
-    "vms": null
+    "vmsPrefix": null
   }
 
   initialize: (options={}) ->
@@ -25,9 +25,15 @@ Migu.Widget = Backbone.View.extend
     for param, value of @optionalParams
       @[param] = options[param] || value
 
-    @vms = options["vms"]
+    if @vmsPrefix
+      @vmsTemplate = "#{@vmsPrefix}R$RIDL$LID"
+    else
+      @vmsTemplate = options["vmsTemplate"]
 
     @_afterInitialize(options) if @_afterInitialize?
+
+  generateVms: (rid, lid) ->
+    @vmsTemplate.replace("$RID", rid).replace("$LID", lid)
 
   render: ->
     @$el.html(@template(@)) if @template?

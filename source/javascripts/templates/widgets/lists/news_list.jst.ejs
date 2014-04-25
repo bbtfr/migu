@@ -1,0 +1,6 @@
+<ul class="newList">
+  <% for (i=0; i<data.length; i++) { %>
+    <% o = data[i] %>
+    <li><a href="<%= o.link %>"><h4><%= o.title %></h4><p><%= o.subtitle %></p></a></li>
+  <% } %>
+</ul>

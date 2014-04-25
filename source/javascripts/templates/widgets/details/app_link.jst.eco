@@ -1,1 +1,0 @@
-<div class="appLink"><a href="<%= @link %>"><img src="<%= @image %>"></a></div>

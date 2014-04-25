@@ -15,8 +15,9 @@ Migu.Widgets.Wizzard = Migu.FormWidget.extend
     @$el.html(@tipsTemplate(data))
 
   gotoStep: (step) ->
-    @$el.html(@stepTemplates[step-1]())
-    @currStep = step - 1
+    step -= 1
+    @$el.html(@stepTemplates[step]())
+    @currStep = step
     @_initCountDown()
 
   nextStep: (submitData, url) ->

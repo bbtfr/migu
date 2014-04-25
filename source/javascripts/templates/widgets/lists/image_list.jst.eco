@@ -1,5 +1,0 @@
-<ul class="prList">
-  <% for o, i in @data by 2: %>
-    <li><a href="<%= o.link %>"><img src="<%= o.image %>"></a><% o = @data[i+1]; continue unless o? %><a href="<%= o.link %>"><img src="<%= o.image %>"></a></li>
-  <% end %>
-</ul>

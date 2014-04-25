@@ -1,0 +1,13 @@
+<article>
+  <nav class="seaTit">
+    <p>对<b>“<%= options["query"] %>”</b>的搜索结果</p>
+    <ul>
+      <% for (i=0; i<data.length; i++) { %>
+        <% o = data[i] %>
+        <li><%= o.title %></li>
+      <% } %>
+    </ul>
+  </nav>
+  <!--歌曲begin -->
+  <div class="tabs-container"></div>
+</article>

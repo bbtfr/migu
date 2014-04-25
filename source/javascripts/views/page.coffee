@@ -27,8 +27,17 @@ Migu.Views.Page = Backbone.View.extend
     Migu.loader @url, 
       success: (data) =>
         @options = data
+
+        # For generate VMS
+        if @options["vmsTemplate"]
+          @vmsTemplate = @options["vmsTemplate"]
+        else if @options["vmsPrefix"]
+          @vmsTemplate = "#{@options["vmsPrefix"]}S$SIDR$RIDL$LID"
         
-        for options in data["data"]
+        for options, i in data["data"]
+          if @vmsTemplate
+            options["vmsTemplate"] = @vmsTemplate.replace("$SID", i+1)
+
           @_createWidget(options)
 
       complete: () =>

@@ -1,4 +1,0 @@
-<dl>
-  <dt><img src="<%= @options["image"] %>"></dt>
-  <dd><% for o in @data: %><a href="<%= o.link %>"><%= o.title %></a><% end %></dd>
-</dl>

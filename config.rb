@@ -69,7 +69,7 @@ end
 #   end
 # end
 
-# set :debug_assets, true
+set :debug_assets, true
 
 set :css_dir, 'stylesheets'
 

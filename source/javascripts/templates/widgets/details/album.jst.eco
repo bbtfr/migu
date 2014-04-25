@@ -1,7 +1,0 @@
-<dl class="singerInfo">
-  <dt><img src="<%= @image %>"></dt>
-  <dd><%- @description %></dd>
-  <% if @info?: %>
-    <dd class="albumInfo"><em>专辑简介：</em><%= @info %></dd>
-  <% end %>
-</dl>

@@ -1,0 +1,6 @@
+<ul class="miguRank">
+  <% for (i=0; i<data.length; i++) { %>
+    <% o = data[i] %>
+    <li><a href="<%= o.link %>"><img src="<%= o.image %>"><p><%= o.title %></p></a></li>
+  <% } %>
+</ul>

@@ -1,0 +1,15 @@
+<h2>歌曲</h2>
+  <% for (i=0; i<musics.length; i++) { %>
+    <% music = musics[i] %>
+    <a href="#search/<%= encodeURI(music) %>"><p><%= music %></p></a>
+  <% } %>
+<h2>歌手</h2>
+  <% for (i=0; i<artists.length; i++) { %>
+    <% artist = artists[i] %>
+    <a href="#search/<%= encodeURI(artist) %>"><p><%= artist %></p></a>
+  <% } %>
+<h2>专辑</h2>
+  <% for (i=0; i<albums.length; i++) { %>
+    <% album = albums[i] %>
+    <a href="#search/<%= encodeURI(album) %>"><p><%= album %></p></a>
+  <% } %>

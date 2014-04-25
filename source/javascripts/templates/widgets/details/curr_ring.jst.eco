@@ -1,6 +1,0 @@
-<ul class="myList">
-  <li>
-    <div><a href="#play/<%= @media.id %>"><p><%= @media.title %></p><p><%= @media.artist %></p><p>有效期：<%= @media.due_to %></p></a></div>
-    <em><a href="#play/<%= @media.id %>"><!-- 试听 --></a></em>
-  </li>
-</ul>

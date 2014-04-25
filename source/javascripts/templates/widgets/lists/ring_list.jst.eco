@@ -1,6 +1,0 @@
-<ul class="myList">
-  <% for o in @data: %>
-    <li><div><a href="#play/<%= o.id %>"><p><%= o.title %></p><p><%= o.artist %></p><p>有效期：<%= o.due_to %></p></a></div>
-    <em><a href="#play/<%= o.id %>"><!-- 试听 --></a><a href="#ring/set/<%= o.id %>"><!-- 设置 --></a><a href="#ring/delete/<%= o.id %>"><!-- 删除 --></a></em></li>
-  <% end %>
-</ul>
