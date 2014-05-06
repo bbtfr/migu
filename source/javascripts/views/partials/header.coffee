@@ -12,15 +12,15 @@ Migu.Views.Header = Backbone.View.extend
 
   toggleMore: (event) ->
     event.preventDefault() if event
-    @$el.find(".menuMore").slideToggle()
+    @$(".menuMore").slideToggle()
 
   closeMore: (event) ->
     event.preventDefault() if event
-    @$el.find(".menuMore").slideUp()
+    @$(".menuMore").slideUp()
 
   activateMenuItem: (menuId) ->
-    @$el.find("a[menu-id='#{menuId}']").addClass("current")
+    @$("a[menu-id='#{menuId}']").addClass("current")
 
   removeActiveMenuItem: () ->
-    @$el.find("a.current").removeClass("current")
+    @$("a.current").removeClass("current")
     

@@ -19,7 +19,6 @@ Migu.Widgets.Tariff = Migu.Widget.extend
   requiredParams: [
     "data"
     "media"
-    "grade"
   ]
 
   _afterInitialize: () ->
@@ -33,7 +32,7 @@ Migu.Widgets.Tariff = Migu.Widget.extend
 
   _afterRender: () ->
     Migu.musics.add(@media)
-    @$container = @$el.find(".tariff-container")
+    @$container = @$(".tariff-container")
 
   confirm: (event) ->
     event.preventDefault()

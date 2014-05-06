@@ -22,7 +22,7 @@ window.Migu =
       if login = @local.get("login")
         # Test valid login
         for key in ["mobile", "token"]
-          unless login[key]
+          unless login["mobile"]
             @local.remove("login")
             login = {}
             break

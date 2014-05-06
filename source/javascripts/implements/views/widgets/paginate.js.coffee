@@ -11,7 +11,6 @@ Migu.Widgets.Paginate = Migu.Widget.extend
   ]
 
   optionalParams: {
-    "vmsPrefix": null
     "currPage": 1
   }
 
@@ -42,9 +41,22 @@ Migu.Widgets.Paginate = Migu.Widget.extend
     if @widget = Migu.createWidget(options)
       @$container.html(@widget.$el)
 
-  _renderPage: (data, n) ->
-    @_createWidget(data)
+  _updatePagirateBtnVms: (total, n) ->
     @$pageBox.val(n)
+
+  _renderPage: (options, n) ->
+    if options["type"] == "NoMorePage"
+      @$(".refresh").hide()
+    else
+      # For generate VMS
+      total = options["data"].length
+
+      options["vmsTemplate"] = @vmsTemplate
+      options["ridOffset"] = @ridOffset
+      options["lidOffset"] = @lidOffset
+
+      @_createWidget(options)
+      @_updatePagirateBtnVms(total, n)
     @currPage = n
 
   renderPage: (n) ->
@@ -58,8 +70,8 @@ Migu.Widgets.Paginate = Migu.Widget.extend
           @_renderPage(data, n)
 
   _afterRender: () ->
-    @$pageBox = @$el.find(".pageBox")
-    @$container = @$el.find(".paginate-container")
+    @$pageBox = @$(".pageBox")
+    @$container = @$(".paginate-container")
 
     @renderPage(1)
 
@@ -71,3 +83,4 @@ Migu.registerCreateWidgetCallback (options) ->
       totalPage: deleted(options, "totalPage") || 10
       data: if options["data"] then [ options ] else []
   options
+  

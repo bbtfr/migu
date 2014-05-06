@@ -1,0 +1,19 @@
+<%= JSON.pretty_generate({
+  type: "page",
+  title: "榜单",
+  vmsPrefix: "VMS0001",
+  activeMenuId: 10,
+  data: [
+    {
+      header: "人气原创排行",
+      type: "MusicList",
+      paginateUrl: "/api/widgets/MusicList.json?n=5&t=MusicList",
+      data: g(:music, 5)
+    }, {
+      header: "推荐音乐人",
+      type: "MusicianImageList",
+      paginateUrl: "/api/widgets/MusicianImageList.json",
+    }
+  ],
+  success: true
+}) %>

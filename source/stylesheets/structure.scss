@@ -67,6 +67,10 @@ html, body, #page-wrapper {
   overflow-y: scroll;
   left: -200px;
   width: 200px;
+  
+  &::-webkit-scrollbar { 
+    width: 0!important;
+  }
 }
 
 #content {

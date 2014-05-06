@@ -12,16 +12,23 @@ Migu.Widgets.Tabs = Migu.Widget.extend
     @parts = []
 
   _afterRender: ->
-    $container = @$el.find(".tabs-container")
+    $container = @$(".tabs-container")
 
-    for options in @data
+    for options, i in @data
+      # For generate VMS
+      options["vmsTemplate"] = @vmsTemplate
+      options["lid"] = (lid) ->
+        "#{i+1}#{lid+1}"
+      options["rid"] = (rid) ->
+        rid+2
+
       if widget = Migu.createWidget(options)
         $container.append(widget.$el.addClass("tab-container"))
         @parts.push(widget)
 
     @$el.flexslider
       selector: '.tabs-container > .tab-container'
-      manualControls: @$el.find('nav li')
+      manualControls: @$('nav li')
       activeControlNavClass: 'current'
       animation: 'slide'
       animationLoop: false

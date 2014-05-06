@@ -15,8 +15,8 @@ Migu.FormWidget = Migu.Widget.extend
     @_initCountDown()
     
   _initCountDown: () ->
-    @$countDown = @$el.find("[name='countDown']").hide()
-    @$getToken = @$el.find("[name='getToken']").show()
+    @$countDown = @$("[name='countDown']").hide()
+    @$getToken = @$("[name='getToken']").show()
 
   open: () ->
     @$el.fadeIn()

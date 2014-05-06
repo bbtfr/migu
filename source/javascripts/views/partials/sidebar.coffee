@@ -4,7 +4,7 @@ Migu.Views.Sidebar = Backbone.View.extend
 
   render: (data) ->
     @$el.html(@template(data: data))
-    @$loginBtn = @$el.find("#login-btn")
+    @$loginBtn = @$("#login-btn")
     @
 
   # Set sidebar login button text

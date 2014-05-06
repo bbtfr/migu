@@ -13,6 +13,7 @@ WidgetMap =
   "TypeList": Migu.Widgets.TypeList
   "LinkList": Migu.Widgets.LinkList
   "ImageList": Migu.Widgets.ImageList
+  "MusicianImageList": Migu.Widgets.MusicianImageList
 
   "CurrRing": Migu.Widgets.CurrRing
   "RingList": Migu.Widgets.RingList

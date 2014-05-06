@@ -1,0 +1,26 @@
+<%= JSON.pretty_generate({
+  type: "page",
+  title: "免费",
+  vmsPrefix: "VMS0001",
+  activeMenuId: 8,
+  data: [
+    {
+      type: "ImageBanner",
+      image: "samples/activity_banner.jpg"
+    }, {
+      header: "最新",
+      type: "MusicList",
+      data: g(:music, 5)
+    }, {
+      header: "最热",
+      type: "MusicList",
+      data: g(:music, 5)
+    }, {
+      header: "往期回顾",
+      type: "MusicList",
+      paginateUrl: "/api/widgets/MusicList.json?n=5&t=MusicList",
+      data: g(:music, 5)
+    }
+  ],
+  success: true
+}) %>

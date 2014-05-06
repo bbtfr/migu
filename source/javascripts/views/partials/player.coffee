@@ -10,10 +10,10 @@ Migu.Views.Player = Backbone.View.extend
     "click .jp-next": "next"
 
   render: (playList=[]) ->
-    @$miniPlayer = @$el.find(".miniPlay")
-    @$extendPlayer = @$el.find(".playSkin")
-    @$playList = @$el.find(".playList")
-    @$lyrics = @$el.find(".jp-lyrics")
+    @$miniPlayer = @$(".miniPlay")
+    @$extendPlayer = @$(".playSkin")
+    @$playList = @$(".playList")
+    @$lyrics = @$(".jp-lyrics")
 
     @playList = new Backbone.Collection(playList)
 
@@ -27,7 +27,7 @@ Migu.Views.Player = Backbone.View.extend
         @next()
       timeupdate: (event) =>
         @_timeUpdateLyrics(event.jPlayer.status.currentTime)
-    , @$el.find("#jPlayer")
+    , @$("#jPlayer")
 
     @
 
@@ -122,6 +122,6 @@ Migu.Views.Player = Backbone.View.extend
 
   _updateUI: (media) ->
     @$el.fadeIn() if @$el.css('display') == 'none'
-    @$el.find(".jp-artist").text(media.artist)
+    @$(".jp-artist").text(media.artist)
     @_initLyrics(media.lyrics) if media.lyrics?
 

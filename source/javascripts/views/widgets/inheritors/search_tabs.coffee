@@ -1,6 +1,6 @@
-#= require views/widgets/tabs
+#= require views/widgets/static_tabs
 
-Migu.Widgets.SearchTabs = Migu.Widgets.Tabs.extend
+Migu.Widgets.SearchTabs = Migu.Widgets.StaticTabs.extend
 
   template: Migu.loadTemplate("templates/widgets/tabs/search_tabs")
 

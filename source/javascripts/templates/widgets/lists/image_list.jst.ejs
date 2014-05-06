@@ -1,5 +1,5 @@
 <ul class="prList">
   <% for (i=0; i<data.length; i+=2) { %>
-    <li><% o = data[i] %><a href="<%= o.link %>"><img src="<%= o.image %>"></a><% o = data[i+1] %><% if (!o) break %><a href="<%= o.link %>"><img src="<%= o.image %>"></a></li>
+    <li><% o = data[i] %><a href="<%= o.link %>" <%= this.vmsTag(i/2, 0) %>><img src="<%= o.image %>"></a><% o = data[i+1] %><% if (!o) break %><a href="<%= o.link %>" <%= this.vmsTag(i/2, 1) %>><img src="<%= o.image %>"></a></li>
   <% } %>
 </ul>

@@ -20,7 +20,7 @@ Migu.Views.Page = Backbone.View.extend
 
   render: () ->
     @$el.html(@template())
-    @$container = @$el.find(".container")
+    @$container = @$(".container")
 
     Migu.index.header.removeActiveMenuItem()
 

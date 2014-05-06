@@ -19,16 +19,21 @@ Migu.Widgets.Tabs = Migu.Widget.extend
 
   _afterRender: ->
     @$container = $('<div class="swiper-wrapper"></div>')
-      .appendTo(@$el.find(".tabs-container").addClass("swiper-container"))
+      .appendTo(@$(".tabs-container").addClass("swiper-container"))
 
-    for options in @data
+    for options, i in @data
+      # For generate VMS
+      options["vmsTemplate"] = @vmsTemplate
+      options["lidOffset"] = (i + 1) * 10 + @lidOffset
+      options["ridOffset"] = 1 + @ridOffset
+
       @_createWidget(options)
 
     @_createTabs()
 
   _createTabs: ->
-    @$tab = @$el.find("nav")
-    @swiper = @$el.find(".tabs-container").swiper
+    @$tab = @$("nav")
+    @swiper = @$(".tabs-container").swiper
       calculateHeight: true
       # cssWidthAndHeight: true
       # autoResize: false

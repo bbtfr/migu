@@ -4,10 +4,10 @@
     <% if (o.order) { %>
       <i><%= o.order %></i>
     <% } %>
-    <li><div><a href="#play/<%= o.id %>"><h6><%= o.title %></h6><p><%= o.artist %></p></a></div>
-    <em><a href="#collect/<%= o.id %>"><!-- 加入 --></a><a href="#login/tariff/<%= o.id %>"><!-- 下载 --></a></em></li>
+    <li><div><a href="#play/<%= o.id %>" <%= this.vmsTag(i, 0) %>><h6><%= o.title %></h6><p><%= o.artist %></p></a></div>
+    <em><a href="#collect/<%= o.id %>" <%= this.vmsTag(i, 1) %>><!-- 加入 --></a><a href="#login/tariff/<%= o.id %>" <%= this.vmsTag(i, 2) %>><!-- 下载 --></a></em></li>
   <% } %>
 </ul>
 <% if (options.moreLink) { %>
-  <div class="more"><a href="<%= options.moreLink %>">更多歌曲&gt;&gt;</a></div>
+  <div class="more"><a href="<%= options.moreLink %>" <%= this.vmsTag(data.length, 0) %>>更多歌曲&gt;&gt;</a></div>
 <% } %>

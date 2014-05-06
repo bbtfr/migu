@@ -1,0 +1,6 @@
+<%= JSON.pretty_generate({
+  vms: "VMS0001",
+  type: "MusicianImageList",
+  data: g(:activity, (req.params["n"] || 8).to_i).map { |o| o.merge(link: "#pages/ActivityShow") },
+  success: true
+}) %>

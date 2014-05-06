@@ -10,8 +10,8 @@ Migu.Views.AutoComplete = Backbone.View.extend
     "click a[href^='#search']": "cleanQuery"
 
   render: () ->
-    @$drop = @$el.find("#drop")
-    @$query = @$el.find("#query")
+    @$drop = @$("#drop")
+    @$query = @$("#query")
     @    
 
   _setTimeout: (callback) ->

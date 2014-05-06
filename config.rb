@@ -1,7 +1,8 @@
-###
-# Compass
-###
 require './bin/json_gerenator.rb'
+
+###
+# Reverse Proxy
+###
 
 # require 'rack/reverse_proxy'
 
@@ -16,10 +17,15 @@ require './bin/json_gerenator.rb'
 #   # reverse_proxy /^\/foo(\/.*)$/, 'http://example.com/bar$1', :username => 'name', :password => 'basic_auth_secret'
 # end
 
+###
+# Compass
+###
+
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact
 # end
+
 
 ###
 # Page options, layouts, aliases and proxies
@@ -63,13 +69,10 @@ helpers do
   end
 end
 
-# Hash.class_eval
-#   def to_json
-#     JSON.pretty_generate(self)
-#   end
-# end
-
 set :debug_assets, true
+after_configuration do
+  sprockets.instance_variable_set("@debug_assets", true)
+end
 
 set :css_dir, 'stylesheets'
 
@@ -94,3 +97,4 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+

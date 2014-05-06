@@ -3,7 +3,7 @@
   <dd><p><%= media.title %></p><p><%= media.artist %></p></dd>
   <dd><a href="#play/<%= media.id %>" class="btnQ"></a><a href="#play/<%= media.id %>" class="btnRing"></a></dd>
 </dl>
-<div class="userGrade">会员级别：<%= grade %></div>
+<div class="userGrade">会员级别：<%= (login = Migu.local.get("login")) ? login["userType"] : null %></div>
 <div class="tariff-container">
   <% for (i=0; i<data.length; i++) { %>
     <% g = data[i] %>

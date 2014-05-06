@@ -39,12 +39,22 @@ Migu.Views.PageWrapper = Backbone.View.extend
       @_activateMenuItem(page)
       @_setTimeout =>
         if @pages.length > 1
+          # Scroll to top fix
+          @$el.css("overflow-y": "hidden")
+          marginTop = page.$el.css("margin-top")
+          page.$el.css("margin-top": @el.scrollTop)
+
           @$el.addClass("slideLeft animate")
           lastPage.$el.removeClass("active")
         page.$el.addClass("active")
         if @pages.length > 1
           @$el.one TransitionEndEvent, =>
             @_setTimeout =>
+              # Scroll to top fix
+              @$el.css("overflow-y": "scroll")
+              @el.scrollTop = 0
+              page.$el.css("margin-top": marginTop)
+
               @$el.removeClass("slideLeft")
         @trigger("createPage:after")
 
