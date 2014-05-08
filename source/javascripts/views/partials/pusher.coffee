@@ -10,9 +10,13 @@ Migu.Views.Pusher = Backbone.View.extend
       @$el.removeClass("animate")
     @
 
+  _setTimeout: (callback) ->
+    setTimeout callback, 0
+
   openSidebar: (event) ->
     event.preventDefault() if event
     @$el.addClass("openSidebar animate")
+
 
   closeSidebar: (event) ->
     event.preventDefault() if event

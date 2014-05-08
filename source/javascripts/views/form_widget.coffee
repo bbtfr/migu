@@ -19,10 +19,10 @@ Migu.FormWidget = Migu.Widget.extend
     @$getToken = @$("[name='getToken']").show()
 
   open: () ->
-    @$el.fadeIn()
+    @$el.fadeIn(100)
 
   close: () ->
-    @$el.fadeOut()
+    @$el.fadeOut(100)
 
   countDown: () ->
     @$countDown.show()

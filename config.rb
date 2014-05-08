@@ -69,13 +69,16 @@ helpers do
   end
 end
 
-set :debug_assets, true
+# set :debug_assets, true
 
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+# Enable cache buster
+# activate :asset_hash
 
 # Build-specific configuration
 configure :build do
@@ -84,9 +87,6 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
-
-  # Enable cache buster
-  # activate :asset_hash
 
   # Use relative URLs
   activate :relative_assets

@@ -15,7 +15,7 @@ Migu.loadTemplate = (path) ->
       JST[path] = _.template(template)
     required(JST, path)
 
-DebugLevel = 0
+DebugLevel = 2
 
 if DebugLevel > 0
   console.debug = -> undefined

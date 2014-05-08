@@ -40,6 +40,8 @@ Migu.Views.Page = Backbone.View.extend
 
           @_createWidget(options)
 
+        @$(".footer").show()
+
       complete: () =>
         @trigger "ready"
         console.timeEnd("Page")

@@ -18,64 +18,62 @@
 
 // Push Menu
 html, body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
-html, body, #pusher, #sidebar, #content, #page-wrapper {
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
-
-#header, #sidebar, #player {
-  position: absolute;
+#sidebar {
+  left: -200px;
 }
 
 #pusher {
-  #content {
-    overflow: hidden;
-  }
-
-  #sidebar {
-    position: absolute;
-    overflow-y: scroll;
-    left: -200px;
-    width: 200px;
-    
-    &::-webkit-scrollbar { 
-      width: 0!important;
-    }
-  }
-
   #content > .mask {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-    z-index: 10;
+    z-index: 9;
   }
 
   &.animate {
-    @include transition-transform(0.3s);
+    #sidebar {
+      @include transition-transform(300ms ease);
+    }
+
+    #content {
+      #header {
+        @include transition-transform(300ms ease);
+      }
+      #page-wrapper {
+        @include transition-transform(300ms ease);
+      }
+    }
   }
 
   &.openSidebar {
-    @include transform(translateX(200px));
-
-    #content > .mask {
-      width: 100%;
-      height: 100%;
+    #sidebar {
+      @include transform(translateX(200px));
     }
 
-    #page-wrapper, .page-container {
-      overflow-y: hidden;
+    #content {
+      #header {
+        @include transform(translateX(200px));
+      }
+      #page-wrapper {
+        @include transform(translateX(200px));
+      }
+    }
+
+    #content > .mask {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
     }
   }
 }
 
 // Page
 #page-wrapper {
+  @include transform(translateX(0));
   overflow-x: hidden;
   overflow-y: scroll; 
   width: 200%;
@@ -84,30 +82,28 @@ html, body, #pusher, #sidebar, #content, #page-wrapper {
     display: none;
     float: left;
     width: 50%;
+    z-index: 0;
   }
 
   > .page-container.active {
     display: block;
+    z-index: 1;
   }
 
   &.animate {
-    @include transition-transform(0.5s);
+    @include transition-transform(500ms ease);
+    
+    > .page-container {
+      display: block;
+    }
   }
 
   &.slideLeft {
     @include transform(translateX(-50%));
-
-    > .page-container {
-      display: block;
-    }
   }
 
   &.slideRight {
     @include transform(translateX(50%));
     left: -100%;
-
-    > .page-container {
-      display: block;
-    }
   }
 }

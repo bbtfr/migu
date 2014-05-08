@@ -6,8 +6,6 @@ Migu.Views.PageWrapper = Backbone.View.extend
   render: () ->
     @pages = []
     @hashes = []
-    @$el.on TransitionEndEvent, =>
-      @$el.removeClass("animate")
     @
 
   _pages: (action, page) ->
@@ -18,14 +16,14 @@ Migu.Views.PageWrapper = Backbone.View.extend
     Migu.index.header.activateMenuItem(page.options?["activeMenuId"])
 
   _setTimeout: (callback) ->
-    setTimeout callback, 0
+    setTimeout callback, 100
 
   createPage: (options) ->
     page = new Migu.Views.Page(options).render()
     @appendPage(page)
 
   appendPage: (page) ->
-    @trigger("createPage:before")
+    @trigger("createPage")
 
     lastPage = @pages[@pages.length-1]
 
@@ -37,28 +35,36 @@ Migu.Views.PageWrapper = Backbone.View.extend
 
     page.once "ready", =>
       @_activateMenuItem(page)
-      @_setTimeout =>
-        if @pages.length > 1
-          # Scroll to top fix
-          marginTop = page.$el.css("margin-top")
-          page.$el.css("margin-top": @el.scrollTop)
-
+      if @pages.length > 1
+        @_setTimeout =>
           @$el.addClass("slideLeft animate")
           lastPage.$el.removeClass("active")
-        page.$el.addClass("active")
-        if @pages.length > 1
+          page.$el.addClass("active")
+
+          # Scroll to top fix
+          overflowY = $("html").css("overflow-y")
+          $("html").css("overflow-y", "hidden")
+          paddingTop = page.$el.css("padding-top")
+          page.$el.css("padding-top": document.body.scrollTop)
+
           @$el.one TransitionEndEvent, =>
             @_setTimeout =>
-              # Scroll to top fix
-              @el.scrollTop = 0
-              page.$el.css("margin-top": marginTop)
+              @$el.removeClass("animate slideLeft")
+            
+            # Scroll to top fix
+            $("html").css("overflow-y", overflowY)
+            page.$el.css("padding-top": paddingTop)
+            document.body.scrollTop = 0
 
-              @$el.removeClass("slideLeft")
+          @trigger("createPage:after")
+      else
+        page.$el.addClass("active")
         @trigger("createPage:after")
 
-    @trigger "createPage"
 
   back: (event) ->
+    @trigger "createPage"
+
     event.preventDefault() if event
     if @pages.length > 1
       page = @pages[0]
@@ -68,13 +74,13 @@ Migu.Views.PageWrapper = Backbone.View.extend
       Migu.router.navigate(hash)
       @_activateMenuItem(page)
 
-      @$el.addClass("slideRight animate")
-      page.$el.addClass("active")
-      lastPage.$el.removeClass("active")
-      @$el.one TransitionEndEvent, =>
-        @_setTimeout =>
-          @$el.removeClass("slideRight")
-          @_pages("pop").remove()
+      @_setTimeout =>
+        @$el.addClass("slideRight animate")
+        page.$el.addClass("active")
+        lastPage.$el.removeClass("active")
+        @$el.one TransitionEndEvent, =>
+          @_setTimeout =>
+            @$el.removeClass("slideRight animate")
+            @_pages("pop").remove()
 
-    @trigger "createPage"
 
