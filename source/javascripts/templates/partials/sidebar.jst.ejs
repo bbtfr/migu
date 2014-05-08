@@ -1,31 +1,29 @@
 <!--侧边栏begin -->
-<aside class="sidebar">
-  <section class="login">
-    <a href="#login" id="login-btn">登录</a>
-    <a href="#closeSidebar"><em class="fl_r">关闭</em></a>
+<section class="login">
+  <a href="#login" id="login-btn">登录</a>
+  <a href="#closeSidebar"><em class="fl_r">关闭</em></a>
+</section>
+<% for (i=0; i<data.length; i++) { %>
+  <% g = data[i] %>
+  <section class="navList">
+    <h2><%= g.title %></h2>
+    <% if (g.type === "LinkList") { %>
+      <ul class="sideList">
+        <% for (j=0; j<g.data.length; j++) { %>
+          <% o = g.data[j] %>
+          <li class="<%= o.icon %>"><a href="<%= o.link %>"><%= o.title %></a></li>
+        <% } %>
+      </ul>
+    <% } else if (g.type === "AppList") { %>
+      <div class="sideApp">
+        <% for (j=0; j<g.data.length; j++) { %>
+          <% o = g.data[j] %>
+          <a href="<%= o.link %>" class="<%= o.icon %>">&nbsp;<!-- <%= o.title %> --></a>
+        <% } %>
+        <a href="#moreApp" class="moreApp">&nbsp;<!-- 更多应用 --></a>
+      </div>
+    <% } %>
   </section>
-  <% for (i=0; i<data.length; i++) { %>
-    <% g = data[i] %>
-    <section class="navList">
-      <h2><%= g.title %></h2>
-      <% if (g.type === "LinkList") { %>
-        <ul class="sideList">
-          <% for (j=0; j<g.data.length; j++) { %>
-            <% o = g.data[j] %>
-            <li class="<%= o.icon %>"><a href="<%= o.link %>"><%= o.title %></a></li>
-          <% } %>
-        </ul>
-      <% } else if (g.type === "AppList") { %>
-        <div class="sideApp">
-          <% for (j=0; j<g.data.length; j++) { %>
-            <% o = g.data[j] %>
-            <a href="<%= o.link %>" class="<%= o.icon %>">&nbsp;<!-- <%= o.title %> --></a>
-          <% } %>
-          <a href="#moreApp" class="moreApp">&nbsp;<!-- 更多应用 --></a>
-        </div>
-      <% } %>
-    </section>
-  <% } %>
-  <section class="loginOut"><a href="#logout">注销</a></section>
-</aside>
+<% } %>
+<section class="loginOut"><a href="#logout">注销</a></section>
 <!--侧边栏end -->

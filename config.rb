@@ -70,9 +70,6 @@ helpers do
 end
 
 set :debug_assets, true
-after_configuration do
-  sprockets.instance_variable_set("@debug_assets", true)
-end
 
 set :css_dir, 'stylesheets'
 

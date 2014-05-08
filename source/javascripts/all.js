@@ -6,7 +6,18 @@
 // require libs/fastclick
 //= require libs/underscore
 //= require libs/backbone
+
+// idangerous Swiper
+//= require libs/idangerous.swiper
+
+// flexslider
+// require libs/zepto/fx_methods
+// require libs/zepto/selector
+// require implements/libs/flexslider
+
+// jplayer
 //= require libs/jplayer
+
 //= require app
 //= require_tree ./utils
 //= require_tree ./models 

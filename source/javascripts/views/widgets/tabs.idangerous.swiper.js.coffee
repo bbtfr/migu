@@ -1,6 +1,4 @@
-#= require implements/libs/idangerous.swiper
-
-Migu.Widgets.Tabs = Migu.Widget.extend
+Migu.Widgets.TabsI = Migu.Widget.extend
 
   template: Migu.loadTemplate("templates/widgets/tabs/tabs")
 

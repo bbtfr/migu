@@ -41,3 +41,36 @@
     }
   }
 }
+
+#content {
+  .menu-prefix {
+    padding-top: 150px;
+  }
+
+  .menu-suffix {
+    padding-bottom: 0;
+  }
+}
+
+#login-dialog {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+
+  > .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+}
+
+.logoControls a {
+  width: 40px;
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+}

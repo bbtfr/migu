@@ -40,7 +40,6 @@ Migu.Views.PageWrapper = Backbone.View.extend
       @_setTimeout =>
         if @pages.length > 1
           # Scroll to top fix
-          @$el.css("overflow-y": "hidden")
           marginTop = page.$el.css("margin-top")
           page.$el.css("margin-top": @el.scrollTop)
 
@@ -51,7 +50,6 @@ Migu.Views.PageWrapper = Backbone.View.extend
           @$el.one TransitionEndEvent, =>
             @_setTimeout =>
               # Scroll to top fix
-              @$el.css("overflow-y": "scroll")
               @el.scrollTop = 0
               page.$el.css("margin-top": marginTop)
 

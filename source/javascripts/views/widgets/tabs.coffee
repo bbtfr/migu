@@ -1,1 +1,3 @@
-#= require implements/views/widgets/tabs.idangerous.swiper
+#= require views/widgets/tabs.idangerous.swiper
+
+Migu.Widgets.Tabs = Migu.Widgets.TabsI

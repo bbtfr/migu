@@ -1,6 +1,4 @@
-#= require implements/libs/idangerous.swiper
-
-Migu.Views.PageWrapper = Backbone.View.extend
+Migu.Views.PageWrapperI = Backbone.View.extend
 
   events:
     "click a[href='#back']": "back"

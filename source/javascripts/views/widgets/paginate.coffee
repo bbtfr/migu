@@ -1,1 +1,4 @@
-#= require implements/views/widgets/paginate.append
+#= require views/widgets/paginate.append
+
+Migu.Widgets.Paginate = Migu.Widgets.PaginateA
+  

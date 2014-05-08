@@ -1,8 +1,6 @@
-#= require implements/templates/widgets/paginate
+Migu.Widgets.PaginateN = Migu.Widget.extend
 
-Migu.Widgets.Paginate = Migu.Widget.extend
-
-  template: Migu.loadTemplate("implements/templates/widgets/paginate")
+  template: Migu.loadTemplate("templates/widgets/paginate")
 
   requiredParams: [
     "data"
