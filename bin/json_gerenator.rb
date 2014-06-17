@@ -11,6 +11,7 @@ Musics = SampleData[:musics] * 10
 News = SampleData[:news] * 10
 Activities = SampleData[:activities] * 10
 Links = SampleData[:links] * 10
+MVs = SampleData[:mvs] * 10
 
 # generate README.md for json api
 require 'erb'
@@ -47,6 +48,12 @@ class Array
       hash.merge({
         image: "samples/news.jpg",
       })
+    end
+  end
+
+  def format_mv
+    self.map do |hash|
+      hash
     end
   end
 
@@ -101,6 +108,12 @@ class Array
       })
     when :link
       Links.sample(self[1]).format_link
+    when :mv
+      MVs.sample(self[1]).format_mv
+    when :mv_detail
+      MVs.sample.merge({
+        price: "3元/首"  
+      })
     when :raw
       self[1]
     else
@@ -263,6 +276,30 @@ generate "tjyyr", {
   tjyyr: [:music, 8],
   totalPage: [:raw, 10],
 }
+
+generate "zt_vip", {
+  musics: [:music, 6],
+}
+
+generate "zt_vip_1", {
+  tjxzqm: [:music, 6],
+  totalPage: [:raw, 10],
+}
+
+generate "mv", {
+  cl: [:mv, 4],
+  dj: [:mv, 4],
+}
+
+generate "mvlist_id", {
+  mvs: [:mv, 4],
+  totalPage: [:raw, 10],
+}, prefix: "mvlist"
+
+generate "mv_id", {
+  mv: [:mv_detail],
+  xgmv: [:mv, 4],
+}, prefix: "mv"
 
 
 

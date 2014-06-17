@@ -12,6 +12,7 @@ define (require) ->
     ring: require('text!tpl/ringMore.html')
     info: require('text!tpl/songMore.html')
     musician: require('text!tpl/musicianMore.html')
+    mv1: require('text!tpl/mvMore.html')
 
   Loader       = require('utils/loader')
 

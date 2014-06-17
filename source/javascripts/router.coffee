@@ -56,6 +56,17 @@ define (require) ->
   Views["free"]     = require('views/free')
   Views["musician"] = require('views/musician')
 
+  Views["myZtVip"]   = require('views/ztVip')
+  Views["myZtVip1"]  = require('views/ztVip1')
+  Views["myZtVip2"]  = require('views/ztVip2')
+  Views["myZtVip3"]  = require('views/ztVip3')
+
+  Views["mv"]        = require('views/mv')
+  Views["mv1"]       = require('views/mv1')
+  Views["mvShow"]    = require('views/mvShow')
+  Views["mvOrder"]   = require('views/mvOrder')
+  Views["mvOrder1"]  = require('views/mvOrder1')
+
   views             = {}
 
   require('jquerycookie')
@@ -107,6 +118,8 @@ define (require) ->
       "random/:id": "random"
       "activity/:id": "activity"
       "news/:id": "news"
+      "mvlist/:id": "mvlist"
+      "mv/:id": "mv"
       "tariff/:id": "tariff"
       
       # "play/:id": "play"
@@ -142,6 +155,10 @@ define (require) ->
       view = new Views["random1"](url: "api/pd/pd_id.json", title: title)
       window.indexView.changePage "random", view
 
+    mvlist: (title) ->
+      view = new Views["mv1"](url: "api/mvlist/mvlist_id.json", title: title)
+      window.indexView.changePage "mv", view
+
     album: (title) ->
       view = new Views["albumShow"](url: "api/album.json", title: title)
       window.indexView.changePage "album", view
@@ -166,6 +183,11 @@ define (require) ->
     news: (id) ->
       view = new Views["showNews"](url: "api/zx/zx_id.json")
       window.indexView.changePage "news", view
+
+    mv: (id) ->
+      window.indexView.login =>
+        view = new Views["mvShow"](url: "api/mv/mv_id.json")
+        window.indexView.changePage "mv", view
         
     # play: (id, playNow=true) ->
     #   song = window.songs.get(id)

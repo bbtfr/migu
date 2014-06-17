@@ -12,6 +12,8 @@ define (require) ->
     album: require('text!tpl/albumList.html')
     artist: require('text!tpl/artistList.html')
     musician: require('text!tpl/musicianList.html')
+    mv: require('text!tpl/mvList.html')
+    mv1: require('text!tpl/mv1List.html')
 
   Backbone.View.extend
   
@@ -21,7 +23,6 @@ define (require) ->
   
     render: (songs) ->
       window.songs.add(songs)
-      tpl = @template(songs: songs)
-      @$el.html(tpl)
-        
+      @$el.html(@template(songs: songs))
+
       return @

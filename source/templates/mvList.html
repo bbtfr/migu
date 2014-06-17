@@ -1,0 +1,3 @@
+<% for(i=0; i<songs.length; i++) { %>
+  <li><a href="#mv/<%= songs[i]["id"] %>"><% if(songs[i]["free"]) { %><em class="mv_free_icon">免费</em><% } %><div class="mv_play_icon">播放</div><img src="<%= songs[i]["image"] %>"><p><%= songs[i]["title"] %></p></a></li>
+<% } %>

@@ -1,0 +1,30 @@
+<nav class="mv_mod_title back_title"><h2><%%= mv["title"] %> - <%%= mv["artist"] %></h2><em><a href="#mv">返回</a></em></nav>
+<div class="mv_play"><a href="#" class="no_login"><p style="display:none">您还未登录！请登录后播放</p><div class="mv_play_icon">播放</div><img src="<%%= mv["image"] %>"></a></div>
+<div class="mv_tariff">资费：<%%= mv["price"] %><a href="#mvOrder">确认播放</a></div>
+<div class="mv_monthly">您的账号：<%%= window.login.mobile %><a href="#mvOrder">潮流包月会员</a></div>
+<div class="mv_monthly no_monthly">您的账号：<%%= mv["title"] %><a href="#mvOrder">非包月用户</a></div>
+<nav class="mv_mod_title"><h2>相关MV</h2></nav>
+<ul class="mv_list" id="xgmv-list"></ul>
+
+<%% if(false) { %>
+  <!--弹出提示begin -->
+  <div class="mv_tips">
+    <div class="title">提示<em></em></div>
+    <div class="mv_tips_text">
+      <p>你是独家包月会员</p>
+      <p>正在潮流专区</p>
+      <p>向你推荐一潮流包月畅想潮流MV</p>
+      <p class="pr_tariff"><a href="#">订购潮流包月</a><a href="#">按次点播</a></p>
+      <p><em>资费：10元/月</em><em>资费：3元/次</em></p>
+    </div>
+    <div class="mv_tips_text">
+      <p>你是非包月用户</p>
+      <p>畅享无限量正版黄金MV</p>
+      <p>向你推荐一潮流包月畅想潮流MV</p>
+      <p class="pr_tariff"><a href="#">订购潮流包月</a><a href="#">按次点播</a></p>
+      <p><em>资费：10元/月</em><em>资费：3元/次</em></p>
+    </div>
+    <div class="goto_url"><a href="#">去独家专区看看&gt;&gt;</a></div>
+  </div>
+  <!--弹出提示end -->
+<%% } %>

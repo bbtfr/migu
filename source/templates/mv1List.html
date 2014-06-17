@@ -1,0 +1,8 @@
+<% for(i=0; i<songs.length; i++) { %>
+  <dl class="mv_more">
+    <a href="#mv/<%= songs[i]["id"] %>">
+      <dt><% if(songs[i]["free"]) { %><em class="mv_free_icon">免费</em><% } %><div class="mv_play_icon">播放</div><img src="<%= songs[i]["image"] %>"></dt>
+      <dd><h6><%= songs[i]["title"] %></h6><p><%= songs[i]["artist"] %></p><p>首发：<%= songs[i]["published_at"] %></p></dd>
+    </a>
+  </dl>
+<% } %>
